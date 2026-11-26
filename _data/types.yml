@@ -1,0 +1,4 @@
+# The three kinds of post. Set `type:` in a post's front matter; editorial is the default.
+editorial: { label: Editorial, plural: Editorial, url: /editorial/, accent: orange }
+response:  { label: Response,  plural: Responses, url: /responses/, accent: blue }
+news:      { label: News,      plural: News,      url: /news/,      accent: green }

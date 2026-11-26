@@ -7,13 +7,9 @@ permalink: /reading/
 description: A dated reading list of articles, research and reports on the carbon handprint concept since 2007.
 ---
 
-## From the archive
+## From our own archive
 
-- **2019** · [The carbonhandprint.org homepage as it was in May 2019](/archive/2019/)
-- **2019** · [Bournemouth aims for 5% car reduction, launches Beryl Bike Share](http://www.carbonhandprint.org/articles/beryl-bike-share.php), carbonhandprint.org
-- **2019** · [Just how important is the Guardian Environment?](https://www.carbonhandprint.org/articles/How-important-is-the-guardian-environment.php), carbonhandprint.org
-
-<!-- TODO (Steve): add older carbonhandprint.org articles and any press coverage of the site here. -->
+Articles from the original carbonhandprint.org are on the [blog](/blog/), with their original dates, starting with [Let's make 2019 count](/blog/2019/01/lets-make-2019-count/).
 
 ## Over the years
 

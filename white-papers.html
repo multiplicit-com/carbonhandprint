@@ -1,0 +1,17 @@
+---
+layout: page
+accent: teal
+title: White papers and reports
+lede: Methods, research and reports on carbon handprints, environmental handprints and avoided emissions. Every link has been checked.
+permalink: /white-papers/
+description: A curated list of white papers, research reports and standards on the carbon handprint, environmental handprint and avoided emissions.
+---
+{% assign groups = site.data.whitepapers | group_by: "group" %}
+{% for g in groups %}
+<h2>{{ g.name }}</h2>
+<ul class="docs">
+{% assign docs = g.items | sort: "date" | reverse %}
+{% for d in docs %}<li><a href="{{ d.url }}">{{ d.title }}</a><span class="by">{{ d.publisher }}{% if d.date != "" %} · {{ d.date | append: "-01" | slice: 0, 7 | replace: "-01", "" | split: "-" | first }}{% endif %}</span><p>{{ d.note }}</p></li>
+{% endfor %}</ul>
+{% endfor %}
+<p class="meta">Know of a report we should add? <a href="{{ '/about/#get-in-touch' | relative_url }}">Tell us</a>.</p>

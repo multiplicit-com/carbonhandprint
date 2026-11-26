@@ -25,6 +25,46 @@ Images: upload them to `assets/images/` and use `![Description](/assets/images/p
 
 SEO: the `description:` line is what Google and social media show, so keep it to one clear sentence. Add `image: /assets/images/your-photo.jpg` to give a post its own share picture; otherwise the default share card is used.
 
+## Three kinds of post
+
+All posts live in `_posts/`. Add a `type:` line to say which kind it is.
+
+| Type | Use it for | Front matter |
+|---|---|---|
+| `editorial` (default) | Our own articles and opinion | nothing extra needed |
+| `response` | Our take on an outside article, report or announcement | `link:` the URL, `link_title:` its title, `source:` who published it |
+| `news` | A link to a story, with or without a short note | `link:` the URL, `source:` who published it |
+
+Example response:
+
+```markdown
+---
+title: Nokia doubles down on the handprint
+type: response
+link: https://www.nokia.com/...
+link_title: Nokia climate transition plan
+source: Nokia
+description: Why Nokia's new plan matters.
+---
+
+Your commentary here.
+```
+
+A news item can have no text at all below the `---`, just the title and link.
+
+Each type has its own page: /editorial/, /responses/ and /news/. /blog/ shows everything.
+
+## Events and milestones
+
+The History page timeline comes from `_data/milestones.yml`. Add an entry like:
+
+```yaml
+- when: "March 2027"
+  date: "2027-03"
+  kind: event        # or milestone, for this site's own milestones
+  text: "What happened, with an <a href=\"https://...\">optional link</a>."
+```
+
 ## Edit pages
 
 | Page | File |

@@ -1,9 +1,14 @@
+{% assign lim = include.limit | default: 1000 %}
+{% if include.type %}{% assign list = site.posts | where_exp: "p", "p.type == include.type" %}{% if include.type == "editorial" %}{% assign untyped = site.posts | where_exp: "p", "p.type == nil" %}{% assign list = list | concat: untyped | sort: "date" | reverse %}{% endif %}{% else %}{% assign list = site.posts %}{% endif %}
 <ol class="postlist">
-  {% assign lim = include.limit | default: 1000 %}
-  {% for post in site.posts limit: lim %}
-  <li>
+  {% for post in list limit: lim %}{% assign t = post.type | default: "editorial" %}
+  <li class="t-{{ t }}">
     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
-    <div><a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% if post.description %}<p>{{ post.description }}</p>{% endif %}</div>
+    <div>
+      {% unless include.type %}<span class="tag">{{ site.data.types[t].label }}</span>{% endunless %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% if t == "news" and post.source %} <span class="src">{{ post.source }}</span>{% endif %}
+      {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+    </div>
   </li>
   {% endfor %}
 </ol>

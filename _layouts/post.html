@@ -1,10 +1,18 @@
 ---
 layout: default
 ---
-<article class="wrap prose c-{{ page.accent | default: 'orange' }}">
-  <p class="meta"><a href="{{ '/blog/' | relative_url }}">Blog</a> · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
-  <h1>{{ page.title }}</h1>
+{% assign type = page.type | default: "editorial" %}
+<article class="wrap prose type-{{ type }} c-{{ page.accent | default: site.data.types[type].accent }}">
+  <p class="meta"><a href="{{ site.data.types[type].url | relative_url }}" class="typelabel">{{ site.data.types[type].label }}</a> · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
+  <h1>{% if type == "news" and page.link %}<a href="{{ page.link }}" rel="nofollow">{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}</h1>
+  {% if type == "response" and page.link %}
+  <p class="source">In response to <a href="{{ page.link }}" rel="nofollow">{{ page.link_title | default: page.link }}</a>{% if page.source %}, {{ page.source }}{% endif %}</p>
+  {% endif %}
+  {% if page.hero %}<img class="hero" src="{{ page.hero | relative_url }}" alt="">{% endif %}
   {{ content }}
+  {% if type == "news" and page.link %}
+  <p class="source"><a href="{{ page.link }}" rel="nofollow">Read the full story{% if page.source %} at {{ page.source }}{% endif %} ↗</a></p>
+  {% endif %}
   <hr>
   <p class="meta">Shared under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. Spotted something we should cover? <a href="{{ '/about/#get-in-touch' | relative_url }}">Get in touch</a>.</p>
 </article>

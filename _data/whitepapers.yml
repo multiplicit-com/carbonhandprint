@@ -1,0 +1,101 @@
+# White papers, reports and standards. Grouped by `group`, newest first within each group.
+# Fields: title, publisher, date (YYYY-MM, or YYYY), url, note, group.
+- title: "Carbon handprint guide, V. 2.0: applicable for environmental handprint"
+  publisher: VTT and LUT University
+  date: "2021"
+  url: https://publications.vtt.fi/julkaisut/muut/2021/Carbon_handprint_guide_2021.pdf
+  note: The current step-by-step method for calculating and communicating a product's handprint, as the footprint difference between a baseline and the offered solution.
+  group: Methods and guidance
+- title: "Carbon Handprint Guide (first edition)"
+  publisher: VTT and LUT University
+  date: "2018"
+  url: https://sarjaweb.vtt.fi/julkaisut/muut/2018/Carbon_Handprint_Guide.pdf
+  note: The original 10-step procedure, defining a carbon handprint as the emissions cut a customer achieves by using a product instead of a baseline.
+  group: Methods and guidance
+- title: "Guidance on Avoided Emissions v2.0"
+  publisher: WBCSD
+  date: "2025-07"
+  url: https://www.wbcsd.org/Imperatives/Climate-Action/Resources/Guidance-on-Avoided-Emissions
+  note: The World Business Council for Sustainable Development's method for measuring and disclosing "avoided emissions", the corporate world's closest equivalent to a carbon handprint.
+  group: Methods and guidance
+- title: "L.1480: Enabling the Net Zero transition"
+  publisher: ITU-T
+  date: "2025-07"
+  url: https://www.itu.int/rec/T-REC-L.1480/en
+  note: The UN telecoms agency's standard for assessing how digital technology changes the emissions of other sectors.
+  group: Methods and guidance
+- title: "Handprint-Based NetPositive Assessment"
+  publisher: Gregory Norris, Harvard T.H. Chan School of Public Health
+  date: "2015-11"
+  url: https://bpb-us-e1.wpmucdn.com/sites.mit.edu/dist/0/1158/files/2025/01/Norris-2015-Handprint-Based-NetPositive-Assessment_2.pdf
+  note: How to count handprints against business as usual, so an organisation can aim for a handprint bigger than its footprint.
+  group: Methods and guidance
+- title: "A one-page introduction to handprints"
+  publisher: Gregory Norris, SHINE, Harvard Center for Health and the Global Environment
+  date: ""
+  url: https://hwpi.harvard.edu/files/chge/files/SHINE-Handprints_0_0.pdf
+  note: A plain-language explanation of footprints, handprints and the NetPositive idea.
+  group: Methods and guidance
+
+- title: "The Environmental Handprint: final report of the Environmental Handprint project (2018 to 2021)"
+  publisher: VTT and LUT University (VTT Technology 392)
+  date: "2021"
+  url: https://sarjaweb.vtt.fi/pdf/technology/2021/T392.pdf
+  note: Extends the handprint to water, nutrients, air quality and resources, and to organisations and projects, with case studies.
+  group: Research reports
+- title: "Sustainability Health Initiative for NetPositive Enterprise handprint methodological framework"
+  publisher: Norris, Burek, Moore, Kirchain and Gregory, International Journal of Life Cycle Assessment
+  date: "2021-02"
+  url: https://link.springer.com/article/10.1007/s11367-021-01874-5
+  note: The SHINE handprint framework using dynamic life cycle assessment, with a landfill gas case study.
+  group: Research reports
+- title: "Exploring Social Sustainability Handprint, Part 1"
+  publisher: Roope Husgafvel, Sustainability (MDPI)
+  date: "2021-10"
+  url: https://www.mdpi.com/2071-1050/13/20/11286
+  note: Takes handprint thinking beyond the environment into social impact.
+  group: Research reports
+- title: "Carbon handprint: an approach to assess the positive climate impacts of products demonstrated via renewable diesel case"
+  publisher: Grönman and colleagues, Journal of Cleaner Production
+  date: "2019-01"
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0959652618329664
+  note: The peer-reviewed paper behind the VTT/LUT method.
+  group: Research reports
+- title: "The Carbon Handprint: final report of the Carbon Handprint project (2016 to 2018)"
+  publisher: VTT and LUT University (VTT Technology 346)
+  date: "2018"
+  url: https://sarjaweb.vtt.fi/pdf/technology/2018/T346.pdf
+  note: The method, communication guidance and seven company case studies, including work with Nokia, Neste and KONE.
+  group: Research reports
+- title: "Carbon handprint: communicating the good we do"
+  publisher: VTT, funded by Sitra (VTT-R-00452-16)
+  date: "2016-05"
+  url: https://publications.vtt.fi/julkaisut/muut/2016/VTT-R-00452-16.pdf
+  note: The preliminary study that started the Finnish handprint work, reviewing existing handprint and avoided emissions approaches.
+  group: Research reports
+- title: "Our Environmental Handprint: The Good We Do"
+  publisher: Biemer, Dixon and Blackburn, IEEE Conference on Technologies for Sustainability
+  date: "2013"
+  url: https://kkh.ltrr.arizona.edu/kkh/natsgc/pdfs-2014/Our-Environmental-Handprint.pdf
+  note: Case studies in wind power, solar cookers and green building.
+  group: Research reports
+- title: "Positive Action towards Biodiversity Conservation"
+  publisher: Centre for Environment Education (India)
+  date: "2012-10"
+  url: https://dev-chm.cbd.int/cepa/cepafair/2012/cepa-fair-2012-cee-handprint-booklet.pdf
+  note: A booklet on the Handprint as a symbol of positive action in education, from the UN biodiversity summit.
+  group: Research reports
+
+- title: "Climate transition plan"
+  publisher: Nokia
+  date: "2025-06"
+  url: https://www.nokia.com/sites/default/files/2025-06/climate-transition-plan.pdf
+  note: Nokia's targets and the products it says cut energy use for its customers.
+  group: Company reports
+
+- title: "UK Energy in Brief 2018"
+  publisher: Department for Business, Energy and Industrial Strategy
+  date: "2018-07"
+  url: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/728374/UK_Energy_in_Brief_2018.pdf
+  note: UK energy statistics. From the original carbonhandprint.org documents page.
+  group: UK government
