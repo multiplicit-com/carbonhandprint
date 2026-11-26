@@ -99,7 +99,7 @@ The History page timeline comes from `_data/milestones.yml`. Add an entry like:
 
 ## Countries
 
-Each country has a page at /countries/<key>/ that pulls together its articles, news links and timeline entries, under a short "Where it stands" summary. Tag content with `countries: [uk, finland]` (articles and news in front matter, timeline entries in `_data/milestones.yml`). Country summaries live in `_data/countries.yml`. To add a country, add an entry there and copy a file in `countries/`, changing `country:`, `title:` and `permalink:`.
+Each country has a page at /countries/<key>/, listed on the Paris Agreement page, that pulls together its articles, news links and timeline entries, under a short "Where it stands" summary. Tag content with `countries: [uk, finland]` (articles and news in front matter, timeline entries in `_data/milestones.yml`). Country summaries live in `_data/countries.yml`. To add a country, add an entry there and copy a file in `countries/`, changing `country:`, `title:` and `permalink:`.
 
 ## Edit pages
 

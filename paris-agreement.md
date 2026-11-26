@@ -4,7 +4,7 @@ accent: blue
 title: Where the Paris Agreement stands
 lede: The 2015 Paris Agreement is still the backbone of global climate action. Ten years on, here are the facts on where it stands, updated after COP31 in November 2026.
 permalink: /paris-agreement/
-description: A plain-English, regularly updated summary of the Paris Agreement's status, national climate plans, the US withdrawal and COP31.
+description: Where the Paris Agreement stands, country by country, including national climate plans, the US withdrawal and COP31.
 ---
 
 ## The agreement in one paragraph
@@ -21,7 +21,11 @@ Adopted in December 2015, the Paris Agreement commits almost every country to ho
 
 **COP31 made progress but no headline deal.** The summit in Antalya, Türkiye (9 to 22 November 2026) became the longest COP on record. Countries agreed decisions on a just transition, adaptation, climate finance and carbon markets, and launched the second global stocktake, which concludes in 2028. But the presidency's overarching "Antalya pact" was rejected by the EU, the UK and climate-vulnerable nations, chiefly because it did not mention fossil fuels. Around 80 countries backed a separate pledge to get 35% of final energy from electricity by 2035. ([UNFCCC](https://unfccc.int/news/cop31-delivers-important-progress-across-negotiations-and-action-agenda-advancing-implementation-but), [Carbon Brief](https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya))
 
-For where individual countries stand, including the UK, Australia, India and Canada, see [Countries](/countries/).
+## Country by country {#countries}
+
+Climate news only makes sense with some local context. Each country page sets out where that country stands, alongside our articles, news and history for it.
+
+{% include countrygrid.html %}
 
 ## What it means for the rest of us
 

@@ -1,0 +1,4 @@
+{% assign cs = site.data.countries | sort %}
+<ul class="countrylist">
+{% for c in cs %}<li><a href="{{ '/countries/' | append: c[0] | append: '/' | relative_url }}">{{ c[1].name }}</a>{% if c[1].lede %}<p>{{ c[1].lede }}</p>{% endif %}</li>
+{% endfor %}</ul>
