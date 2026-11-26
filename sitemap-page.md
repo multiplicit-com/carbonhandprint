@@ -25,7 +25,7 @@ description: Every section and page on carbonhandprint.org.
 
 ### Climate talks
 
-{% assign cops = site.data.events | where: "kind", "cop" %}{% for e in cops %}{% if e.slug %}- [{{ e.name }}{% if e.city %}, {{ e.city }}{% elsif e.place %}, {{ e.place | split: "," | first }}{% endif %} ({{ e.start | date: "%Y" }})](/events/{{ e.slug }}/)
+{% assign cops = site.data.events | where_exp: "e", "e.slug" | sort: "start" %}{% for e in cops %}{% if e.slug %}- [{{ e.name }}{% if e.city %}, {{ e.city }}{% elsif e.place %}, {{ e.place | split: "," | first }}{% endif %} ({{ e.start | date: "%Y" }})](/events/{{ e.slug }}/)
 {% endif %}{% endfor %}
 
 ### Countries
