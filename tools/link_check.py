@@ -30,6 +30,7 @@ SKIP_HOSTS = ('carbonhandprint.org', 'localhost', 'example.com', 'fonts.googleap
 URL_RE = re.compile(r'https?://[^\s"\'<>()\[\]{}|\\^`]+')
 UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
       '(KHTML, like Gecko) Chrome/124.0 Safari/537.36')
+BOT_UA = 'CarbonHandprintLinkCheck/1.0 (+https://carbonhandprint.org/)'
 PAYWALL_URL = re.compile(r'paywall|/subscribe|subscription|/login|/signin|sign-in|/register|/account', re.I)
 # Only strong signals: publishers mark paywalled articles with isAccessibleForFree.
 PAYWALL_TEXT = re.compile(r'"isAccessibleForFree"\s*:\s*"?false|subscribe to (continue|keep) reading|'
@@ -73,7 +74,8 @@ def same_place(a, b):
     an added language folder or index page, or added query parameters."""
     def norm(u):
         s = urllib.parse.urlsplit(u)
-        return (s.hostname or '').removeprefix('www.'), s.path.rstrip('/') or '/', s.query
+        path = urllib.parse.unquote(s.path).rstrip('/') or '/'
+        return (s.hostname or '').removeprefix('www.'), path, s.query
     (ha, pa, qa), (hb, pb, qb) = norm(a), norm(b)
     if ha != hb:
         return False
@@ -91,7 +93,9 @@ def safe(url):
 
 
 def fetch(url):
-    req = urllib.request.Request(safe(url), headers={'User-Agent': UA, 'Accept': 'text/html,*/*',
+    # Wikipedia asks automated clients to name themselves, and refuses browser-like ones.
+    ua = BOT_UA if (urllib.parse.urlsplit(url).hostname or '').endswith('wikipedia.org') else UA
+    req = urllib.request.Request(safe(url), headers={'User-Agent': ua, 'Accept': 'text/html,*/*',
                                                'Accept-Language': 'en-GB,en;q=0.9'})
     with urllib.request.urlopen(req, timeout=30) as r:
         body = r.read(400_000).decode('utf-8', errors='ignore') \
@@ -121,7 +125,9 @@ def check(url):
                 time.sleep(5)
                 continue
             return 'blocked', 'no answer: ' + type(e).__name__, None
-    if PAYWALL_URL.search(urllib.parse.urlsplit(final).path) and not PAYWALL_URL.search(url):
+    if BOT_UA = 'CarbonHandprintLinkCheck/1.0 (+https://carbonhandprint.org/)'
+PAYWALL_URL.search(urllib.parse.urlsplit(final).path) and not BOT_UA = 'CarbonHandprintLinkCheck/1.0 (+https://carbonhandprint.org/)'
+PAYWALL_URL.search(url):
         return 'paywall', 'sends readers to a sign-in or subscribe page', final
     m = PAYWALL_TEXT.search(body)
     if m:
@@ -153,7 +159,7 @@ def main():
     with cf.ThreadPoolExecutor(8) as ex:
         for res in ex.map(run, by_host.values()):
             results.update(res)
-    heads = [('dead', 'Dead or broken'), ('paywall', 'Possible paywall or sign-up wall'),
+    heads = [('dead', 'Broken or missing (open in a browser to confirm: some sites refuse checks from servers)'), ('paywall', 'Possible paywall or sign-up wall'),
              ('moved', 'Redirected (check the new page is the same article)'),
              ('blocked', 'Could not check (open these in a browser)')]
     out = [f'# Link check\n\n{len(links)} outside links checked. Nothing has been changed.\n']
