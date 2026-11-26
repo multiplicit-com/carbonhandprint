@@ -7,4 +7,5 @@ description: "A study in Nature Sustainability found driving an electric car pro
 countries: [uk]
 tags: [electric-cars]
 link_title: "Electric cars better for climate in 95% of the world"
+card_image: "https://www.cam.ac.ukcrop.jpg"
 ---
