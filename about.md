@@ -14,7 +14,7 @@ We launched in summer 2007 as a place where anyone could record their achievemen
 
 ## Open by default
 
-Nobody owns the term Carbon Handprint. Most content on this site, and any future research or resources, is released under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/), so that teachers, writers and campaigners can build on it quickly and easily. Businesses are welcome to use it too. Just get in touch, since commercial use is not covered by the default licence.
+Nobody owns the term Carbon Handprint, and anyone is free to use it. Content on this site is published under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Where we'd like to go
 

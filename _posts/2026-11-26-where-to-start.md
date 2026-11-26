@@ -11,6 +11,6 @@ A lot has happened since. The handprint now turns up in classrooms, in Finnish r
 - [Grow your handprint](/grow-your-handprint/) has practical ideas that go beyond your own front door.
 - [How the idea has grown](/history/) is a short timeline of the concept.
 
-The principle hasn't changed. **Nobody owns the term Carbon Handprint.** Everything here is shared under a Creative Commons licence, and we'd love you to use it.
+The principle hasn't changed. **Nobody owns the term Carbon Handprint**, and anyone is free to use it.
 
 More soon.
