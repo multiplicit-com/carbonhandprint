@@ -9,9 +9,9 @@ description: About carbonhandprint.org, an open, non-commercial home for the car
 
 carbonhandprint.org is an open, non-commercial home for the carbon handprint idea: the positive counterpart to the carbon footprint.
 
-<figure class="oldlogo"><img src="/assets/images/original-2007-logo.svg" alt="The Carbon Handprint logo from 2007" width="72" height="72"><figcaption>Our 2007 logo</figcaption></figure>
+<figure class="oldlogo"><img src="/assets/images/original-2007-logo.svg" alt="The Carbon Handprint logo from 2007" width="72" height="72"><figcaption>The 2007 logo</figcaption></figure>
 
-We launched in summer 2007 as a place where anyone could record their achievements or promises for the environment. Today the site follows how the handprint is understood and used, with articles and news to keep up.
+The idea started in summer 2007, on a site where anyone could record their achievements or promises for the environment. Today the site follows how the handprint is understood and used, with articles and news to keep up.
 
 ## Open by default
 

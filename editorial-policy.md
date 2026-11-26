@@ -6,7 +6,7 @@ permalink: /editorial-policy/
 description: How carbonhandprint.org chooses sources, checks facts and corrects mistakes.
 ---
 
-carbonhandprint.org is an independent, non-commercial site about the carbon handprint and climate action. We have published since 2007. This page sets out how we work.
+carbonhandprint.org is an independent, non-commercial site about the carbon handprint and climate action. This page sets out how we work.
 
 ## What we publish
 

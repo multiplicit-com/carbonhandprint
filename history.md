@@ -19,7 +19,7 @@ Good ideas tend to appear in several places at once, and the handprint is one of
 
 ## Our position
 
-Nobody owns the term Carbon Handprint, and nobody should. We put it out freely in 2007 and we release it freely now. Anyone may use it: individuals, schools, campaigners, researchers and businesses.
+Nobody owns the term Carbon Handprint, and nobody should. It was put out freely in 2007 and it is still free to use. Anyone may use it: individuals, schools, campaigners, researchers and businesses.
 
 Our goal has not changed. It is to reinforce the environmental message by reminding everyone that they can make a difference.
 
