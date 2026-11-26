@@ -7,4 +7,6 @@ source: B Lab UK
 description: "More than 150 UK B Corp bosses signed a letter to The Times rejecting its suggestion that the B Corp label may encourage greenwashing. Signatories included the heads of Innocent, Danone UK and Ireland, and Ella's Kitchen."
 countries: [uk]
 tags: [b-corp]
+card_image: "https://bcorporation.uk/media/hyijarhc/sharing-images-for-websitesocial-10.png?rmode=pad&width=1600&format=jpg&quality=80"
+link_title: "A letter to The Times from the UK B Corp community - B Lab UK"
 ---

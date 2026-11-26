@@ -5,4 +5,5 @@ link: https://www.itu.int/en/mediacentre/Pages/PR-2026-09-02-greening-digital-co
 source: International Telecommunication Union
 description: "A study of 200 digital companies by the ITU and the World Benchmarking Alliance found their operational emissions reached 301 million tonnes CO2e in 2024, about 0.8% of global energy-related emissions. At four major AI and cloud providers, operational emissions rose to as much as 239% of their 2020 levels, while 14 large telecom operators cut theirs by 11%."
 tags: [ai]
+card_image: "https://www.itu.int/net4/ITU-D/images/logos/itu-logo-social-sharing.jpg"
 ---
