@@ -115,7 +115,7 @@ ul li::marker{color:var(--accent,var(--soft))}
 .facts dd{margin:0}
 .facts .src{font-family:var(--ui);font-size:.78rem;color:var(--soft);white-space:nowrap}
 @media(max-width:520px){.facts{grid-template-columns:1fr;gap:.1rem}.facts dd{margin-bottom:.7rem}}
-.countrylist{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem}
+.countrylist{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(15rem,100%),1fr));gap:1rem}
 .countrylist li{border:1px solid var(--rule);border-top:4px solid var(--accent,var(--link));border-radius:6px;padding:1rem 1.1rem}
 .countrylist a{font-family:var(--head);font-size:1.15rem;font-weight:600;text-decoration:none;color:var(--ink)}
 .countrylist p{margin:.3rem 0 0;color:var(--soft);font-size:.92rem}
@@ -147,15 +147,15 @@ ul li::marker{color:var(--accent,var(--soft))}
 .chips a:hover{border-color:var(--accent,var(--link))}
 @media(max-width:900px){.cols.has-side{grid-template-columns:1fr;gap:2rem}.side{position:static}}
 /* Grids on listing pages */
-.wide .newscards,.twocol .newscards{display:grid;grid-template-columns:repeat(auto-fill,minmax(21rem,1fr));gap:1rem}
+.wide .newscards,.twocol .newscards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(21rem,100%),1fr));gap:1rem}
 .wide .newscards li,.twocol .newscards li{margin:0}
 .wide .newscards .linkcard,.twocol .newscards .linkcard{height:100%}
 .wide .newscards .linkcard.has-img,.twocol .newscards .linkcard.has-img{grid-template-columns:1fr;grid-template-rows:auto 1fr}
 .wide .newscards .linkcard img,.twocol .newscards .linkcard img{aspect-ratio:1.91}
-.wide .docs{display:grid;grid-template-columns:repeat(auto-fill,minmax(21rem,1fr));gap:.5rem 2.5rem}
-.wide .body>.postlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(26rem,1fr));column-gap:2.5rem}
+.wide .docs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(21rem,100%),1fr));gap:.5rem 2.5rem}
+.wide .body>.postlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(26rem,100%),1fr));column-gap:2.5rem}
 .wide .body>.postlist li:first-child{padding-top:.8rem}
-.wide .timeline{display:grid;grid-template-columns:repeat(auto-fill,minmax(26rem,1fr));column-gap:2.5rem}
+.wide .timeline{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(26rem,100%),1fr));column-gap:2.5rem}
 .twocol>div{max-width:none}
 .twocol .prose-in{max-width:42rem}
 @media(max-width:520px){.wide .body>.postlist,.wide .timeline,.wide .docs,.wide .newscards{grid-template-columns:1fr}}
