@@ -1,0 +1,9 @@
+<ol class="postlist">
+  {% assign lim = include.limit | default: 1000 %}
+  {% for post in site.posts limit: lim %}
+  <li>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
+    <div><a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% if post.description %}<p>{{ post.description }}</p>{% endif %}</div>
+  </li>
+  {% endfor %}
+</ol>

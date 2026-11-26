@@ -2,34 +2,30 @@
 title: Carbon Handprint
 description: Carbon Handprint is an idea to help people realise that no contribution to the environment is too small. Your footprint is the damage. Your handprint is the good you do.
 ---
-<section class="hero">
-  <div class="wrap">
-    <h1>Carbon Handprint</h1>
-    <p>Most of us have heard of a carbon footprint, the damage we do to the environment. Your carbon handprint is the other side of it: the good you do. Cycling to work, talking a neighbour into solar panels, getting your school to recycle properly. It all counts, and no contribution is too small.</p>
-    <a class="btn" href="{{ '/what-is-a-carbon-handprint/' | relative_url }}">More about the idea</a>
-    <a class="btn ghost" href="{{ '/grow-your-handprint/' | relative_url }}">What can I do?</a>
+<section class="opener wrap">
+  <div class="opener-mark">{% include handprint.svg %}</div>
+  <div class="opener-text">
+    <p class="kicker">Since 2007</p>
+    <p class="big">Most of us have heard of a carbon footprint, the damage we do to the environment. Your carbon handprint is the other side of it: the good you do.</p>
+    <p>Cycling to work, talking a neighbour into solar panels, getting your school to recycle properly. It all counts, and no contribution is too small.</p>
+    <p class="links"><a href="{{ '/what-is-a-carbon-handprint/' | relative_url }}">More about the idea</a> <a href="{{ '/grow-your-handprint/' | relative_url }}">What can I do?</a></p>
   </div>
 </section>
 
-<section>
-  <div class="wrap prose" style="padding-top:0;padding-bottom:0">
-    <h2>Why a handprint?</h2>
-    <p>I started this site in 2007. Back then nearly all the talk was about carbon footprints, which is important, but it is also a pretty gloomy message. However hard you try, all you can do is make the bad number smaller. I wanted something more positive that might bring new people into the environmental movement instead of putting them off.</p>
+<section class="wrap twocol">
+  <h2>Why a handprint?</h2>
+  <div class="prose-in">
+    <p>We started this site in 2007. Back then nearly all the talk was about carbon footprints, which is important, but it is also a pretty gloomy message. However hard you try, all you can do is make the bad number smaller. We wanted something more positive that might bring new people into the environmental movement instead of putting them off.</p>
     <p>The handprint isn't meant to replace the footprint or excuse it. It's a way of noticing the good things people do, and encouraging more of them.</p>
     <p>Since then the idea has been picked up by schools, researchers and some very large companies, including Nokia. The <a href="{{ '/history/' | relative_url }}">history page</a> has more on that.</p>
     <p>Nobody owns the term Carbon Handprint, so please feel free to use it.</p>
   </div>
 </section>
 
-<section>
-  <div class="wrap prose" style="padding-top:0">
-    <h2>Latest posts</h2>
-    <ul class="posts">
-      {% for post in site.posts limit:4 %}
-      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>{% if post.description %} · {{ post.description }}{% endif %}</p></li>
-      {% endfor %}
-    </ul>
-    <p><a href="{{ '/blog/' | relative_url }}">All posts</a></p>
+<section class="wrap twocol">
+  <h2>Latest posts</h2>
+  <div>
+    {% include postlist.html limit=5 %}
+    <p class="more"><a href="{{ '/blog/' | relative_url }}">All posts</a></p>
   </div>
 </section>
