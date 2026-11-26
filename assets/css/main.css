@@ -291,3 +291,12 @@ ul li::marker{color:var(--accent,var(--soft))}
 .prose .credit{font-family:var(--ui);font-size:.82rem;color:var(--soft);max-width:44rem}
 .points{max-width:44rem;padding-left:1.2rem}.points li{margin:.4rem 0}
 .copnav{font-family:var(--ui);font-size:.92rem;margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--rule)}
+
+/* Logo mark, homepage panel, hand-drawn underline */
+.wordmark{display:inline-flex;align-items:center;gap:.5rem}
+.wordmark .mk{flex:none;width:30px;height:30px;background:var(--teal);-webkit-mask:url(/assets/images/original-2007-logo.svg) center/contain no-repeat;mask:url(/assets/images/original-2007-logo.svg) center/contain no-repeat}
+.opener{box-sizing:border-box;max-width:calc(min(var(--max,76rem),100%) - 3rem);background:color-mix(in srgb,var(--teal) 7%,var(--bg));border-radius:14px;padding:2.5rem;margin-top:2rem}
+.opener{margin-left:auto;margin-right:auto;margin-bottom:2.5rem}
+@media(max-width:760px){.opener{padding:1.6rem 1.25rem;margin:1rem .75rem 2rem;max-width:none;border-radius:10px}}
+.hl{position:relative;white-space:nowrap}
+.hl::after{content:"";position:absolute;left:0;right:0;bottom:-.12em;height:.35em;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 12' preserveAspectRatio='none'%3E%3Cpath d='M2 8 C 40 2, 80 11, 120 5 S 180 4, 198 7' fill='none' stroke='%230d6e6e' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E") center/100% 100% no-repeat}
