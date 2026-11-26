@@ -8,7 +8,7 @@ description: A dated reading list of articles, research and reports on the carbo
 ---
 
 <ol class="timeline">
-  <li><span class="yr">2007</span><span><a href="https://www.ceeindia.org/handprint.php">Handprint</a>, Centre for Environment Education (India). The education programme presented at the Fourth International Conference on Environmental Education.</span></li>
+  <li><span class="yr">2007</span><span><a href="https://www.ceeindia.org/handprint.php">Handprint</a>, Centre for Environment Education (India). CEE highlights Handprint as a symbol of positive action for sustainability at the Conference on Environmental Education in Ahmedabad.</span></li>
   <li><span class="yr">2013</span><span><a href="https://kkh.ltrr.arizona.edu/kkh/natsgc/pdfs-2014/Our-Environmental-Handprint.pdf">Our Environmental Handprint: The Good We Do</a>, Jon Biemer, Willow Dixon and Natalia Blackburn, IEEE Conference on Technologies for Sustainability. Case studies in wind power, solar cookers and green building.</span></li>
   <li><span class="yr">Nov 2015</span><span><a href="https://bpb-us-e1.wpmucdn.com/sites.mit.edu/dist/0/1158/files/2025/01/Norris-2015-Handprint-Based-NetPositive-Assessment_2.pdf">Handprint-Based NetPositive Assessment</a>, Gregory Norris, Harvard T.H. Chan School of Public Health. Sets out how to count handprints against business as usual, so an organisation can aim for a handprint bigger than its footprint.</span></li>
   <li><span class="yr">2018</span><span><a href="https://sarjaweb.vtt.fi/julkaisut/muut/2018/Carbon_Handprint_Guide.pdf">Carbon Handprint Guide</a>, VTT and LUT University. The first formal method for companies.</span></li>
