@@ -260,3 +260,10 @@ ul li::marker{color:var(--accent,var(--soft))}
 .htl-track li.today::before{top:calc(-1.4rem - 10px);left:0;width:2px;height:19px;border-radius:0;background:var(--ink)}
 .htl-track li.today .yr{color:var(--ink)}
 @media(max-width:520px){.htl-track>li{flex-basis:80%}.htl-track>li.today{flex-basis:3.2rem}}
+/* Phones: link card image goes full width above the text */
+@media(max-width:520px){
+.linkcard.has-img,.newscards .linkcard.has-img,.wide .newscards .linkcard.has-img,.twocol .newscards .linkcard.has-img{grid-template-columns:1fr;gap:0}
+.linkcard.has-img img,.wide .newscards .linkcard img,.twocol .newscards .linkcard img{order:0;width:100%;aspect-ratio:2/1;margin-top:.9rem}
+.linkcard .lc-title{font-size:1.12rem;line-height:1.3}
+.linkcard .lc-desc{font-size:.95rem}
+}
