@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: /social.xml
+permalink: /f/fed200de8bda/social.xml
 sitemap: false
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -10,7 +10,7 @@ sitemap: false
   <link>{{ '/' | absolute_url }}</link>
   <description>New articles and news from {{ site.title }}.</description>
   <language>en-gb</language>
-  <atom:link href="{{ '/social.xml' | absolute_url }}" rel="self" type="application/rss+xml"/>
+  <atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml"/>
   <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 {%- assign all = site.posts | concat: site.news | sort: "date" | reverse %}
 {%- for n in all limit: 25 %}
