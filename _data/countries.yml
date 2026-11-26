@@ -145,3 +145,18 @@ canada:
       text: The federal government has scrapped the consumer carbon price, the planned oil and gas emissions cap and the electric vehicle sales mandate.
       source: Climate Action Tracker
       url: https://climateactiontracker.org/countries/canada/
+
+nicaragua:
+  name: Nicaragua
+  accent: orange
+  lede: The country that refused to sign in 2015 because the deal was too weak, then joined in 2017.
+  checked: November 2026
+  facts:
+    - label: Paris Agreement
+      text: A party since October 2017, after refusing to sign in 2015.
+      source: Yale Environment 360
+      url: https://e360.yale.edu/digest/as-nicaragua-signs-paris-agreement-only-u-s-and-syria-left-outside-global-pact
+    - label: Why it held out
+      text: Its negotiators argued that voluntary, non-binding pledges would not keep warming in check, and that rich countries should take more responsibility.
+      source: TIME
+      url: https://time.com/4799844/nicaragua-paris-climate-agreement-countries
