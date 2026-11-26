@@ -1,5 +1,5 @@
 # UN climate conferences and Paris Agreement deadlines, shown on /events/.
-# kind: cop, session, deadline, or earlier (pre-Paris milestones, listed under Before Paris, no page). start/end: YYYY-MM-DD (end optional). For deadlines known only to the year, use year: and leave start as the last day of that year.
+# kind: cop, session, deadline, or earlier (pre-Paris milestones, shown in Past talks; a slug gives it a page). start/end: YYYY-MM-DD (end optional). For deadlines known only to the year, use year: and leave start as the last day of that year.
 # slug: COPs have their own page at /events/<slug>/ (stub in events/), with points: a list of key points.
 # place, country (key in countries.yml, optional), text, source, url. Pages work out past and upcoming from the build date.
 - kind: cop
@@ -263,10 +263,22 @@
   url: https://unfccc.int/biennial-transparency-reports
 - kind: deadline
   name: 2035 climate plans (NDCs) due
+  slug: ndcs-2035
+  outcome: missed by most
   start: 2025-02-10
   text: Only 13 of 195 Parties met the deadline. The UN later asked for plans by September 2025 so they could be counted before COP30.
   source: Carbon Brief
   url: https://www.carbonbrief.org/analysis-95-of-countries-miss-un-deadline-to-submit-2035-climate-pledges
+  points:
+    - "Under the Paris Agreement every country was due to submit a new climate plan, running to 2035, by 10 February 2025."
+    - "Just 13 of the 195 Parties met the deadline, among them the UK, the US, Brazil, the UAE, Switzerland and New Zealand."
+    - "Countries that missed it, including China, India and the EU, accounted for about 83% of global emissions."
+    - "By the UN's 2026 count, plans from 154 countries covering about 71% of global emissions point to emissions only about 6% below 2019 levels by 2035, far short of the roughly 60% cut needed for 1.5 °C."
+  sources:
+    - name: Carbon Brief
+      url: https://www.carbonbrief.org/analysis-95-of-countries-miss-un-deadline-to-submit-2035-climate-pledges
+    - name: UNFCCC
+      url: https://unfccc.int/node/660687
 - kind: deadline
   name: Second transparency reports due
   start: 2026-12-31

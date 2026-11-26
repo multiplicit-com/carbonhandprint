@@ -5,10 +5,10 @@ layout: default
 <article class="wrap prose c-blue">
   <p class="meta"><a href="{{ '/events/' | relative_url }}" class="typelabel">Climate talks and deadlines</a></p>
   <h1>{{ page.title }}</h1>
-  <p class="lede">{{ e.start | date: "%-d %B" }} to {{ e.end | date: "%-d %B %Y" }}{% if e.place %} · {% if e.country %}<a href="{{ '/countries/' | append: e.country | append: '/' | relative_url }}">{{ e.place }}</a>{% else %}{{ e.place }}{% endif %}{% endif %}{% if last >= now %} · upcoming{% endif %}</p>
+  <p class="lede">{% if e.kind == "deadline" %}Deadline: {% if e.year %}by {{ e.year }}{% else %}{{ e.start | date: "%-d %B %Y" }}{% endif %}{% if e.outcome %} · {{ e.outcome }}{% endif %}{% else %}{{ e.start | date: "%-d %B" }} to {{ e.end | date: "%-d %B %Y" }}{% endif %}{% if e.place %} · {% if e.country %}<a href="{{ '/countries/' | append: e.country | append: '/' | relative_url }}">{{ e.place }}</a>{% else %}{{ e.place }}{% endif %}{% endif %}{% if last >= now %} · upcoming{% endif %}</p>
   <p>{{ e.text }}</p>
   {% if e.points %}
-  <h2>{% if last >= now %}What to expect{% else %}Key points{% endif %}</h2>
+  <h2>{% if last >= now %}What to expect{% elsif e.kind == "deadline" %}What happened{% else %}Key points{% endif %}</h2>
   <ul class="points">
   {% for pt in e.points %}<li>{{ pt }}</li>
   {% endfor %}</ul>
