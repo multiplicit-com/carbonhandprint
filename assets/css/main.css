@@ -107,5 +107,6 @@ ul li::marker{color:var(--accent,var(--soft))}
 .lc-go{font-family:var(--ui);font-size:.85rem;color:var(--accent,var(--link))}
 .linkcard:hover .lc-title{color:var(--accent,var(--link))}
 @media(max-width:520px){.linkcard.has-img{grid-template-columns:1fr}.linkcard img{aspect-ratio:1.91}}
-.postlist .thumb{float:right;width:96px;height:64px;object-fit:cover;border-radius:4px;margin:0 0 .4rem 1rem}
-.postlist li>div::after{content:"";display:block;clear:both}
+.newscards{list-style:none;margin:0;padding:0}.newscards li{margin:0 0 1rem}.newscards .linkcard{margin:0}
+.newscards .linkcard.has-img{grid-template-columns:minmax(0,180px) 1fr}
+.lc-desc{color:var(--soft);font-size:.94rem;line-height:1.5}

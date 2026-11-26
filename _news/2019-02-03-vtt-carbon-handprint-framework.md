@@ -1,5 +1,4 @@
 ---
-type: news
 link: https://www.vtt.fi/sites/handprint/
 source: VTT
 title: "VTT releases Carbon Handprint framework"

@@ -36,4 +36,9 @@ Global deals set the direction, but they are delivered by millions of decisions 
 <p class="meta">Articles coming soon.</p>
 {% endif %}
 
+## The Paris Agreement in the news
+
+{% include newscards.html tag="paris-agreement" %}
+
 <p class="meta">Last updated 26 November 2026.</p>
+

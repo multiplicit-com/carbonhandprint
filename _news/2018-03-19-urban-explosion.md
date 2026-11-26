@@ -1,6 +1,5 @@
 ---
 title: "Urban explosion: the fastest-growing cities in the world"
-type: news
 description: "As populations grow, do we need to relocate as well as renew our infrastructure for the sake of the environment?"
 link: https://www.theguardian.com/cities/2018/mar/19/urban-explosion-kinshasa-el-alto-growth-mexico-city-bangalore-lagos
 source: The Guardian

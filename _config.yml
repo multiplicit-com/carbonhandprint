@@ -21,6 +21,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+collections:
+  news:
+    output: false
+
 defaults:
   - scope: { path: "", type: posts }
     values: { layout: post }

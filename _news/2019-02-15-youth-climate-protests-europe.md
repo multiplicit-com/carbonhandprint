@@ -1,6 +1,5 @@
 ---
 title: "Youth-led climate protests sweep across Europe"
-type: news
 description: "Around the world schoolchildren and students have been going on strike to demand action on climate change."
 link: https://grist.org/article/youth-led-climate-protests-sweep-across-europe/
 source: Grist

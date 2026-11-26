@@ -1,6 +1,5 @@
 ---
 title: "The 7 countries actually living up to the Paris Climate Agreement"
-type: news
 description: "Very few countries are doing enough."
 link: https://www.globalcitizen.org/en/content/7-countries-paris-climate-agreeement/
 source: Global Citizen

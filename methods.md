@@ -43,7 +43,7 @@ A handprint is worked out from two footprints, so it is only as good as those fo
 
 ## The International Carbon Handprint Award
 
-The [International Carbon Handprint Award](https://carbonhandprintaward.com/carbon-handprint-method/), run by Finland's Climate Leadership Coalition and the Vancouver Economic Commission, uses the VTT and LUT method for entries. It [first ran in 2022](/blog/2022/09/international-carbon-handprint-award/).
+The [International Carbon Handprint Award](https://carbonhandprintaward.com/carbon-handprint-method/), run by Finland's Climate Leadership Coalition and the Vancouver Economic Commission, uses the VTT and LUT method for entries. It [first ran in 2022](https://news.cision.com/miltton/r/schneider-electric-and-ssab-receive-world-s-first-international-carbon-handprint-awards-in-new-york,c3633932), when Schneider Electric and SSAB won.
 
 ## What good methods have in common
 
