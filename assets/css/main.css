@@ -300,3 +300,6 @@ ul li::marker{color:var(--accent,var(--soft))}
 @media(max-width:760px){.opener{padding:1.6rem 1.25rem;margin:1rem .75rem 2rem;max-width:none;border-radius:10px}}
 .hl{position:relative;white-space:nowrap}
 .hl::after{content:"";position:absolute;left:0;right:0;bottom:-.12em;height:.35em;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 12' preserveAspectRatio='none'%3E%3Cpath d='M2 8 C 40 2, 80 11, 120 5 S 180 4, 198 7' fill='none' stroke='%230d6e6e' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E") center/100% 100% no-repeat}
+.facts,.points{background:color-mix(in srgb,var(--accent,var(--teal)) 7%,var(--bg));border-radius:14px;padding:1.6rem 1.8rem}
+.points{padding-left:3rem;max-width:none}
+@media(max-width:760px){.facts,.points{border-radius:10px;padding:1.1rem}.points{padding-left:2.2rem}}
