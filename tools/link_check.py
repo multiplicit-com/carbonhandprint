@@ -125,9 +125,7 @@ def check(url):
                 time.sleep(5)
                 continue
             return 'blocked', 'no answer: ' + type(e).__name__, None
-    if BOT_UA = 'CarbonHandprintLinkCheck/1.0 (+https://carbonhandprint.org/)'
-PAYWALL_URL.search(urllib.parse.urlsplit(final).path) and not BOT_UA = 'CarbonHandprintLinkCheck/1.0 (+https://carbonhandprint.org/)'
-PAYWALL_URL.search(url):
+    if PAYWALL_URL.search(urllib.parse.urlsplit(final).path) and not PAYWALL_URL.search(url):
         return 'paywall', 'sends readers to a sign-in or subscribe page', final
     m = PAYWALL_TEXT.search(body)
     if m:
