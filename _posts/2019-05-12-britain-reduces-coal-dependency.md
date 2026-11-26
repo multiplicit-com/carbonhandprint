@@ -1,8 +1,8 @@
 ---
 countries: [uk]
 tags: [grow, paris-agreement]
-link: https://www.telegraph.co.uk/news/2019/05/06/britain-goes-coal-free-100-hours-setting-new-record-energy-use/
-source: The Telegraph
+link: https://thebulletin.org/2019/05/for-the-first-time-since-1882-britain-goes-a-week-without-coal/
+source: Bulletin of the Atomic Scientists
 title: "Britain sets personal best for going without coal"
 description: "Britain is making progress on eliminating coal-fired energy by 2025."
 date: 2019-05-12
@@ -21,4 +21,4 @@ The UK is aiming to completely eliminate day to day reliance on coal-fired power
 </p>
 
 <h3>Links</h3>
-<ul><li><a href="https://www.telegraph.co.uk/news/2019/05/06/britain-goes-coal-free-100-hours-setting-new-record-energy-use/" rel="nofollow">Telegraph</a></li><li><a href="https://www.businessgreen.com/bg/news-analysis/3075170/uk-passes-1000-hour-milestone-in-transition-away-from-coal" rel="nofollow">Business Green</a></li></ul>
+<ul><li><a href="https://thebulletin.org/2019/05/for-the-first-time-since-1882-britain-goes-a-week-without-coal/" rel="nofollow">Bulletin of the Atomic Scientists</a></li></ul>
