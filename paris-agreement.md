@@ -1,5 +1,6 @@
 ---
 layout: page
+accent: blue
 title: Where the Paris Agreement stands
 lede: The 2015 Paris Agreement is still the backbone of global climate action. Ten years on, here are the facts on where it stands, updated after COP31 in November 2026.
 permalink: /paris-agreement/

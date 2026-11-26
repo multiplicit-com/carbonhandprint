@@ -1,5 +1,6 @@
 ---
 layout: page
+accent: plum
 title: About
 permalink: /about/
 description: About carbonhandprint.org, an open, non-commercial home for the carbon handprint idea.

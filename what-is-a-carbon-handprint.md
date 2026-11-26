@@ -1,5 +1,6 @@
 ---
 layout: page
+accent: teal
 title: What is a carbon handprint?
 lede: If your carbon footprint is the negative impact you have on the planet, your carbon handprint is a record of the positive steps you take, and the good you help others do.
 permalink: /what-is-a-carbon-handprint/

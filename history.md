@@ -1,5 +1,6 @@
 ---
 layout: page
+accent: orange
 title: How the idea has grown
 lede: The "handprint" has been picked up by educators, researchers, businesses and campaigners. Here is a short history, including this site's own part in it.
 permalink: /history/

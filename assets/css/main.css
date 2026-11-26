@@ -56,3 +56,28 @@ td{border-bottom:1px solid var(--rule);padding:.55rem .5rem;vertical-align:top}
 .colophon a{color:var(--soft)}
 :root{--bg:#ffffff;--ink:#1b1d1f;--soft:#62676c;--rule:#e4e6e8;--link:#0d5c63;--body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--head:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
 @media(prefers-color-scheme:dark){:root{--bg:#141617;--ink:#e8eaeb;--soft:#9aa0a5;--rule:#2b2f31;--link:#6cc3c9}}
+
+/* colour */
+:root{--teal:#0d6e6e;--orange:#c8552b;--blue:#2a63a8;--green:#3d7a3a;--mustard:#b8860b;--plum:#7d4a78}
+@media(prefers-color-scheme:dark){:root{--teal:#5cc0bd;--orange:#f0915f;--blue:#7fb0ea;--green:#8fcf86;--mustard:#e3b955;--plum:#cf98c9}}
+.c-teal{--accent:var(--teal)}.c-orange{--accent:var(--orange)}.c-blue{--accent:var(--blue)}.c-green{--accent:var(--green)}.c-mustard{--accent:var(--mustard)}.c-plum{--accent:var(--plum)}
+.masthead{border-top:5px solid;border-image:linear-gradient(90deg,var(--teal) 0 20%,var(--green) 20% 40%,var(--mustard) 40% 60%,var(--orange) 60% 80%,var(--blue) 80% 100%) 1}
+.wordmark em{color:var(--teal)}
+.masthead nav a:nth-child(1):hover{color:var(--teal)}.masthead nav a:nth-child(2):hover{color:var(--green)}.masthead nav a:nth-child(3):hover{color:var(--blue)}.masthead nav a:nth-child(4):hover{color:var(--orange)}.masthead nav a:nth-child(5):hover{color:var(--orange)}.masthead nav a:nth-child(6):hover{color:var(--plum)}
+.kicker{color:var(--orange)}
+.hl{color:var(--teal)}
+.links a:first-child{color:var(--teal)}.links a:last-child{color:var(--green)}
+.twocol h2{color:var(--accent,var(--soft))}
+.twocol h2::before{content:"";display:block;width:2rem;height:3px;background:var(--accent,var(--rule));margin-bottom:.6rem}
+.twocol a{color:var(--accent,var(--link))}
+.postlist li:nth-child(5n+1) time{color:var(--orange)}.postlist li:nth-child(5n+2) time{color:var(--blue)}.postlist li:nth-child(5n+3) time{color:var(--teal)}.postlist li:nth-child(5n+4) time{color:var(--green)}.postlist li:nth-child(5n) time{color:var(--plum)}
+.postlist a{color:var(--ink)}.postlist a:hover{color:var(--accent,var(--link))}
+.prose a{color:var(--accent,var(--link))}
+.prose h1::after{content:"";display:block;width:3rem;height:4px;background:var(--accent,var(--teal));margin-top:.9rem}
+.prose h2{color:var(--accent,var(--ink))}
+.lede{border-left:3px solid var(--accent,var(--rule));padding-left:1rem}
+.note{border-left:4px solid var(--accent,var(--rule))}
+.timeline li:nth-child(5n+1) .yr{color:var(--teal)}.timeline li:nth-child(5n+2) .yr{color:var(--orange)}.timeline li:nth-child(5n+3) .yr{color:var(--blue)}.timeline li:nth-child(5n+4) .yr{color:var(--green)}.timeline li:nth-child(5n) .yr{color:var(--plum)}
+ul li::marker{color:var(--accent,var(--soft))}
+.colophon .wrap{border-top:0;position:relative}
+.colophon .wrap::before{content:"";position:absolute;left:1.5rem;right:1.5rem;top:0;height:3px;background:linear-gradient(90deg,var(--teal) 0 20%,var(--green) 20% 40%,var(--mustard) 40% 60%,var(--orange) 60% 80%,var(--blue) 80% 100%);opacity:.6}

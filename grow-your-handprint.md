@@ -1,5 +1,6 @@
 ---
 layout: page
+accent: green
 title: Grow your handprint
 lede: No contribution is too small. Anyone can start building their carbon handprint at any time.
 permalink: /grow-your-handprint/
