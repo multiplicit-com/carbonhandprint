@@ -283,3 +283,9 @@ ul li::marker{color:var(--accent,var(--soft))}
 .loadmore-btn{display:block;margin:1rem 0 0;font-family:var(--ui);font-size:.9rem;background:none;border:1px solid var(--rule);border-radius:4px;padding:.45rem 1rem;color:var(--ink);cursor:pointer}
 .loadmore-btn:hover{border-color:var(--accent,var(--link));color:var(--accent,var(--link))}
 .newscards>li[hidden]{display:none}
+.xkcd{margin:1rem 0 .4rem;max-width:44rem}
+.xkcd summary{cursor:pointer;font-family:var(--ui);font-size:.95rem;color:var(--accent,var(--link));display:inline-block;padding:.4rem .9rem;border:1px solid var(--rule);border-radius:4px}
+.xkcd summary:hover{border-color:var(--accent,var(--link))}
+.xkcd-scroll{margin-top:.8rem;max-height:80vh;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;background:#fff;padding:.5rem}
+.xkcd-scroll img{display:block;width:100%;max-width:740px;height:auto;margin:0 auto}
+.prose .credit{font-family:var(--ui);font-size:.82rem;color:var(--soft);max-width:44rem}

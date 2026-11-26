@@ -35,6 +35,17 @@ Climate news only makes sense with some local context. Each country page sets ou
 
 {% include countrygrid.html %}
 
+## The warming in one picture {#xkcd}
+
+One of the clearest pictures of how fast the planet is warming is a comic. Randall Munroe's *Earth Temperature Timeline* runs from the last ice age, about 22,000 years ago, to today, and shows how unusual the recent rise is. It is very tall, so it opens in a scrolling panel.
+
+<details class="xkcd">
+<summary>Show the comic</summary>
+<div class="xkcd-scroll"><img src="https://imgs.xkcd.com/comics/earth_temperature_timeline.png" alt="xkcd comic 1732, Earth Temperature Timeline: a hand-drawn chart of global average temperature from 20,000 BCE to the present, with notes on human history alongside. The line stays within a narrow band for thousands of years, then shoots up at the very end." loading="lazy" referrerpolicy="no-referrer"></div>
+</details>
+
+<p class="credit">Comic by Randall Munroe, <a href="https://xkcd.com/1732/">xkcd.com/1732</a> (2016), used under a <a href="https://xkcd.com/license.html">Creative Commons Attribution-NonCommercial 2.5 licence</a>.</p>
+
 ## What it means for the rest of us
 
 Global deals set the direction, but they are delivered by millions of decisions at every level: national energy policy, a council's transport plan, a company's product design, a household's choice of boiler. When the international talks stall, those decisions matter even more. Telling your MP or councillor that you want stronger climate plans is one of the most useful things anyone can do.
