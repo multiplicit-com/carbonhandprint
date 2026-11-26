@@ -5,7 +5,7 @@ description: The site has been rebuilt with an updated guide to the handprint id
 
 carbonhandprint.org has had a rebuild.
 
-When this site first went up, "carbon handprint" was a phrase almost nobody used. The idea was simple: if your carbon footprint is the damage you do, your handprint could be a record of the good you do. We wanted a positive message that would recruit a new generation of environmentalists, rather than only telling people what to give up.
+When this site first went up in 2007, "carbon handprint" was a phrase almost nobody used. The idea was simple: if your carbon footprint is the damage you do, your handprint could be a record of the good you do. We wanted a positive message that would recruit a new generation of environmentalists, rather than only telling people what to give up.
 
 A lot has happened since. The handprint now turns up in classrooms, in Finnish research methods used by large companies, in corporate sustainability reports and in campaigns for structural change. We've updated the site to reflect that:
 
