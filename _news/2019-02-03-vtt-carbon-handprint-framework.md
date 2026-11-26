@@ -5,6 +5,11 @@ source: VTT
 title: "VTT releases Carbon Handprint framework"
 description: "A Finnish consortium including Nokia has developed a framework for calculating carbon handprint contributions."
 date: 2019-02-03
+related:
+  - url: /methods/#vtt
+    title: How the VTT and LUT method works
+  - url: /articles/2026/11/nokia-and-the-handprint-of-connectivity/
+    title: Nokia and the handprint of connectivity
 ---
 
 <p>A Finnish consortium including Nokia has developed a framework for calculating Carbon Handprint contributions.</p>

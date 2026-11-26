@@ -161,3 +161,7 @@ ul li::marker{color:var(--accent,var(--soft))}
 @media(max-width:520px){.wide .body>.postlist,.wide .timeline,.wide .docs,.wide .newscards{grid-template-columns:1fr}}
 .kicker a{color:inherit;text-decoration:none}.kicker a:hover{text-decoration:underline}
 .masthead nav .home{display:inline-flex;align-items:center;align-self:center}.masthead nav .home svg{display:block;position:relative;top:1px}
+.onsite{font-family:var(--ui);font-size:.85rem;margin:.5rem 0 0;color:var(--soft)}
+.onsite a{color:var(--accent,var(--link));font-weight:500}.onsite a+a::before{content:" · ";color:var(--soft);font-weight:400}
+.newscards li:not(.snippet){display:flex;flex-direction:column}.newscards li:not(.snippet) .linkcard{flex:1}
+.newscards li:not(.snippet) .onsite{padding:0 .2rem}

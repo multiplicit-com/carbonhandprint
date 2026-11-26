@@ -10,7 +10,7 @@ description: The main frameworks and methods for measuring a carbon handprint, i
 
 Most methods share the same core idea. You compare the footprint of a baseline, meaning what people would have used anyway, with the footprint of your product or action. The difference is the handprint. Where the methods differ is in what they count, and in how strict they are about the baseline.
 
-## VTT and LUT University: Carbon Handprint Guide
+## VTT and LUT University: Carbon Handprint Guide {#vtt}
 
 The most widely used handprint method comes from [VTT Technical Research Centre of Finland](https://www.vttresearch.com/) and [LUT University](https://www.lut.fi/). It defines a carbon handprint as the cut in a customer's footprint that happens because they use your product instead of a baseline. It sets out the steps for choosing that baseline, calculating both footprints with life cycle assessment, and communicating the result.
 
@@ -27,7 +27,7 @@ Large companies often call their handprint "avoided emissions". The [World Busin
 
 The UN's telecoms agency, the ITU, publishes [Recommendation L.1480](https://www.itu.int/rec/T-REC-L.1480/en), "Enabling the Net Zero transition". It covers how to assess the effect that information and communication technology has on the emissions of other sectors, such as remote working, smart grids or connected logistics. The current edition is from July 2025.
 
-## Nokia
+## Nokia {#nokia}
 
 Nokia was a partner in the original VTT and LUT work and now reports its handprint alongside its footprint. Its [climate transition plan](https://www.nokia.com/sites/default/files/2025-06/climate-transition-plan.pdf) (2025) sets out the products it says cut energy use and emissions for its customers. There's more in [Nokia and the handprint of connectivity](/articles/2026/11/nokia-and-the-handprint-of-connectivity/).
 
@@ -42,7 +42,7 @@ Gregory Norris, first at the Harvard T.H. Chan School of Public Health and later
 
 A handprint is worked out from two footprints, so it is only as good as those footprints. [ISO 14067:2018](https://www.iso.org/standard/71206.html), *Carbon footprint of products: requirements and guidelines for quantification*, is the international standard for calculating a product's footprint. It builds on the life cycle assessment standards ISO 14040 and 14044, which the handprint methods above also rely on. ISO 14067 doesn't cover handprints or offsetting itself, and a revision is under way.
 
-## The International Carbon Handprint Award
+## The International Carbon Handprint Award {#award}
 
 The [International Carbon Handprint Award](https://carbonhandprintaward.com/carbon-handprint-method/), run by Finland's Climate Leadership Coalition and the Vancouver Economic Commission, uses the VTT and LUT method for entries. It [first ran in 2022](https://news.cision.com/miltton/r/schneider-electric-and-ssab-receive-world-s-first-international-carbon-handprint-awards-in-new-york,c3633932), when Schneider Electric and SSAB won.
 
