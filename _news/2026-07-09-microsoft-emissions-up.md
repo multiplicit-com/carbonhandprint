@@ -1,6 +1,5 @@
 ---
 title: "Microsoft's emissions rise 25% in a year"
-snippet: true
 date: 2026-07-09
 link: https://blogs.microsoft.com/on-the-issues/2026/07/09/responsibly-building-the-ai-future/
 source: Microsoft

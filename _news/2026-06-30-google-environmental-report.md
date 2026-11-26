@@ -1,6 +1,5 @@
 ---
 title: "Google says its climate goals are getting harder"
-snippet: true
 date: 2026-06-30
 link: https://blog.google/company-news/outreach-and-initiatives/sustainability/2026-environmental-report/
 source: Google

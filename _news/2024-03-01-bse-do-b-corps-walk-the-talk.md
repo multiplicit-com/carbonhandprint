@@ -1,6 +1,5 @@
 ---
 title: "Do B Corps do more good than other firms?"
-snippet: true
 date: 2024-03-01
 date_precision: year
 link: https://onlinelibrary.wiley.com/doi/10.1002/bse.3612

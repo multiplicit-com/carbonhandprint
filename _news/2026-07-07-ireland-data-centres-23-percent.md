@@ -1,6 +1,5 @@
 ---
 title: "Data centres use almost a quarter of Ireland's electricity"
-snippet: true
 date: 2026-07-07
 link: https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2025/keyfindings/
 source: Central Statistics Office, Ireland

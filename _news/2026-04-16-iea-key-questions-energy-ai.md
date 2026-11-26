@@ -1,6 +1,5 @@
 ---
 title: "Data centre electricity use rose 17% in 2025"
-snippet: true
 date: 2026-04-16
 date_precision: month
 link: https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary

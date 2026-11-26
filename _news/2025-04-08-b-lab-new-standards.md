@@ -1,6 +1,5 @@
 ---
 title: "B Corp tightens its rules"
-snippet: true
 date: 2025-04-08
 link: https://www.bcorporation.net/en-us/news/press/b-lab-publishes-new-b-corp-standards-raising-the-bar-for-businesses-worldwide
 source: B Lab

@@ -7,4 +7,7 @@ source: Climate Home News
 description: "The UN's latest synthesis covers new climate plans from 154 countries, about 71% of global emissions. Together with current policies elsewhere, they point to global emissions about 6% below 2019 levels by 2035. Staying near 1.5 °C needs roughly a 60% cut. Projected warming by 2100 is 2.1 to 3.2 °C."
 events: [cop31]
 tags: [paris-agreement]
+related:
+  - url: /events/cop31/
+    title: "COP31, Antalya (2026)"
 ---

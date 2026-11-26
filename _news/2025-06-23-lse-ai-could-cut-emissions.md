@@ -1,6 +1,5 @@
 ---
 title: "AI could cut more emissions than it adds, if used well"
-snippet: true
 date: 2025-06-23
 link: https://www.lse.ac.uk/granthaminstitute/news/new-study-finds-ai-could-reduce-global-emissions-annually-by-3-2-to-5-4-billion-tonnes-of-carbon-dioxide-equivalent-by-2035/
 source: Grantham Research Institute, LSE

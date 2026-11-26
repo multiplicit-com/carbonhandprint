@@ -1,6 +1,5 @@
 ---
 title: "UK B Corps answer the greenwashing charge"
-snippet: true
 date: 2022-12-15
 date_precision: month
 link: https://bcorporation.uk/news-stories-and-events/news/a-letter-to-the-times-from-the-uk-b-corp-community

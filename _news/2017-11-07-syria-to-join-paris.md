@@ -8,4 +8,7 @@ description: "At COP23 in Bonn, Syria announced it would sign the Paris Agreemen
 countries: [us]
 events: [cop23]
 tags: [paris-agreement]
+related:
+  - url: /events/cop23/
+    title: "COP23, Bonn (2017)"
 ---

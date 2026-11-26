@@ -1,6 +1,5 @@
 ---
 title: "Where AI data centres are built matters for carbon and water"
-snippet: true
 date: 2025-11-10
 link: https://www.news.cornell.edu/stories/2025/11/roadmap-shows-environmental-impact-ai-data-center-boom
 source: Cornell University

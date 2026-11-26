@@ -22,8 +22,7 @@ sitemap: false
   {%- if n.snippet %}
     {%- if n.related %}{% assign url = n.related.first.url | absolute_url %}
     {%- elsif n.countries %}{% assign url = '/countries/' | append: n.countries.first | append: '/' | absolute_url %}
-    {%- elsif n.events %}{% assign url = '/events/' | append: n.events.first | append: '/' | absolute_url %}
-    {%- else %}{% assign url = '/news/' | absolute_url %}{% endif %}
+        {%- else %}{% assign url = '/news/' | absolute_url %}{% endif %}
   {%- else %}{% assign url = n.link %}{% endif %}
   {%- if n.card_image %}{% assign img = n.card_image %}{% else %}{% assign img = '/assets/images/share.png' | absolute_url %}{% endif %}
   {%- assign summary = n.description | strip_html | strip_newlines %}

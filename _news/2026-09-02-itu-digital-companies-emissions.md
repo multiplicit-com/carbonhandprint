@@ -1,6 +1,5 @@
 ---
 title: "Big AI and cloud providers' emissions keep rising"
-snippet: true
 date: 2026-09-02
 link: https://www.itu.int/en/mediacentre/Pages/PR-2026-09-02-greening-digital-companies.aspx
 source: International Telecommunication Union
