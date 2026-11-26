@@ -1,6 +1,11 @@
-# Sites we limit, to keep sources varied. Each of these may make up at most
-# half of the outside links on any page that has more than one (a single item
-# on its own is fine). This is a limit, not a target.
-# To add a site, add a line with its domain, without "www.".
+# Sites we limit, to keep sources varied. On any page with more than one
+# outside link (a single item on its own is fine):
+#   - each listed site may make up at most per_site % of the outside links
+#   - all listed sites together may make up at most combined % of them
+# These are limits, not targets.
+# To add a site, add a line under sites: with its domain, without "www.".
 # Check with: python3 tools/source_check.py (after a build).
-- carbonbrief.org
+per_site: 50
+combined: 66
+sites:
+  - carbonbrief.org
