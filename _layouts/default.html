@@ -21,5 +21,13 @@
     {{ content }}
   </main>
   {% include footer.html %}
+<script>
+  for (const a of document.querySelectorAll('a[href^="http"]')) {
+    if (a.hostname !== location.hostname) {
+      a.target = '_blank';
+      if (!a.relList.contains('noopener')) a.relList.add('noopener');
+    }
+  }
+</script>
 </body>
 </html>
