@@ -6,9 +6,12 @@ description: >-
 url: "https://carbonhandprint.org"
 baseurl: ""
 lang: en-GB
+facebook_url: https://www.facebook.com/CarbonHandprint/
 logo: /android-chrome-192x192.png
 social:
   name: Carbon Handprint
+  links:
+    - https://www.facebook.com/CarbonHandprint/
 timezone: Europe/London
 
 permalink: /blog/:year/:month/:title/

@@ -41,3 +41,8 @@
   date: "2026-11"
   kind: milestone
   text: "carbonhandprint.org is rebuilt, with an updated guide and a blog."
+
+- when: "September 2022"
+  date: "2022-09"
+  kind: event
+  text: "The first <a href=\"https://carbonhandprintaward.com/\">International Carbon Handprint Award</a>, run by Finland's Climate Leadership Coalition and the Vancouver Economic Commission, is presented at Climate Week NYC. Schneider Electric and SSAB win, judged using the VTT/LUT handprint method."

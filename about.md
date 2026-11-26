@@ -22,6 +22,6 @@ At the moment, personal carbon handprints are largely anecdotal. We'd love to se
 
 ## Get in touch {#get-in-touch}
 
-We're always looking for inspiring handprint stories, corrections, and people who want to help.
+We're always looking for inspiring handprint stories, corrections, and people who want to help. You can also find us on [Facebook](https://www.facebook.com/CarbonHandprint/).
 
 <!-- TODO (Steve): add a contact email or form link here. -->
