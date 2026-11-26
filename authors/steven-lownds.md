@@ -1,4 +1,5 @@
 ---
+schema_type: ProfilePage
 layout: author
 author_key: steven-lownds
 permalink: /authors/steven-lownds/

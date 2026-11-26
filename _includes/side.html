@@ -1,0 +1,6 @@
+{% comment %}Side column: related articles by tag, plus countries.{% endcomment %}
+{% assign tags = include.tags | default: empty %}{% assign shown = 0 %}
+{% capture rel %}{% for post in site.posts %}{% if post.url != page.url %}{% assign hit = false %}{% for t in tags %}{% if post.tags contains t %}{% assign hit = true %}{% endif %}{% endfor %}{% if hit and shown < 6 %}{% assign shown = shown | plus: 1 %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time></li>{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% if shown > 0 %}<section><h2>Related articles</h2><ul class="sidelist">{{ rel }}</ul></section>{% endif %}
+{% if include.countries %}<section><h2>Countries</h2><p class="chips">{% for c in include.countries %}{% assign cd = site.data.countries[c] %}{% if cd %}<a href="{{ '/countries/' | append: c | append: '/' | relative_url }}">{{ cd.name }}</a>{% endif %}{% endfor %}</p></section>{% endif %}
+{% if include.source %}<section><h2>Source</h2><p><a href="{{ include.source }}" rel="nofollow">{{ include.source_title | default: include.source }}</a></p></section>{% endif %}

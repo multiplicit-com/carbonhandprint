@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
-<article class="wrap prose c-{{ page.accent | default: 'teal' }}">
-  <h1>{{ page.title }}</h1>
-  {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
-  {{ content }}
+{% assign has_side = false %}{% if page.related %}{% assign has_side = true %}{% endif %}
+<article class="wrap prose c-{{ page.accent | default: 'teal' }}{% if page.wide %} wide{% endif %}">
+  <header class="pagehead">
+    <h1>{{ page.title }}</h1>
+    {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+  </header>
+  <div class="cols{% if has_side %} has-side{% endif %}">
+    <div class="body">{{ content }}</div>
+    {% if has_side %}<aside class="side">{% assign rt = page.related | split: "," %}{% include side.html tags=rt %}</aside>{% endif %}
+  </div>
 </article>

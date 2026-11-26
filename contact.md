@@ -1,4 +1,5 @@
 ---
+schema_type: ContactPage
 layout: page
 accent: plum
 title: Contact

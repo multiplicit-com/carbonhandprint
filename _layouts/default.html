@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if page.collection == "posts" %}{% capture seohead %}{% seo %}{% endcapture %}{% assign seoparts = seohead | split: '<script type="application/ld+json">' %}{{ seoparts[0] }}{% assign seotail = seoparts[1] | split: '</script>' %}{{ seotail[1] }}
-  {% include article-jsonld.html %}{% else %}{% seo %}{% endif %}
+  {% capture seohead %}{% seo %}{% endcapture %}{% assign seoparts = seohead | split: '<script type="application/ld+json">' %}{{ seoparts[0] }}{% assign seotail = seoparts[1] | split: '</script>' %}{{ seotail[1] }}
+  {% if page.collection == "posts" %}{% include article-jsonld.html %}{% endif %}
+  {% include schema.html %}
   {% feed_meta %}
   <link rel="alternate" type="application/atom+xml" title="Carbon Handprint: News" href="{{ '/news/feed.xml' | absolute_url }}">
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">

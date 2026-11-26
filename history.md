@@ -1,4 +1,5 @@
 ---
+related: history
 layout: page
 accent: orange
 title: How the idea has grown
@@ -22,5 +23,3 @@ Nobody owns the term Carbon Handprint, and nobody should. We put it out freely i
 Our goal has not changed. It is to reinforce the environmental message by reminding everyone that they can make a difference.
 
 We ask one thing of anyone using the term: be honest. A handprint sits alongside a footprint. It must never be used to hide one.
-
-{% include related.html tag="history" %}

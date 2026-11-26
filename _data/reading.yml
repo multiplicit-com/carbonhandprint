@@ -1,0 +1,71 @@
+# Reading list, oldest first. `text` is shown after the title (HTML allowed). `kind` is the schema.org type.
+- when: "2007"
+  url: "https://www.ceeindia.org/handprint.php"
+  title: "Handprint"
+  text: "Centre for Environment Education (India). CEE highlights Handprint as a symbol of positive action for sustainability at the Conference on Environmental Education in Ahmedabad."
+  kind: Article
+- when: "2013"
+  url: "https://kkh.ltrr.arizona.edu/kkh/natsgc/pdfs-2014/Our-Environmental-Handprint.pdf"
+  title: "Our Environmental Handprint: The Good We Do"
+  text: "Jon Biemer, Willow Dixon and Natalia Blackburn, IEEE Conference on Technologies for Sustainability. Case studies in wind power, solar cookers and green building."
+  kind: ScholarlyArticle
+- when: "Nov 2015"
+  url: "https://bpb-us-e1.wpmucdn.com/sites.mit.edu/dist/0/1158/files/2025/01/Norris-2015-Handprint-Based-NetPositive-Assessment_2.pdf"
+  title: "Handprint-Based NetPositive Assessment"
+  text: "Gregory Norris, Harvard T.H. Chan School of Public Health. Sets out how to count handprints against business as usual, so an organisation can aim for a handprint bigger than its footprint."
+  kind: Report
+- when: "2018"
+  url: "https://sarjaweb.vtt.fi/julkaisut/muut/2018/Carbon_Handprint_Guide.pdf"
+  title: "Carbon Handprint Guide"
+  text: "VTT and LUT University. The first formal method for companies."
+  kind: Report
+- when: "Dec 2018"
+  url: "https://phys.org/news/2018-12-environmental-indicator-positive-climate-impacts.html"
+  title: "New environmental indicator for positive climate impacts"
+  text: "VTT via Phys.org. The launch announcement, naming Nokia, Neste, KONE and other partners."
+  kind: Article
+- when: "2019"
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S0959652618329664"
+  title: "Carbon handprint: an approach to assess the positive climate impacts of products demonstrated via renewable diesel case"
+  text: "Kaisa Grönman and colleagues, <em>Journal of Cleaner Production</em>. The peer-reviewed paper behind the VTT/LUT method."
+  kind: ScholarlyArticle
+- when: "Feb 2021"
+  url: "https://link.springer.com/article/10.1007/s11367-021-01874-5"
+  title: "Sustainability Health Initiative for NetPositive Enterprise handprint methodological framework"
+  text: "Gregory Norris and colleagues at MIT, <em>International Journal of Life Cycle Assessment</em>."
+  kind: ScholarlyArticle
+- when: "May 2021"
+  url: "https://www.vttresearch.com/en/news-and-ideas/carbon-handprint-evolved-environmental-handprint-vtt-and-lut-developed-positive"
+  title: "Carbon handprint evolved into an environmental handprint"
+  text: "VTT. The 2.0 guide, covering water, air, nutrients and resources."
+  kind: Article
+- when: "Oct 2021"
+  url: "https://www.mdpi.com/2071-1050/13/20/11286"
+  title: "Exploring Social Sustainability Handprint, Part 1"
+  text: "Roope Husgafvel, <em>Sustainability</em>. Takes the handprint beyond the environment into social impact."
+  kind: ScholarlyArticle
+- when: "Aug 2023"
+  url: "https://ukgbc.org/news/whats-a-carbon-handprint-understanding-your-organisations-positive-impact/"
+  title: "What's a carbon handprint? Understanding your organisation's positive impact"
+  text: "Maxim Goreansky and Lotta Marjamäki of Helvar, UK Green Building Council. A member article using the VTT definition, with a lighting controls example."
+  kind: Article
+- when: "Oct 2023"
+  url: "https://www.tandfonline.com/doi/full/10.1080/09613218.2023.2266020"
+  title: "Carbon handprint: a review of potential climate benefits of buildings"
+  text: "Leonora Charlotte Malabi Eberhardt, Matti Kuittinen, Tarja Häkkinen, Caroline Moinel, Sylviane Nibel and Harpa Birgisdóttir (Aalborg University, Aalto University, SYKE and CSTB), <em>Building Research &amp; Information</em>."
+  kind: ScholarlyArticle
+- when: "2016 to 2024"
+  url: "https://handprint.fi/"
+  title: "Handprint"
+  text: "VTT and LUT University. The home of the Finnish handprint research projects: Carbon Handprint, Environmental Handprint and Carbon Neutrality Empowered by Handprint."
+  kind: WebSite
+- when: "May 2024"
+  url: "https://www.itu.int/en/ITU-T/climatechange/symposia/202405/Documents/Anthony%20Darcy.pdf"
+  title: "Nokia's ESG strategy: maximise the handprint, minimise the footprint"
+  text: "Anthony D'Arcy, ITU climate change symposium."
+  kind: PresentationDigitalDocument
+- when: "Nov 2025"
+  url: "https://www.mediekultur.dk/article/view/152898"
+  title: "The dual climate impact of news media"
+  text: "Meri Frig, Maarit Jaakkola and Laura Olkkonen, <em>MedieKultur</em>. How Nordic newsrooms think about their footprint and their handprint."
+  kind: ScholarlyArticle

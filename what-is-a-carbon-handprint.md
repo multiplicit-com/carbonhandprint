@@ -1,4 +1,6 @@
 ---
+defined_term: Carbon handprint
+related: idea
 layout: page
 accent: teal
 title: What is a carbon handprint?
@@ -63,5 +65,3 @@ In 2021 the method was widened into an **environmental handprint**, which covers
 ## What next?
 
 - [Grow your own handprint](/grow-your-handprint/) with practical ideas.
-
-{% include related.html tag="idea" %}

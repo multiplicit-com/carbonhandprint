@@ -125,3 +125,39 @@ ul li::marker{color:var(--accent,var(--soft))}
 .sn-title{display:block;font-family:var(--head);font-size:1.15rem;margin:.25rem 0 .3rem;line-height:1.3}
 .newscards .snippet p{margin:0 0 .4rem;font-size:.96rem}
 .sn-src{font-family:var(--ui);font-size:.85rem;color:var(--soft)}
+
+/* Wider layout */
+.wrap{max-width:var(--max,76rem)}
+.prose{max-width:var(--max,76rem)}
+.prose .pagehead{max-width:48rem}
+.prose .body{max-width:42rem;min-width:0}
+.prose>p,.prose>ul,.prose>h2,.prose>dl,.prose>ol:not(.timeline),.prose>.facts{max-width:44rem}
+.prose.wide .body{max-width:none}
+.prose.wide .body>:is(p,h2,h3,ul:not(.newscards):not(.countrylist):not(.docs),ol:not(.timeline),blockquote,table,.note){max-width:44rem}
+.cols.has-side{display:grid;grid-template-columns:minmax(0,42rem) minmax(14rem,18rem);gap:4rem;align-items:start}
+.side{position:sticky;top:1.5rem;font-family:var(--ui);font-size:.9rem;border-top:3px solid var(--accent,var(--rule));padding-top:.8rem}
+.side section+section{margin-top:1.6rem}
+.side h2{font-family:var(--ui);font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--soft);margin:0 0 .5rem}
+.sidelist{list-style:none;margin:0;padding:0}
+.sidelist li{padding:.45rem 0;border-bottom:1px solid var(--rule);line-height:1.35}
+.sidelist a{color:var(--ink);text-decoration:none;font-weight:500}.sidelist a:hover{color:var(--accent,var(--link))}
+.sidelist time{display:block;font-size:.78rem;color:var(--soft);margin-top:.15rem}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:0}
+.chips a{border:1px solid var(--rule);border-radius:99px;padding:.15rem .7rem;text-decoration:none;color:var(--ink)}
+.chips a:hover{border-color:var(--accent,var(--link))}
+@media(max-width:900px){.cols.has-side{grid-template-columns:1fr;gap:2rem}.side{position:static}}
+/* Grids on listing pages */
+.wide .newscards,.twocol .newscards{display:grid;grid-template-columns:repeat(auto-fill,minmax(21rem,1fr));gap:1rem}
+.wide .newscards li,.twocol .newscards li{margin:0}
+.wide .newscards .linkcard,.twocol .newscards .linkcard{height:100%}
+.wide .newscards .linkcard.has-img,.twocol .newscards .linkcard.has-img{grid-template-columns:1fr;grid-template-rows:auto 1fr}
+.wide .newscards .linkcard img,.twocol .newscards .linkcard img{aspect-ratio:1.91}
+.wide .docs{display:grid;grid-template-columns:repeat(auto-fill,minmax(21rem,1fr));gap:.5rem 2.5rem}
+.wide .body>.postlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(26rem,1fr));column-gap:2.5rem}
+.wide .body>.postlist li:first-child{padding-top:.8rem}
+.wide .timeline{display:grid;grid-template-columns:repeat(auto-fill,minmax(26rem,1fr));column-gap:2.5rem}
+.twocol>div{max-width:none}
+.twocol .prose-in{max-width:42rem}
+@media(max-width:520px){.wide .body>.postlist,.wide .timeline,.wide .docs,.wide .newscards{grid-template-columns:1fr}}
+.kicker a{color:inherit;text-decoration:none}.kicker a:hover{text-decoration:underline}
+.masthead nav .home{display:inline-flex;align-items:center;align-self:center}.masthead nav .home svg{display:block;position:relative;top:1px}

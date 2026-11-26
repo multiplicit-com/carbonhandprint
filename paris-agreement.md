@@ -1,4 +1,6 @@
 ---
+item_list: countries
+wide: true
 layout: page
 accent: blue
 title: Where the Paris Agreement stands

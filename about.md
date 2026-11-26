@@ -1,4 +1,5 @@
 ---
+schema_type: AboutPage
 layout: page
 accent: plum
 title: About
