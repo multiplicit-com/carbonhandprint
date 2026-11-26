@@ -86,6 +86,14 @@ tags: [paris-agreement]
 
 Add `date_precision: month` if you only know the month.
 
+News links and snippets show an "On this site" link automatically: to the first country's page, or to the Paris Agreement page if tagged `paris-agreement`. To choose the links yourself, add:
+
+```yaml
+related:
+  - url: /methods/#vtt
+    title: How the VTT and LUT method works
+```
+
 ### Link cards
 
 News links and responses show a card for the linked page. Add the publisher's sharing image and headline to the front matter:
