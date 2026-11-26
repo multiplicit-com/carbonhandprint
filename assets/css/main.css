@@ -253,3 +253,10 @@ ul li::marker{color:var(--accent,var(--soft))}
 .events .ev-text{margin-top:.2rem}
 .events .src{font-family:var(--ui);font-size:.78rem;color:var(--soft)}
 @media(max-width:560px){.events li{grid-template-columns:1fr}.events .ev-when{grid-row:auto}}
+/* Timeline as flex so the Today marker can be narrow */
+.htl-track{display:flex;scroll-padding-left:0}
+.htl-track>li{flex:0 0 17rem}
+.htl-track>li.today{flex:0 0 3.2rem}
+.htl-track li.today::before{top:calc(-1.4rem - 10px);left:0;width:2px;height:19px;border-radius:0;background:var(--ink)}
+.htl-track li.today .yr{color:var(--ink)}
+@media(max-width:520px){.htl-track>li{flex-basis:80%}.htl-track>li.today{flex-basis:3.2rem}}

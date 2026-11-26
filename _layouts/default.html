@@ -38,6 +38,25 @@
   for (const h of document.querySelectorAll('.htl')) {
     const track = h.querySelector('.htl-track'), nav = h.querySelector('.htl-nav');
     const [prev, next] = nav.querySelectorAll('button');
+    const d = new Date(), now = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0');
+    const items = [...track.querySelectorAll('li[data-date]')];
+    let firstUp = null;
+    for (const li of items) {
+      const up = li.dataset.date > now;
+      li.classList.toggle('up', up);
+      const tag = li.querySelector('.up-tag');
+      if (up && !tag) li.querySelector('.yr').insertAdjacentHTML('beforeend', ' <span class="up-tag">· upcoming</span>');
+      if (!up && tag) tag.remove();
+      if (up && !firstUp) firstUp = li;
+    }
+    if (firstUp && firstUp !== items[0]) {
+      const mark = document.createElement('li');
+      mark.className = 'today';
+      mark.innerHTML = '<span class="yr">Today</span>';
+      track.insertBefore(mark, firstUp);
+    }
+    const anchor = firstUp ? (firstUp.previousElementSibling && firstUp.previousElementSibling.previousElementSibling) || firstUp : items[items.length - 1];
+    if (anchor) track.scrollLeft += anchor.getBoundingClientRect().left - track.getBoundingClientRect().left;
     const update = () => {
       const max = track.scrollWidth - track.clientWidth;
       nav.hidden = max < 4;
