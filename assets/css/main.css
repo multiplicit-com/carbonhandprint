@@ -211,3 +211,12 @@ ul li::marker{color:var(--accent,var(--soft))}
 .pagehead .secnav li a{border:0;border-radius:0;padding:0;font-size:.9rem;color:var(--accent,var(--link))}
 .pagehead .secnav li+li::before{content:" · ";color:var(--soft);white-space:pre}
 .prose img.hero{border-radius:0}
+.countrylist li{padding:0}
+.countrylist li>a{display:block;padding:.8rem 0 1rem;text-decoration:none;color:var(--ink)}
+.countrylist .cl-name{display:block;font-family:var(--head);font-size:1.15rem;font-weight:600;color:var(--accent,var(--link));text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.countrylist .cl-lede{display:block;margin:.3rem 0 .4rem;color:var(--soft);font-size:.92rem;line-height:1.5}
+.countrylist .cl-more{font-family:var(--ui);font-size:.85rem;color:var(--accent,var(--link))}
+.countrylist li>a:hover .cl-name{text-decoration-thickness:2px}
+.countrylist li>a:hover .cl-more{text-decoration:underline}
+.countrylist li>a:hover{background:color-mix(in srgb,var(--accent,var(--link)) 4%,transparent)}
+.countrylist li>a{font-weight:400;font-family:var(--body)}.countrylist .cl-lede{font-weight:400}.countrylist .cl-more{font-weight:500}
