@@ -6,5 +6,5 @@ lede: Longer articles and opinion from us.
 permalink: /editorial/
 description: "Editorial from Carbon Handprint. Longer articles and opinion from us."
 ---
-<p class="meta">Also see: {% for t in site.data.types %}{% unless t[0] == "editorial" %}<a href="{{ t[1].url | relative_url }}">{{ t[1].plural }}</a> · {% endunless %}{% endfor %}<a href="{{ '/blog/' | relative_url }}">Everything</a></p>
+<p class="meta">Also see: {% for t in site.data.types %}{% unless t[0] == "editorial" %}<a href="{{ t[1].url | relative_url }}">{{ t[1].plural }}</a> · {% endunless %}{% endfor %}<a href="{{ '/articles/' | relative_url }}">All articles</a></p>
 {% include postlist.html type="editorial" %}

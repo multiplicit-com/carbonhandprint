@@ -39,7 +39,7 @@ Since 2018, researchers at [VTT Technical Research Centre of Finland](https://ww
 
 A simple example: a washing-machine maker that runs its factory on renewables shrinks its own footprint. If it also makes a machine that washes well at 20 °C, it grows its handprint, because every household that uses it emits less.
 
-In 2021 the method was widened into an **environmental handprint**, which covers air quality, water, nutrients and resource use as well as carbon. Companies such as Neste and [Nokia](/blog/2026/11/nokia-and-the-handprint-of-connectivity/), both partners in developing the original method, now talk about their handprints alongside their footprints.
+In 2021 the method was widened into an **environmental handprint**, which covers air quality, water, nutrients and resource use as well as carbon. Companies such as Neste and [Nokia](/articles/2026/11/nokia-and-the-handprint-of-connectivity/), both partners in developing the original method, now talk about their handprints alongside their footprints.
 
 <div class="note">
 <strong>A word of caution.</strong> A handprint should never be used to cancel out a footprint on paper. Claims about avoided emissions are easy to exaggerate. A good handprint claim says what it is compared against, is honest about uncertainty, and sits next to an honest footprint, never in place of one.

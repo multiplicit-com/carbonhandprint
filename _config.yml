@@ -14,12 +14,13 @@ social:
     - https://www.facebook.com/CarbonHandprint/
 timezone: Europe/London
 
-permalink: /blog/:year/:month/:title/
+permalink: /articles/:year/:month/:title/
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 collections:
   news:

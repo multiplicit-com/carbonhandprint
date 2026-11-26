@@ -2,7 +2,7 @@
 
 Source for [carbonhandprint.org](https://carbonhandprint.org). A plain [Jekyll](https://jekyllrb.com/) site that GitHub Pages builds automatically. No build tools needed.
 
-## Add a blog post
+## Add an article
 
 1. On GitHub, open the `_posts` folder and click **Add file → Create new file**.
 2. Name it `YYYY-MM-DD-short-title.md`, for example `2027-01-15-cycling-to-school.md`.
@@ -19,7 +19,7 @@ Source for [carbonhandprint.org](https://carbonhandprint.org). A plain [Jekyll](
 
    Add `tags: [paris-agreement]` under the title to list the post on the Paris Agreement page too. Drafts can live in `_drafts/`, which is never published.
 
-4. Click **Commit changes**. The post is live in a minute or two, and appears on the home page, the blog page and the RSS feed.
+4. Click **Commit changes**. The post is live in a minute or two, and appears on the home page, the Articles page and the RSS feed.
 
 Images: upload them to `assets/images/` and use `![Description](/assets/images/photo.jpg)`. Always fill in the description (it is the alt text).
 
@@ -84,7 +84,7 @@ python3 tools/og.py _news/2027-01-15-some-story.md
 
 It reads the post's `link:`, looks up the page's Open Graph tags and adds `card_image:` and `link_title:`. Without an image, the card still shows the source and headline.
 
-Each type has its own page: /editorial/ and /responses/. /blog/ shows all articles, and /news/ shows news links.
+Each type has its own page: /editorial/ and /responses/. /articles/ shows all articles, and /news/ shows news links.
 
 ## Events and milestones
 

@@ -28,7 +28,7 @@ The UN's telecoms agency, the ITU, publishes [Recommendation L.1480](https://www
 
 ## Nokia
 
-Nokia was a partner in the original VTT and LUT work and now reports its handprint alongside its footprint. Its [climate transition plan](https://www.nokia.com/sites/default/files/2025-06/climate-transition-plan.pdf) (2025) sets out the products it says cut energy use and emissions for its customers. There's more in [Nokia and the handprint of connectivity](/blog/2026/11/nokia-and-the-handprint-of-connectivity/).
+Nokia was a partner in the original VTT and LUT work and now reports its handprint alongside its footprint. Its [climate transition plan](https://www.nokia.com/sites/default/files/2025-06/climate-transition-plan.pdf) (2025) sets out the products it says cut energy use and emissions for its customers. There's more in [Nokia and the handprint of connectivity](/articles/2026/11/nokia-and-the-handprint-of-connectivity/).
 
 ## Gregory Norris: handprinting and NetPositive
 

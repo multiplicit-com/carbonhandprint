@@ -1,6 +1,6 @@
 ---
 title: Where to start with Carbon Handprint
-description: A guide to the handprint idea, practical ideas, and a blog.
+description: A guide to the handprint idea, practical ideas, and articles.
 ---
 
 When we started in 2007, "carbon handprint" was a phrase almost nobody used. The idea was simple: if your carbon footprint is the damage you do, your handprint could be a record of the good you do. We wanted a positive message that would recruit a new generation of environmentalists, rather than only telling people what to give up.

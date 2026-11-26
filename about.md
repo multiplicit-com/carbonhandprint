@@ -10,7 +10,7 @@ carbonhandprint.org is an open, non-commercial home for the carbon handprint ide
 
 <figure class="oldlogo"><img src="/assets/images/original-2007-logo.svg" alt="The Carbon Handprint logo from 2007" width="72" height="72"><figcaption>Our 2007 logo</figcaption></figure>
 
-We launched in summer 2007 as a place where anyone could record their achievements or promises for the environment. Today the site follows how the handprint is understood and used, with a blog to keep up.
+We launched in summer 2007 as a place where anyone could record their achievements or promises for the environment. Today the site follows how the handprint is understood and used, with articles and news to keep up.
 
 ## Open by default
 

@@ -2,7 +2,7 @@
 """Fill in a link card for a news or response post.
 
 Usage:
-    python3 tools/og.py _posts/2027-01-15-some-story.md
+    python3 tools/og.py _news/2027-01-15-some-story.md [more files...]
 
 Reads the post's `link:`, fetches that page, and adds `card_image:` (and
 `link_title:` if missing) to the front matter, using the page's Open Graph
@@ -32,40 +32,48 @@ def fetch(url):
         return r.read(600_000).decode("utf-8", "replace")
 
 
-def main():
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    force = "--force" in sys.argv
-    if len(args) != 1:
-        sys.exit(__doc__)
-    path = args[0]
+def update(path, force):
     text = open(path, encoding="utf-8").read()
     m = re.match(r"---\n(.*?)\n---\n", text, re.S)
     if not m:
-        sys.exit("No front matter found.")
+        return print(f"{path}: no front matter")
     fm = m.group(1)
     link = re.search(r"^link:\s*(\S+)", fm, re.M)
     if not link:
-        sys.exit("No link: in front matter.")
+        return print(f"{path}: no link")
+    if re.search(r"^card_image:", fm, re.M) and not force:
+        return print(f"{path}: already has card_image")
     p = OG()
-    p.feed(fetch(link.group(1)))
+    try:
+        p.feed(fetch(link.group(1)))
+    except Exception as e:
+        return print(f"{path}: could not fetch {link.group(1)} ({e})")
     image = p.tags.get("og:image") or p.tags.get("twitter:image")
     title = p.tags.get("og:title") or p.tags.get("twitter:title")
-    new = fm
+
     def setfield(fm, key, value):
         line = f'{key}: "{value.replace(chr(34), chr(39))}"'
         if re.search(rf"^{key}:", fm, re.M):
             return re.sub(rf"^{key}:.*$", lambda _: line, fm, flags=re.M) if force else fm
         return fm + "\n" + line
+
+    new = fm
     if image:
         new = setfield(new, "card_image", image)
     if title:
         new = setfield(new, "link_title", title)
     if new == fm:
-        print("Nothing to add." if image or title else "No Open Graph tags found.")
-        return
+        return print(f"{path}: no Open Graph tags found")
     open(path, "w", encoding="utf-8").write(text.replace(fm, new, 1))
-    print(f"Updated {path}")
-    print(f"  card_image: {image or '-'}\n  link_title: {title or '-'}")
+    print(f"{path}: card_image {image or '-'}")
+
+
+def main():
+    files = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if not files:
+        sys.exit(__doc__)
+    for path in files:
+        update(path, "--force" in sys.argv)
 
 
 if __name__ == "__main__":
