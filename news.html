@@ -7,4 +7,4 @@ permalink: /news/
 description: "News from Carbon Handprint. Links to climate and handprint news, with a short note where we have something to add."
 ---
 <p class="meta">Also see: {% for t in site.data.types %}{% unless t[0] == "news" %}<a href="{{ t[1].url | relative_url }}">{{ t[1].plural }}</a> · {% endunless %}{% endfor %}<a href="{{ '/blog/' | relative_url }}">Everything</a></p>
-{% include postlist.html type="news" %}
+{% include postlist.html type="news" thumbs=true %}

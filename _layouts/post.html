@@ -6,12 +6,13 @@ layout: default
   <p class="meta"><a href="{{ site.data.types[type].url | relative_url }}" class="typelabel">{{ site.data.types[type].label }}</a> · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
   <h1>{% if type == "news" and page.link %}<a href="{{ page.link }}" rel="nofollow">{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}</h1>
   {% if type == "response" and page.link %}
-  <p class="source">In response to <a href="{{ page.link }}" rel="nofollow">{{ page.link_title | default: page.link }}</a>{% if page.source %}, {{ page.source }}{% endif %}</p>
+  <p class="meta">In response to:</p>
+  {% include linkcard.html %}
   {% endif %}
   {% if page.hero %}<img class="hero" src="{{ page.hero | relative_url }}" alt="">{% endif %}
   {{ content }}
   {% if type == "news" and page.link %}
-  <p class="source"><a href="{{ page.link }}" rel="nofollow">Read the full story{% if page.source %} at {{ page.source }}{% endif %} ↗</a></p>
+  {% include linkcard.html %}
   {% endif %}
   <hr>
   <p class="meta">Spotted something we should cover? <a href="{{ '/about/#get-in-touch' | relative_url }}">Get in touch</a>.</p>

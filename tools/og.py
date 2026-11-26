@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+"""Fill in a link card for a news or response post.
+
+Usage:
+    python3 tools/og.py _posts/2027-01-15-some-story.md
+
+Reads the post's `link:`, fetches that page, and adds `card_image:` (and
+`link_title:` if missing) to the front matter, using the page's Open Graph
+tags. Run it again with --force to overwrite existing values.
+"""
+import re, sys, urllib.request
+from html.parser import HTMLParser
+
+
+class OG(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.tags = {}
+
+    def handle_starttag(self, tag, attrs):
+        if tag != "meta":
+            return
+        a = dict(attrs)
+        key = a.get("property") or a.get("name") or ""
+        if key.startswith(("og:", "twitter:")) and a.get("content") and key not in self.tags:
+            self.tags[key] = a["content"].strip()
+
+
+def fetch(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (link preview)"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return r.read(600_000).decode("utf-8", "replace")
+
+
+def main():
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    force = "--force" in sys.argv
+    if len(args) != 1:
+        sys.exit(__doc__)
+    path = args[0]
+    text = open(path, encoding="utf-8").read()
+    m = re.match(r"---\n(.*?)\n---\n", text, re.S)
+    if not m:
+        sys.exit("No front matter found.")
+    fm = m.group(1)
+    link = re.search(r"^link:\s*(\S+)", fm, re.M)
+    if not link:
+        sys.exit("No link: in front matter.")
+    p = OG()
+    p.feed(fetch(link.group(1)))
+    image = p.tags.get("og:image") or p.tags.get("twitter:image")
+    title = p.tags.get("og:title") or p.tags.get("twitter:title")
+    new = fm
+    def setfield(fm, key, value):
+        line = f'{key}: "{value.replace(chr(34), chr(39))}"'
+        if re.search(rf"^{key}:", fm, re.M):
+            return re.sub(rf"^{key}:.*$", lambda _: line, fm, flags=re.M) if force else fm
+        return fm + "\n" + line
+    if image:
+        new = setfield(new, "card_image", image)
+    if title:
+        new = setfield(new, "link_title", title)
+    if new == fm:
+        print("Nothing to add." if image or title else "No Open Graph tags found.")
+        return
+    open(path, "w", encoding="utf-8").write(text.replace(fm, new, 1))
+    print(f"Updated {path}")
+    print(f"  card_image: {image or '-'}\n  link_title: {title or '-'}")
+
+
+if __name__ == "__main__":
+    main()

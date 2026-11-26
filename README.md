@@ -52,6 +52,23 @@ Your commentary here.
 
 A news item can have no text at all below the `---`, just the title and link.
 
+### Link cards
+
+News items and responses show a card for the linked page. Add the publisher's sharing image and headline to the front matter:
+
+```yaml
+card_image: "https://example.com/their-share-image.jpg"
+link_title: "Their headline"
+```
+
+To fill these in automatically, run this on your computer (Python 3, no extra packages):
+
+```
+python3 tools/og.py _posts/2027-01-15-some-story.md
+```
+
+It reads the post's `link:`, looks up the page's Open Graph tags and adds `card_image:` and `link_title:`. Without an image, the card still shows the source and headline.
+
 Each type has its own page: /editorial/, /responses/ and /news/. /blog/ shows everything.
 
 ## Events and milestones
