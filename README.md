@@ -21,7 +21,9 @@ Source for [carbonhandprint.org](https://carbonhandprint.org). A plain [Jekyll](
 
 4. Click **Commit changes**. The post is live in a minute or two, and appears on the home page, the blog page and the RSS feed.
 
-Images: upload them to `assets/images/` and use `![Description](/assets/images/photo.jpg)`.
+Images: upload them to `assets/images/` and use `![Description](/assets/images/photo.jpg)`. Always fill in the description (it is the alt text).
+
+SEO: the `description:` line is what Google and social media show, so keep it to one clear sentence. Add `image: /assets/images/your-photo.jpg` to give a post its own share picture; otherwise the default share card is used.
 
 ## Edit pages
 
