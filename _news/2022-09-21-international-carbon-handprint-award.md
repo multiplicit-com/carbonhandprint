@@ -1,4 +1,5 @@
 ---
+countries: [finland, canada]
 title: "Schneider Electric and SSAB win the first International Carbon Handprint Awards"
 link: https://news.cision.com/miltton/r/schneider-electric-and-ssab-receive-world-s-first-international-carbon-handprint-awards-in-new-york,c3633932
 source: Climate Leadership Coalition

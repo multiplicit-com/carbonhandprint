@@ -110,3 +110,12 @@ ul li::marker{color:var(--accent,var(--soft))}
 .newscards{list-style:none;margin:0;padding:0}.newscards li{margin:0 0 1rem}.newscards .linkcard{margin:0}
 .newscards .linkcard.has-img{grid-template-columns:minmax(0,180px) 1fr}
 .lc-desc{color:var(--soft);font-size:.94rem;line-height:1.5}
+.facts{display:grid;grid-template-columns:11rem 1fr;gap:.6rem 1.2rem;margin:1rem 0}
+.facts dt{font-family:var(--ui);font-size:.85rem;font-weight:600;color:var(--accent,var(--link));padding-top:.15rem}
+.facts dd{margin:0}
+.facts .src{font-family:var(--ui);font-size:.78rem;color:var(--soft);white-space:nowrap}
+@media(max-width:520px){.facts{grid-template-columns:1fr;gap:.1rem}.facts dd{margin-bottom:.7rem}}
+.countrylist{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem}
+.countrylist li{border:1px solid var(--rule);border-top:4px solid var(--accent,var(--link));border-radius:6px;padding:1rem 1.1rem}
+.countrylist a{font-family:var(--head);font-size:1.15rem;font-weight:600;text-decoration:none;color:var(--ink)}
+.countrylist p{margin:.3rem 0 0;color:var(--soft);font-size:.92rem}

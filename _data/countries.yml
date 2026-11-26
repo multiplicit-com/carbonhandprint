@@ -1,0 +1,147 @@
+# Country pages. Each key needs a matching file in countries/ (copy one and change `country:`).
+# Tag content with `countries: [key]` in front matter (articles, news) or in _data/milestones.yml.
+# facts: label, text, source (short name), url. Use authoritative sources only, and update `checked`.
+
+uk:
+  name: United Kingdom
+  accent: blue
+  lede: The first major economy to put net zero by 2050 into law, now aiming for clean power by 2030.
+  checked: November 2026
+  facts:
+    - label: Paris Agreement
+      text: A party since 2016.
+    - label: Pledge (NDC)
+      text: Cut emissions 81% below 1990 levels by 2035, and at least 68% by 2030.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/uk/
+    - label: Net zero
+      text: 2050, set in law in 2019.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/uk/
+    - label: Independent rating
+      text: Climate Action Tracker rates the UK's overall action "Insufficient" (October 2025).
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/uk/
+    - label: Recent
+      text: The Clean Power 2030 plan targets 95% low-carbon electricity by 2030, and the UK is linking its emissions trading scheme with the EU's. Overseas aid, which funds climate finance, has been cut from 0.5% to 0.3% of national income.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/uk/
+
+us:
+  name: United States
+  accent: orange
+  lede: The world's second-largest emitter has left the Paris Agreement and rolled back much of its federal climate policy.
+  checked: November 2026
+  facts:
+    - label: Paris Agreement
+      text: Withdrawal ordered on 20 January 2025 and in effect from 27 January 2026. The administration has also announced it will leave the UN climate convention (UNFCCC).
+      source: Harvard EELP
+      url: https://eelp.law.harvard.edu/tracker/paris-climate-agreement
+    - label: Pledge (NDC)
+      text: None in force. The 2030 and 2035 pledges made in 2021 and 2024 have been withdrawn.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/usa/
+    - label: Net zero
+      text: No federal target. 19 states are pursuing net zero on their own.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/usa/
+    - label: Independent rating
+      text: Climate Action Tracker rates US action "Critically insufficient" (October 2026).
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/usa/
+    - label: Recent
+      text: The One Big Beautiful Bill Act (July 2025) removed much of the Inflation Reduction Act's clean energy support. In February 2026 the EPA overturned the 2009 finding that greenhouse gases endanger public health, the legal basis for federal emissions rules.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/usa/
+
+australia:
+  name: Australia
+  accent: mustard
+  lede: Targets set in law since 2022, while coal and gas projects continue to be approved.
+  checked: November 2026
+  facts:
+    - label: Paris Agreement
+      text: A party since 2016.
+    - label: Pledge (NDC)
+      text: Cut net emissions 62 to 70% below 2005 levels by 2035, and 43% by 2030.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/australia/
+    - label: Net zero
+      text: 2050, set in law by the Climate Change Act 2022.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/australia/
+    - label: Independent rating
+      text: Climate Action Tracker rates Australia's overall action "Insufficient" (November 2026).
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/australia/
+    - label: Recent
+      text: A 2025 Net Zero Plan added interim targets and sector plans, and a vehicle efficiency standard took effect in 2025. Nearly 40 new or expanded coal and gas projects have also been approved.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/australia/
+
+finland:
+  name: Finland
+  accent: green
+  lede: Home of the VTT and LUT handprint method, with a legal target of carbon neutrality by 2035.
+  checked: November 2026
+  facts:
+    - label: Paris Agreement
+      text: A party, with its pledge made jointly through the European Union.
+    - label: Climate law
+      text: The Climate Change Act, in force since 1 July 2022, sets carbon neutrality by 2035, emissions targets for 2030 and 2040, and a target to strengthen carbon sinks.
+      source: Parliament of Finland
+      url: https://www.eduskunta.fi/EN/tiedotteet/Pages/Parliament-passed-a-New-Climate-Change-Act.aspx
+    - label: Handprint
+      text: VTT and LUT University developed the carbon handprint method with Finnish companies including Nokia, Neste and KONE.
+      source: handprint.fi
+      url: https://handprint.fi/
+
+india:
+  name: India
+  accent: plum
+  lede: Fast-growing clean power alongside rising demand, with net zero set for 2070.
+  checked: November 2026
+  facts:
+    - label: Paris Agreement
+      text: A party since 2016.
+    - label: Pledge (NDC)
+      text: Submitted April 2026. Cut the emissions intensity of GDP 47% below 2005 levels and reach 60% non-fossil power capacity by 2035.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/india/
+    - label: Net zero
+      text: 2070, announced at COP26 in 2021.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/india/
+    - label: Independent rating
+      text: Climate Action Tracker rates India's overall action "Highly insufficient" (September 2026).
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/india/
+    - label: Recent
+      text: Non-fossil sources reached 50% of installed power capacity in July 2025, five years ahead of target. A carbon credit trading scheme is due to start in 2026.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/india/
+
+canada:
+  name: Canada
+  accent: teal
+  lede: Net zero by 2050 is in law, but several major climate policies have been reversed since 2025.
+  checked: November 2026
+  facts:
+    - label: Paris Agreement
+      text: A party since 2016.
+    - label: Pledge (NDC)
+      text: Cut emissions 45 to 50% below 2005 levels by 2035 (submitted February 2025), and 40 to 45% by 2030.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/canada/
+    - label: Net zero
+      text: 2050, set in law by the Net-Zero Emissions Accountability Act 2021.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/canada/
+    - label: Independent rating
+      text: Climate Action Tracker rates Canada's overall action "Highly insufficient" (October 2026).
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/canada/
+    - label: Recent
+      text: The federal government has scrapped the consumer carbon price, the planned oil and gas emissions cap and the electric vehicle sales mandate.
+      source: Climate Action Tracker
+      url: https://climateactiontracker.org/countries/canada/

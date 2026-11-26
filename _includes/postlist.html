@@ -5,7 +5,6 @@
   <li class="t-{{ t }}">
     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
     <div>
-      {% unless include.type %}<span class="tag">{{ site.data.types[t].label }}</span>{% endunless %}
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% if t == "news" and post.source %} <span class="src">{{ post.source }}</span>{% endif %}
       {% if post.description %}<p>{{ post.description }}</p>{% endif %}
     </div>

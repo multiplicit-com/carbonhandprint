@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign type = page.type | default: "editorial" %}
 <article class="wrap prose type-{{ type }} c-{{ page.accent | default: site.data.types[type].accent }}">
-  <p class="meta"><a href="{{ site.data.types[type].url | relative_url }}" class="typelabel">{{ site.data.types[type].label }}</a> · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
+  <p class="meta"><a href="{{ '/archive/' | relative_url }}" class="typelabel">Article</a> · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
   <h1>{% if type == "news" and page.link %}<a href="{{ page.link }}" rel="nofollow">{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}</h1>
   {% if type == "response" and page.link %}
   <p class="meta">In response to:</p>

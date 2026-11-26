@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{% assign c = site.data.countries[page.country] %}
+<article class="wrap prose c-{{ c.accent | default: 'blue' }}">
+  <p class="meta"><a href="{{ '/countries/' | relative_url }}" class="typelabel">Countries</a></p>
+  <h1>{{ c.name }}</h1>
+  {% if c.lede %}<p class="lede">{{ c.lede }}</p>{% endif %}
+  {% if c.facts %}
+  <h2>Where it stands</h2>
+  <dl class="facts">
+  {% for f in c.facts %}<dt>{{ f.label }}</dt><dd>{{ f.text }}{% if f.source %} <a class="src" href="{{ f.url }}">{{ f.source }}</a>{% endif %}</dd>
+  {% endfor %}</dl>
+  {% if c.checked %}<p class="meta">Checked {{ c.checked }}.</p>{% endif %}
+  {% endif %}
+  {{ content }}
+
+  {% assign posts = site.posts | where_exp: "p", "p.countries contains page.country" %}
+  {% if posts.size > 0 %}
+  <h2>Articles</h2>
+  <ul class="posts">
+  {% for post in posts %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><p>{{ post.date | date: "%-d %B %Y" }}{% if post.description %} · {{ post.description }}{% endif %}</p></li>
+  {% endfor %}</ul>
+  {% endif %}
+
+  {% assign news = site.news | where_exp: "n", "n.countries contains page.country" %}
+  {% if news.size > 0 %}
+  <h2>In the news</h2>
+  {% include newscards.html country=page.country %}
+  {% endif %}
+
+  {% assign ms = site.data.milestones | where_exp: "m", "m.countries contains page.country" | sort: "date" %}
+  {% if ms.size > 0 %}
+  <h2>Handprint history</h2>
+  <ol class="timeline">
+  {% for m in ms %}<li class="{{ m.kind }}"><span class="yr">{{ m.when }}</span><span>{{ m.text }}</span></li>
+  {% endfor %}</ol>
+  {% endif %}
+</article>

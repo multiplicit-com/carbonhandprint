@@ -84,7 +84,7 @@ python3 tools/og.py _news/2027-01-15-some-story.md
 
 It reads the post's `link:`, looks up the page's Open Graph tags and adds `card_image:` and `link_title:`. Without an image, the card still shows the source and headline.
 
-Each type has its own page: /editorial/ and /responses/. /archive/ lists everything by date, and /news/ shows news links.
+Types are for us only: they change how an article is laid out, but readers just see articles. /archive/ lists everything by date, and /news/ shows news links.
 
 ## Events and milestones
 
@@ -96,6 +96,10 @@ The History page timeline comes from `_data/milestones.yml`. Add an entry like:
   kind: event        # or milestone, for this site's own milestones
   text: "What happened, with an <a href=\"https://...\">optional link</a>."
 ```
+
+## Countries
+
+Each country has a page at /countries/<key>/ that pulls together its articles, news links and timeline entries, under a short "Where it stands" summary. Tag content with `countries: [uk, finland]` (articles and news in front matter, timeline entries in `_data/milestones.yml`). Country summaries live in `_data/countries.yml`. To add a country, add an entry there and copy a file in `countries/`, changing `country:`, `title:` and `permalink:`.
 
 ## Edit pages
 
