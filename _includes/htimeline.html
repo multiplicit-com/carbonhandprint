@@ -1,6 +1,6 @@
 {% assign tl = include.items | sort: "date" %}<div class="htl">
   <ol class="htl-track" tabindex="0" aria-label="{{ include.label | default: 'Timeline' }}">
-  {% for t in tl %}<li><span class="yr">{{ t.when }}</span><span class="tx">{{ t.text }}{% if t.url %} <a class="src" href="{{ t.url }}">{{ t.source }}</a>{% endif %}</span></li>
+  {% for t in tl %}<li{% if t.upcoming %} class="up"{% endif %}><span class="yr">{{ t.when }}{% if t.upcoming %} <span class="up-tag">· upcoming</span>{% endif %}</span><span class="tx">{{ t.text }}{% if t.url %} <a class="src" href="{{ t.url }}">{{ t.source }}</a>{% endif %}</span></li>
   {% endfor %}</ol>
   <p class="htl-nav" hidden><button type="button" data-dir="-1">Earlier</button> <button type="button" data-dir="1">Later</button></p>
 </div>

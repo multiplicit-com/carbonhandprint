@@ -2,7 +2,7 @@
 # Tag content with `countries: [key]` in front matter (articles, news).
 # region groups the list on the Paris Agreement page. part_of links a member state to a bloc (eu).
 # cat_url, cat_date and rating come from the Climate Action Tracker country page; cat_date is the date of its latest assessment.
-# timeline: national climate milestones (when, date YYYY-MM, text, source, url). Shown when there are two or more.
+# timeline: national climate milestones (when, date YYYY-MM, text, source, url). Shown when there are two or more. upcoming: true marks a future target or deadline.
 # facts: label, text, source (short name), url. Use authoritative sources only, and update `checked`.
 
 
@@ -48,6 +48,18 @@ argentina:
     text: Dissolves its national climate change directorates.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/argentina/
+  - when: '2030'
+    date: 2030-12
+    text: Keep net emissions below 349 MtCO2e.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/argentina/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Greenhouse gas neutrality.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/argentina/
+    upcoming: true
 
 australia:
   name: Australia
@@ -98,6 +110,24 @@ australia:
     text: The Climate Change Act 2022 puts a 43% cut by 2030 and net zero by 2050 into law.
     source: Prime Minister of Australia
     url: https://www.pm.gov.au/media/australia-legislates-emissions-reduction-targets
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions 43% below 2005 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/australia/
+    upcoming: true
+  - when: '2035'
+    date: 2035-12
+    text: Cut emissions 62 to 70% below 2005 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/australia/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Net zero, set in law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/australia/
+    upcoming: true
 
 bhutan:
   name: Bhutan
@@ -125,6 +155,13 @@ bhutan:
     text: Delays to hydropower projects are adding to national debt, and its first large solar plant (17 MW) was due to start construction in 2023.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/bhutan/
+  timeline:
+  - when: '2050'
+    date: 2050-12
+    text: Neutrality for all greenhouse gases.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/bhutan/
+    upcoming: true
 
 brazil:
   name: Brazil
@@ -163,6 +200,18 @@ brazil:
     text: A new environmental licensing law passes and oil drilling in the Amazon basin is approved.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/brazil/
+  - when: '2035'
+    date: 2035-12
+    text: Cut net emissions 59 to 67% below 2005 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/brazil/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Climate neutrality.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/brazil/
+    upcoming: true
 
 canada:
   name: Canada
@@ -213,6 +262,24 @@ canada:
     text: The consumer carbon price is removed. Carbon pricing for large industry continues.
     source: Government of Canada
     url: https://www.canada.ca/en/department-finance/news/2025/03/removing-the-consumer-carbon-price-effective-april-1-2025.html
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions 40 to 45% below 2005 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/canada/
+    upcoming: true
+  - when: '2035'
+    date: 2035-12
+    text: Cut emissions 45 to 50% below 2005 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/canada/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Net zero, set in law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/canada/
+    upcoming: true
 
 chile:
   name: Chile
@@ -240,6 +307,13 @@ chile:
     text: President Boric announced plans to bring the coal phase-out forward to 2035 or earlier, depending on the grid. New energy projects must now be checked against the climate law.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/chile/
+  timeline:
+  - when: '2050'
+    date: 2050-12
+    text: Net zero, legally binding.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/chile/
+    upcoming: true
 
 china:
   name: China
@@ -278,6 +352,24 @@ china:
     text: President Xi tells the UN that China will aim for carbon neutrality before 2060, with emissions peaking before 2030.
     source: UN News
     url: https://news.un.org/en/story/2020/09/1073052
+  - when: '2035'
+    date: 2035-12
+    text: Cut net emissions 7 to 10% from their peak.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/china/
+    upcoming: true
+  - when: '2060'
+    date: 2060-12
+    text: Carbon neutrality, before 2060.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/china/
+    upcoming: true
+  - when: '2030'
+    date: 2030-12
+    text: Emissions to peak, before 2030.
+    source: UN News
+    url: https://news.un.org/en/story/2020/09/1073052
+    upcoming: true
 
 colombia:
   name: Colombia
@@ -316,6 +408,12 @@ colombia:
     text: Submits an updated pledge with a 2035 goal.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/colombia/
+  - when: '2050'
+    date: 2050-12
+    text: Net zero greenhouse gas emissions.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/colombia/
+    upcoming: true
 
 costa-rica:
   name: Costa Rica
@@ -343,6 +441,19 @@ costa-rica:
     text: President Chaves opposes a proposed oil moratorium and wants to explore fossil fuel reserves. Electric public transport projects have been paused or scaled back.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/costa-rica/
+  timeline:
+  - when: '2030'
+    date: 2030-12
+    text: Net emissions of no more than 9.11 MtCO2e.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/costa-rica/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Decarbonised, under the National Decarbonisation Plan.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/costa-rica/
+    upcoming: true
 
 egypt:
   name: Egypt
@@ -370,7 +481,18 @@ egypt:
     text: The government has committed US$7.2 billion to new gas exploration. Renewables supplied 11% of electricity in 2024.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/egypt/
-  timeline: []
+  timeline:
+  - when: '2030'
+    date: 2030-12
+    text: Renewables to supply 42% of electricity.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/egypt/
+    upcoming: true
+  - when: November 2022
+    date: 2022-11
+    text: Hosts COP27 in Sharm el-Sheikh, which agrees to set up a fund for loss and damage.
+    source: UN News
+    url: https://news.un.org/en/story/2022/11/1130832
 
 ethiopia:
   name: Ethiopia
@@ -409,6 +531,24 @@ ethiopia:
     text: Becomes the first country to ban imports of combustion engine vehicles.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/ethiopia/
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions 68.8% below business as usual, mostly with support.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/ethiopia/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Net zero.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/ethiopia/
+    upcoming: true
+  - when: November 2027
+    date: 2027-11
+    text: Hosts COP32 in Addis Ababa.
+    source: UNFCCC
+    url: https://unfccc.int/sites/default/files/resource/COP31_2g_dates_venues_auv..pdf
+    upcoming: true
 
 eu:
   name: European Union
@@ -452,6 +592,30 @@ eu:
     text: A binding target to cut emissions 90% by 2040 comes into force.
     source: European Commission
     url: https://climate.ec.europa.eu/eu-action/european-climate-law_en
+  - when: '2030'
+    date: 2030-12
+    text: Cut net emissions at least 55% below 1990 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/eu/
+    upcoming: true
+  - when: '2035'
+    date: 2035-12
+    text: Cut net emissions 66.25 to 72.5% below 1990 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/eu/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Climate neutrality, set in law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/eu/
+    upcoming: true
+  - when: '2040'
+    date: 2040-12
+    text: Cut net emissions 90%, set in law.
+    source: European Commission
+    url: https://climate.ec.europa.eu/eu-action/european-climate-law_en
+    upcoming: true
 
 finland:
   name: Finland
@@ -477,6 +641,12 @@ finland:
     text: The Climate Change Act comes into force, setting carbon neutrality by 2035.
     source: Parliament of Finland
     url: https://www.eduskunta.fi/EN/tiedotteet/Pages/Parliament-passed-a-New-Climate-Change-Act.aspx
+  - when: '2035'
+    date: 2035-12
+    text: Carbon neutrality, set in law.
+    source: Parliament of Finland
+    url: https://www.eduskunta.fi/EN/tiedotteet/Pages/Parliament-passed-a-New-Climate-Change-Act.aspx
+    upcoming: true
 
 gambia:
   name: The Gambia
@@ -504,6 +674,13 @@ gambia:
     text: It continues to promote oil and gas extraction to cut its fuel imports.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/gambia/
+  timeline:
+  - when: '2050'
+    date: 2050-12
+    text: Climate neutral.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/gambia/
+    upcoming: true
 
 germany:
   name: Germany
@@ -548,6 +725,18 @@ germany:
     text: The Federal Constitutional Court rules the climate law partly unconstitutional because it set no cuts beyond 2030.
     source: Federal Constitutional Court
     url: https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/EN/2021/bvg21-031.html
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions at least 65% below 1990 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/germany/
+    upcoming: true
+  - when: '2045'
+    date: 2045-12
+    text: Net zero, set in law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/germany/
+    upcoming: true
 
 india:
   name: India
@@ -598,6 +787,24 @@ india:
     text: Prime Minister Modi announces net zero by 2070 at COP26.
     source: Prime Minister's Office, India
     url: https://www.pmindia.gov.in/en/news_updates/national-statement-by-pm-at-cop26-summit-in-glasgow/
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions intensity 45% below 2005 and reach 50% non-fossil power capacity.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/india/
+    upcoming: true
+  - when: '2035'
+    date: 2035-12
+    text: Cut emissions intensity 47% below 2005 and reach 60% non-fossil power capacity.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/india/
+    upcoming: true
+  - when: '2070'
+    date: 2070-12
+    text: Net zero.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/india/
+    upcoming: true
 
 indonesia:
   name: Indonesia
@@ -625,6 +832,19 @@ indonesia:
     text: Its emissions trading scheme now covers coal and gas plants that supply industry directly. In late 2025 it dropped plans to retire the Cirebon-1 coal plant early.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/indonesia/
+  timeline:
+  - when: '2030'
+    date: 2030-12
+    text: Forests and land to absorb a net 140 MtCO2e.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/indonesia/
+    upcoming: true
+  - when: '2060'
+    date: 2060-12
+    text: Net zero.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/indonesia/
+    upcoming: true
 
 iran:
   name: Iran
@@ -683,6 +903,19 @@ japan:
     text: Its GX policy includes new-generation nuclear reactors, but CAT says it lacks concrete emissions targets. A 2035 pledge was being drafted at the time of CAT's assessment.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/japan/
+  timeline:
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions 46% below 2013 levels, aiming for 50%.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/japan/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Net zero.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/japan/
+    upcoming: true
 
 kazakhstan:
   name: Kazakhstan
@@ -721,6 +954,18 @@ kazakhstan:
     text: Updates its pledge without raising its 2030 targets.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/kazakhstan/
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions 15% below 1990 levels, or 25% with support.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/kazakhstan/
+    upcoming: true
+  - when: '2060'
+    date: 2060-12
+    text: Carbon neutrality, set in law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/kazakhstan/
+    upcoming: true
 
 kenya:
   name: Kenya
@@ -754,6 +999,18 @@ kenya:
     text: Submits a 2035 pledge to cut emissions 35% below business as usual.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/kenya/
+  - when: '2030'
+    date: 2030-12
+    text: 100% clean power generation.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/kenya/
+    upcoming: true
+  - when: '2035'
+    date: 2035-12
+    text: Cut emissions 35% below business as usual.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/kenya/
+    upcoming: true
 
 mexico:
   name: Mexico
@@ -792,6 +1049,18 @@ mexico:
     text: Submits a 2035 pledge with absolute targets at COP30.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/mexico/
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions 30% below business as usual, or up to 40% with support.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/mexico/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Net zero.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/mexico/
+    upcoming: true
 
 morocco:
   name: Morocco
@@ -819,6 +1088,18 @@ morocco:
     text: It pledged at COP26 to build no new coal power plants, but plans to expand gas infrastructure, including LNG terminals.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/morocco/
+  timeline:
+  - when: '2030'
+    date: 2030-12
+    text: Renewables to supply 52% of electricity.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/morocco/
+    upcoming: true
+  - when: November 2016
+    date: 2016-11
+    text: Hosts COP22 in Marrakech, the first COP after the Paris Agreement came into force.
+    source: UNFCCC
+    url: https://unfccc.int/node/611275
 
 nepal:
   name: Nepal
@@ -846,6 +1127,19 @@ nepal:
     text: It has brought in incentives for electric vehicles. CAT has suspended further updates for Nepal.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/nepal/
+  timeline:
+  - when: '2031'
+    date: 2031-12
+    text: Phase out petrol and diesel vehicles.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/nepal/
+    upcoming: true
+  - when: '2045'
+    date: 2045-12
+    text: Carbon neutral.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/nepal/
+    upcoming: true
 
 new-zealand:
   name: New Zealand
@@ -884,6 +1178,18 @@ new-zealand:
     text: Parliament passes the Zero Carbon Bill, setting a framework for net zero by 2050, with near-unanimous support.
     source: RNZ
     url: https://www.rnz.co.nz/news/political/402767/zero-carbon-bill-passes-final-reading
+  - when: '2030'
+    date: 2030-12
+    text: Cut net emissions 50% below 2005 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/new-zealand/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Net zero, set in law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/new-zealand/
+    upcoming: true
 
 nicaragua:
   name: Nicaragua
@@ -949,6 +1255,18 @@ nigeria:
     text: Launches an Energy Transition Plan for net zero by 2060.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/nigeria/
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions 20% below business as usual, or 47% with support.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/nigeria/
+    upcoming: true
+  - when: '2060'
+    date: 2060-12
+    text: Net zero.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/nigeria/
+    upcoming: true
 
 norway:
   name: Norway
@@ -992,6 +1310,24 @@ norway:
     text: The European Court of Human Rights says Norway must assess global emissions impacts before awarding new oil and gas licences.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/norway/
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions at least 55% below 1990 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/norway/
+    upcoming: true
+  - when: '2035'
+    date: 2035-12
+    text: Cut emissions 70 to 75% below 1990 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/norway/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Cut emissions 90 to 95% below 1990 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/norway/
+    upcoming: true
 
 peru:
   name: Peru
@@ -1019,6 +1355,13 @@ peru:
     text: The government has approved new oil extraction projects and planned a 24% rise in oil and gas production in 2025, which CAT says doesn't fit its climate targets.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/peru/
+  timeline:
+  - when: '2050'
+    date: 2050-12
+    text: Net zero.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/peru/
+    upcoming: true
 
 philippines:
   name: Philippines
@@ -1046,6 +1389,13 @@ philippines:
     text: The pipeline of renewable projects reached 120 GW by December 2025 after limits on foreign ownership were lifted. Coal and gas generation are still expected to rise.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/philippines/
+  timeline:
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions 75% below business as usual, mostly conditional on finance.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/philippines/
+    upcoming: true
 
 russia:
   name: Russia
@@ -1084,6 +1434,24 @@ russia:
     text: Submits its 2035 pledge, a cut of 33 to 35% below 1990 levels.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/russian-federation/
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions 30% below 1990 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/russian-federation/
+    upcoming: true
+  - when: '2035'
+    date: 2035-12
+    text: Cut emissions 33 to 35% below 1990 levels, counting forests and land.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/russian-federation/
+    upcoming: true
+  - when: '2060'
+    date: 2060-12
+    text: Net zero.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/russian-federation/
+    upcoming: true
 
 saudi-arabia:
   name: Saudi Arabia
@@ -1122,6 +1490,18 @@ saudi-arabia:
     text: Submits a pledge with a 2040 target but no quantified 2035 target.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/saudi-arabia/
+  - when: '2040'
+    date: 2040-12
+    text: Cut emissions by 335 MtCO2e below projected levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/saudi-arabia/
+    upcoming: true
+  - when: '2060'
+    date: 2060-12
+    text: Net zero, announced but not in law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/saudi-arabia/
+    upcoming: true
 
 singapore:
   name: Singapore
@@ -1149,6 +1529,19 @@ singapore:
     text: Gas generates around 94% of its electricity, and LNG imports are set to grow. It is on track for 4 GW of low-carbon electricity imports by 2035.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/singapore/
+  timeline:
+  - when: '2030'
+    date: 2030-12
+    text: Limit emissions to 60 MtCO2e.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/singapore/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Net zero.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/singapore/
+    upcoming: true
 
 south-africa:
   name: South Africa
@@ -1187,6 +1580,18 @@ south-africa:
     text: The Climate Change Act is signed into law.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/south-africa/
+  - when: '2030'
+    date: 2030-12
+    text: Emissions of 350 to 420 MtCO2e.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-africa/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Net zero, preliminary.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-africa/
+    upcoming: true
 
 south-korea:
   name: South Korea
@@ -1235,6 +1640,24 @@ south-korea:
     text: The Constitutional Court rules the Carbon Neutrality Act unconstitutional because it set no targets for 2031 to 2049.
     source: Korea JoongAng Daily
     url: https://www.koreajoongangdaily.com/news/2024-08-30/national/environment/Constitutional-Court-rules-carbon-neutrality-act-fails-to-protect-rights-with-lack-of-reduction-goals-/2124435
+  - when: '2030'
+    date: 2030-12
+    text: Cut domestic emissions 32% below 2018 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-korea/
+    upcoming: true
+  - when: '2040'
+    date: 2040-12
+    text: Retire 40 of its 61 coal plants.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-korea/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Carbon neutrality, set in law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-korea/
+    upcoming: true
 
 switzerland:
   name: Switzerland
@@ -1273,6 +1696,18 @@ switzerland:
     text: The European Court of Human Rights finds Switzerland violated human rights by not doing enough on climate change, in a case brought by older women.
     source: Council of Europe
     url: https://www.coe.int/be/web/portal/-/three-climate-change-rulings-from-the-european-court-of-human-rights
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions at least 50% below 1990 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/switzerland/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Net zero, legally binding.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/switzerland/
+    upcoming: true
 
 thailand:
   name: Thailand
@@ -1300,6 +1735,19 @@ thailand:
     text: It raised ambition in its second pledge and long-term strategy in November 2022, but also approved a 1,400 MW gas power plant and new LNG import capacity.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/thailand/
+  timeline:
+  - when: '2050'
+    date: 2050-12
+    text: Carbon neutrality.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/thailand/
+    upcoming: true
+  - when: '2065'
+    date: 2065-12
+    text: Net zero greenhouse gases.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/thailand/
+    upcoming: true
 
 turkiye:
   name: Türkiye
@@ -1343,6 +1791,18 @@ turkiye:
     text: Hosts COP31 in Antalya.
     source: UNFCCC
     url: https://unfccc.int/news/cop31-delivers-important-progress-across-negotiations-and-action-agenda-advancing-implementation-but
+  - when: '2035'
+    date: 2035-12
+    text: Add 120 GW of wind and solar.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/turkey/
+    upcoming: true
+  - when: '2053'
+    date: 2053-12
+    text: Net zero, set in law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/turkey/
+    upcoming: true
 
 uae:
   name: United Arab Emirates
@@ -1386,6 +1846,18 @@ uae:
     text: Submits a stronger pledge with an absolute target.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/uae/
+  - when: '2030'
+    date: 2030-12
+    text: Limit emissions to 185 MtCO2e.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uae/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Net zero.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uae/
+    upcoming: true
 
 uk:
   name: United Kingdom
@@ -1426,6 +1898,29 @@ uk:
     text: Becomes the first major economy to set net zero by 2050 in law.
     source: GOV.UK
     url: https://www.gov.uk/government/news/uk-becomes-first-major-economy-to-pass-net-zero-emissions-law
+  - when: '2030'
+    date: 2030-12
+    text: Cut emissions at least 68% below 1990 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uk/
+    upcoming: true
+  - when: '2035'
+    date: 2035-12
+    text: Cut emissions 81% below 1990 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uk/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Net zero, set in law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uk/
+    upcoming: true
+  - when: November 2021
+    date: 2021-11
+    text: Hosts COP26 in Glasgow, which agrees the Glasgow Climate Pact.
+    source: Carbon Brief
+    url: https://www.carbonbrief.org/cop26-key-outcomes-agreed-at-the-un-climate-talks-in-glasgow/
 
 us:
   name: United States
@@ -1546,3 +2041,15 @@ vietnam:
     text: Weakens its Just Energy Transition Partnership plan, dropping wording on a 2050 coal phase-out.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/vietnam/
+  - when: '2030'
+    date: 2030-12
+    text: Limit emissions to about 878 MtCO2e, or 629 MtCO2e with support.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/vietnam/
+    upcoming: true
+  - when: '2050'
+    date: 2050-12
+    text: Net zero, conditional on international finance.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/vietnam/
+    upcoming: true

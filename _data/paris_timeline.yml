@@ -45,3 +45,21 @@
   text: COP31 in Antalya launches the second global stocktake, due to end in 2028, but countries fail to agree the presidency's overall deal.
   source: UNFCCC
   url: https://unfccc.int/news/cop31-delivers-important-progress-across-negotiations-and-action-agenda-advancing-implementation-but
+- when: November 2027
+  date: "2027-11"
+  upcoming: true
+  text: COP32 in Addis Ababa, Ethiopia, where a just transition mechanism is expected to be agreed.
+  source: UNFCCC
+  url: https://unfccc.int/sites/default/files/resource/COP31_2g_dates_venues_auv..pdf
+- when: November 2028
+  date: "2028-11"
+  upcoming: true
+  text: The second global stocktake is due to conclude at COP33.
+  source: UNFCCC
+  url: https://unfccc.int/news/cop31-delivers-important-progress-across-negotiations-and-action-agenda-advancing-implementation-but
+- when: "2030"
+  date: "2030-12"
+  upcoming: true
+  text: Countries are due to submit climate plans running to 2040.
+  source: UNFCCC
+  url: https://unfccc.int/sites/default/files/resource/cma2021_L12E.pdf

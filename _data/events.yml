@@ -1,0 +1,162 @@
+# UN climate conferences and Paris Agreement deadlines, shown on /events/.
+# kind: cop, session or deadline. start/end: YYYY-MM-DD (end optional). For deadlines known only to the year, use year: and leave start as the last day of that year.
+# place, country (key in countries.yml, optional), text, source, url. Pages work out past and upcoming from the build date.
+- kind: cop
+  name: COP21
+  start: 2015-11-30
+  end: 2015-12-12
+  place: Paris, France
+  text: The Paris Agreement is adopted by 195 Parties, aiming to keep warming well below 2 °C and to pursue efforts to limit it to 1.5 °C.
+  source: UNFCCC
+  url: https://unfccc.int/conference/paris-climate-change-conference-november-2015
+- kind: cop
+  name: COP22
+  start: 2016-11-07
+  end: 2016-11-18
+  place: Marrakech, Morocco
+  country: morocco
+  text: The first COP after the agreement came into force, which issued the Marrakech Action Proclamation.
+  source: UNFCCC
+  url: https://unfccc.int/node/611275
+- kind: cop
+  name: COP23
+  start: 2017-11-06
+  end: 2017-11-17
+  place: Bonn, Germany, under Fiji's presidency
+  text: Countries agree a Gender Action Plan, and more than 20 countries launch an alliance to phase out coal power.
+  source: UN News
+  url: https://news.un.org/en/story/2017/11/636542-bonn-un-conference-closes-renewed-urgency-greater-ambition-tackle-climate
+- kind: cop
+  name: COP24
+  start: 2018-12-02
+  end: 2018-12-16
+  place: Katowice, Poland
+  text: Countries adopt the rulebook for putting the Paris Agreement into practice, but put off rules on carbon markets.
+  source: UN News
+  url: https://news.un.org/en/story/2018/12/1028681
+- kind: cop
+  name: COP25
+  start: 2019-12-02
+  end: 2019-12-15
+  place: Madrid, Spain, under Chile's presidency
+  text: Talks end in compromise, with no overall agreement on raising ambition and deadlock over loss and damage.
+  source: UN News
+  url: https://news.un.org/en/story/2019/12/1053561
+- kind: cop
+  name: COP26
+  start: 2021-10-31
+  end: 2021-11-13
+  place: Glasgow, United Kingdom
+  country: uk
+  text: The Glasgow Climate Pact calls for a phasedown of unabated coal power, to keep 1.5 °C within reach.
+  source: Carbon Brief
+  url: https://www.carbonbrief.org/cop26-key-outcomes-agreed-at-the-un-climate-talks-in-glasgow/
+- kind: cop
+  name: COP27
+  start: 2022-11-06
+  end: 2022-11-20
+  place: Sharm el-Sheikh, Egypt
+  country: egypt
+  text: Countries agree to set up a fund for loss and damage for vulnerable nations.
+  source: UN News
+  url: https://news.un.org/en/story/2022/11/1130832
+- kind: cop
+  name: COP28
+  start: 2023-11-30
+  end: 2023-12-13
+  place: Dubai, United Arab Emirates
+  country: uae
+  text: The first global stocktake calls for a transition away from fossil fuels in energy systems and a tripling of renewable capacity by 2030.
+  source: UNFCCC
+  url: https://unfccc.int/cop28
+- kind: cop
+  name: COP29
+  start: 2024-11-11
+  end: 2024-11-22
+  place: Baku, Azerbaijan
+  text: A new climate finance goal of $300 billion a year for developing countries by 2035, within a wider call to reach $1.3 trillion a year.
+  source: UNFCCC
+  url: https://unfccc.int/cop29
+- kind: cop
+  name: COP30
+  start: 2025-11-10
+  end: 2025-11-22
+  place: Belém, Brazil
+  country: brazil
+  text: The "Global Mutirão" package calls for tripling adaptation finance by 2035, with no clear commitment to move away from fossil fuels.
+  source: UN News
+  url: https://news.un.org/en/story/2025/11/1166433
+- kind: cop
+  name: COP31
+  start: 2026-11-09
+  end: 2026-11-22
+  place: Antalya, Türkiye
+  country: turkiye
+  text: The longest COP on record launches the second global stocktake, but the presidency's "Antalya pact" is rejected, largely because it did not mention fossil fuels.
+  source: UNFCCC
+  url: https://unfccc.int/news/cop31-delivers-important-progress-across-negotiations-and-action-agenda-advancing-implementation-but
+- kind: session
+  name: June climate talks (SB66)
+  start: 2027-06-07
+  end: 2027-06-17
+  text: Mid-year negotiations, where countries will consider who hosts COP33 and prepare the just transition mechanism for COP32.
+  source: UNFCCC
+  url: https://unfccc.int/conference/first-sessional-period-2027
+- kind: cop
+  name: COP32
+  start: 2027-11-08
+  end: 2027-11-19
+  place: Addis Ababa, Ethiopia
+  city: Addis Ababa
+  country_name: Ethiopia
+  country: ethiopia
+  text: Formal agreement on a just transition mechanism is expected.
+  source: UNFCCC
+  url: https://unfccc.int/sites/default/files/resource/COP31_2g_dates_venues_auv..pdf
+- kind: cop
+  name: COP33
+  start: 2028-11-06
+  end: 2028-11-17
+  place: Asia-Pacific region, host not yet chosen
+  text: The second global stocktake is due to conclude here.
+  source: UNFCCC
+  url: https://unfccc.int/news/cop31-delivers-important-progress-across-negotiations-and-action-agenda-advancing-implementation-but
+- kind: deadline
+  name: First transparency reports due
+  start: 2024-12-31
+  text: Every country had to report its emissions and progress under the Paris Agreement's transparency rules.
+  source: UNFCCC
+  url: https://unfccc.int/biennial-transparency-reports
+- kind: deadline
+  name: 2035 climate plans (NDCs) due
+  start: 2025-02-10
+  text: Only 13 of 195 Parties met the deadline. The UN later asked for plans by September 2025 so they could be counted before COP30.
+  source: Carbon Brief
+  url: https://www.carbonbrief.org/analysis-95-of-countries-miss-un-deadline-to-submit-2035-climate-pledges
+- kind: deadline
+  name: Second transparency reports due
+  start: 2026-12-31
+  text: Countries report again on their emissions and progress, then every two years after that.
+  source: UNFCCC
+  url: https://unfccc.int/biennial-transparency-reports
+- kind: deadline
+  name: Tripling renewables
+  year: 2030
+  start: 2030-12-31
+  text: The COP28 global stocktake called for tripling renewable energy capacity and doubling the rate of energy efficiency improvements by 2030.
+  source: UNFCCC
+  url: https://unfccc.int/news/cop28-agreement-signals-beginning-of-the-end-of-the-fossil-fuel-era
+- kind: deadline
+  name: Climate plans to 2040 (NDCs) due
+  year: 2030
+  start: 2030-12-31
+  text: Countries are encouraged to submit plans running to 2040 in 2030, and every five years after that.
+  source: UNFCCC
+  url: https://unfccc.int/sites/default/files/resource/cma2021_L12E.pdf
+- kind: deadline
+  name: Climate finance goal
+  year: 2035
+  start: 2035-12-31
+  text: Developed countries are to provide $300 billion a year to developing countries, with $1.3 trillion a year sought from all sources.
+  source: UNFCCC
+  url: https://unfccc.int/cop29
