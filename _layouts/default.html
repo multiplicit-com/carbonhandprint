@@ -25,7 +25,7 @@
   {% include footer.html %}
 <script>
   for (const e of document.querySelectorAll('a.email')) {
-    const addr = e.dataset.u + '@' + e.dataset.d;
+    const addr = atob(e.dataset.e).split('').reverse().join('');
     e.href = 'mailto:' + addr;
     e.textContent = addr;
   }
