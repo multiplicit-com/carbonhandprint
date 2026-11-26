@@ -48,7 +48,7 @@ One of the clearest pictures of how fast the planet is warming is a comic. Randa
 
 ## What it means for the rest of us
 
-Global deals set the direction, but they are delivered by millions of decisions at every level: national energy policy, a council's transport plan, a company's product design, a household's choice of boiler. When the international talks stall, those decisions matter even more. Telling your MP or councillor that you want stronger climate plans is one of the most useful things anyone can do.
+Global deals set the direction, but they are delivered by millions of decisions at every level: national energy policy, a council's transport plan, a company's product design, a household's choice of boiler. When the international talks stall, those decisions matter even more. Telling your MP or councillor that you want stronger climate plans is one of the most useful things anyone can do. [Here's why it works](/articles/2026/11/why-telling-your-mp-about-climate-works/).
 
 ## Articles on the Paris Agreement
 

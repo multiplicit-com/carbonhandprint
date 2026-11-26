@@ -36,6 +36,8 @@ Governments at every level make the decisions that affect us all. Every environm
 - Vote, and ask candidates where they stand on climate.
 - Support campaigns for cleaner transport, energy and planning where you live.
 
+We've written about [why telling your MP about climate actually works](/articles/2026/11/why-telling-your-mp-about-climate-works/), and how to write a message that gets read.
+
 ## Use your work
 
 For a lot of people, work is where they can make the biggest difference. If there's a lower-carbon way of doing something, suggest it.
