@@ -1,0 +1,28 @@
+title: Carbon Handprint
+tagline: Your footprint is the harm. Your handprint is the help.
+description: >-
+  Carbon Handprint is an open idea: alongside measuring the damage we do,
+  recognise and grow the positive difference we make for the climate.
+url: "https://carbonhandprint.org"
+baseurl: ""
+lang: en-GB
+timezone: Europe/London
+
+permalink: /blog/:year/:month/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: default }
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

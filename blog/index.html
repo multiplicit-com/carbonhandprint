@@ -1,0 +1,11 @@
+---
+layout: page
+title: Blog
+lede: News, ideas and stories about carbon handprints. Subscribe with the RSS feed.
+---
+<ul class="posts">
+  {% for post in site.posts %}
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>{% if post.description %} · {{ post.description }}{% endif %}</p></li>
+  {% endfor %}
+</ul>
