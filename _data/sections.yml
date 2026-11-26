@@ -1,0 +1,11 @@
+# "Explore" box shown at the top of the side column (and under the intro on phones)
+# on any page with `section: explore` in its front matter.
+explore:
+  title: Explore the idea
+  links:
+    - { url: /what-is-a-carbon-handprint/, title: What is a carbon handprint? }
+    - { url: /grow-your-handprint/, title: What can I do? }
+    - { url: /methods/, title: Frameworks and methods }
+    - { url: /history/, title: History }
+    - { url: /reading/, title: Reading list }
+    - { url: /white-papers/, title: White papers }

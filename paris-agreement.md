@@ -9,6 +9,8 @@ permalink: /paris-agreement/
 description: Where the Paris Agreement stands, country by country, including national climate plans, the US withdrawal and COP31.
 ---
 
+<p class="jump">On this page: <a href="#the-state-of-play-late-2026">State of play</a> · <a href="#countries">Country by country</a> · <a href="#the-paris-agreement-in-the-news">In the news</a> · <a href="#articles-on-the-paris-agreement">Our articles</a></p>
+
 ## The agreement in one paragraph
 
 Adopted in December 2015, the Paris Agreement commits almost every country to holding warming "well below" 2 °C above pre-industrial levels, and to pursuing efforts to limit it to 1.5 °C. Each country sets its own targets, called nationally determined contributions (NDCs), and is expected to strengthen them every five years. Progress is checked by a "global stocktake".

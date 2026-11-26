@@ -1,4 +1,5 @@
 ---
+section: explore
 related: history
 layout: page
 accent: orange

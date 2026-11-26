@@ -1,4 +1,5 @@
 ---
+section: explore
 related: methods
 layout: page
 accent: green

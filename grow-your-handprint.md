@@ -1,4 +1,5 @@
 ---
+section: explore
 related: grow
 layout: page
 accent: green

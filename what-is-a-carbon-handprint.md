@@ -1,4 +1,5 @@
 ---
+section: explore
 defined_term: Carbon handprint
 related: idea
 layout: page
@@ -28,7 +29,7 @@ The handprint gives those things a name, and gives people a reason to keep going
 
 ### 1. Personal and community handprints
 
-This is the broad, everyday meaning, and the one this site started with. Your handprint is your contribution to the environment. It includes:
+This is the broad, everyday meaning, and the one this site [started with in 2007](/history/). Your handprint is your contribution to the environment. It includes:
 
 - **Changes you make that spread**, like cycling to work and getting two colleagues to try it.
 - **Things you start**, like a community energy scheme, a tool library or a school garden.

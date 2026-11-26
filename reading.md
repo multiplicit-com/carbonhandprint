@@ -1,4 +1,5 @@
 ---
+section: explore
 schema_type: CollectionPage
 item_list: reading
 wide: true

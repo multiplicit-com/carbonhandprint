@@ -1,0 +1,1 @@
+{% assign sec = site.data.sections[page.section] %}{% if sec %}<nav class="secnav {{ include.class }}" aria-label="{{ sec.title }}"><h2>{{ sec.title }}</h2><ul>{% for l in sec.links %}<li><a href="{{ l.url | relative_url }}"{% if page.url == l.url %} aria-current="page"{% endif %}>{{ l.title }}</a></li>{% endfor %}</ul></nav>{% endif %}
