@@ -1,4 +1,5 @@
 ---
+tags: [grow, paris-agreement]
 link: https://www.telegraph.co.uk/news/2019/05/06/britain-goes-coal-free-100-hours-setting-new-record-energy-use/
 source: The Telegraph
 title: "Britain sets personal best for going without coal"

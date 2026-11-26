@@ -17,9 +17,9 @@ Source for [carbonhandprint.org](https://carbonhandprint.org). A plain [Jekyll](
    Your post starts here. **Bold**, *italics*, [links](https://example.com) and lists all work.
    ```
 
-   Add `tags: [paris-agreement]` under the title to list the post on the Paris Agreement page too. Drafts can live in `_drafts/`, which is never published.
+   Add `tags:` under the title to show the article on the matching topic page: `idea` (What is a carbon handprint?), `grow` (What can I do?), `methods`, `history`, `reading`, `paris-agreement`. For example `tags: [methods, paris-agreement]`. Drafts can live in `_drafts/`, which is never published.
 
-4. Click **Commit changes**. The post is live in a minute or two, and appears on the home page, the Articles page and the RSS feed.
+4. Click **Commit changes**. The post is live in a minute or two, and appears on the home page, the archive and the RSS feed.
 
 Images: upload them to `assets/images/` and use `![Description](/assets/images/photo.jpg)`. Always fill in the description (it is the alt text).
 
@@ -84,7 +84,7 @@ python3 tools/og.py _news/2027-01-15-some-story.md
 
 It reads the post's `link:`, looks up the page's Open Graph tags and adds `card_image:` and `link_title:`. Without an image, the card still shows the source and headline.
 
-Each type has its own page: /editorial/ and /responses/. /articles/ shows all articles, and /news/ shows news links.
+Each type has its own page: /editorial/ and /responses/. /archive/ lists everything by date, and /news/ shows news links.
 
 ## Events and milestones
 

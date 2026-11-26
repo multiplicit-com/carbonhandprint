@@ -1,4 +1,5 @@
 ---
+tags: [grow]
 title: "Bournemouth aims for 5% car reduction, launches Beryl Bike Share"
 description: "Beryl launches a new bike share in Bournemouth, aiming for a 5% reduction in car use by 2022."
 date: 2019-02-24

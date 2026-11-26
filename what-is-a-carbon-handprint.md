@@ -57,3 +57,5 @@ In 2021 the method was widened into an **environmental handprint**, which covers
 
 - [Grow your own handprint](/grow-your-handprint/) with practical ideas.
 - [Read how the idea has developed](/history/) over the last two decades.
+
+{% include related.html tag="idea" %}

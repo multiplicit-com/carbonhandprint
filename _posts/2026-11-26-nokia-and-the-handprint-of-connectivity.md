@@ -1,4 +1,5 @@
 ---
+tags: [idea, methods]
 title: Nokia and the handprint of connectivity
 description: One of the first companies to help build the carbon handprint method now puts it at the centre of its strategy.
 ---

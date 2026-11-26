@@ -1,4 +1,5 @@
 ---
+tags: [idea]
 title: "What is the difference between weather and climate?"
 description: "It is the cause of more than one angry tweet, so what is the difference?"
 date: 2019-03-03

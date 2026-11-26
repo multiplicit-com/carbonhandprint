@@ -1,4 +1,5 @@
 ---
+tags: [idea, history]
 title: Where to start with Carbon Handprint
 description: A guide to the handprint idea, practical ideas, and articles.
 ---

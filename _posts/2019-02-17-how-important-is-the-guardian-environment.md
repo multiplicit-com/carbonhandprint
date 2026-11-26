@@ -1,4 +1,5 @@
 ---
+tags: [reading]
 title: "Just how important is the Guardian Environment?"
 description: "Digging into the environmental section of the Guardian, it is amazing how much time and effort they have committed to helping us all."
 date: 2019-02-17

@@ -1,4 +1,5 @@
 ---
+tags: [grow]
 type: response
 link: https://exploreloop.com/
 link_title: Loop

@@ -52,3 +52,5 @@ The [International Carbon Handprint Award](https://carbonhandprintaward.com/carb
 - **Be conservative.** Claims about avoided emissions are easy to inflate, so good methods ask for transparency about assumptions and uncertainty.
 
 For more reports and research, see [White papers](/white-papers/).
+
+{% include related.html tag="methods" %}

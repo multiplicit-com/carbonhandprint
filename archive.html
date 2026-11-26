@@ -1,11 +1,13 @@
 ---
 layout: page
 accent: orange
-title: Articles
-permalink: /articles/
-redirect_from: /blog/
-description: Articles about carbon handprints, climate action and the Paris Agreement.
-lede: Our articles and responses. There's an RSS feed if you want to follow along.
+title: Archive
+permalink: /archive/
+redirect_from:
+  - /articles/
+  - /blog/
+description: Everything published on carbonhandprint.org, by date.
+lede: Everything we have published, newest first.
 ---
 <p class="meta">Filter: {% for t in site.data.types %}<a href="{{ t[1].url | relative_url }}">{{ t[1].plural }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
 {% include postlist.html %}

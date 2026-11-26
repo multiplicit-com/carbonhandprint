@@ -6,5 +6,5 @@ lede: Climate and handprint stories worth reading. Each one links straight to th
 permalink: /news/
 description: "Climate and carbon handprint news, linking straight to the source."
 ---
-<p class="meta">Also see: {% for t in site.data.types %}{% unless t[0] == "news" %}<a href="{{ t[1].url | relative_url }}">{{ t[1].plural }}</a> · {% endunless %}{% endfor %}<a href="{{ '/articles/' | relative_url }}">All articles</a></p>
+<p class="meta">Also see: {% for t in site.data.types %}{% unless t[0] == "news" %}<a href="{{ t[1].url | relative_url }}">{{ t[1].plural }}</a> · {% endunless %}{% endfor %}<a href="{{ '/archive/' | relative_url }}">Archive</a></p>
 {% include newscards.html %}

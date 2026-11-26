@@ -25,3 +25,5 @@ description: A dated reading list of articles, research and reports on the carbo
 </ol>
 
 Know of something we've missed, especially from the early years? [Tell us](/about/#get-in-touch).
+
+{% include related.html tag="reading" %}
