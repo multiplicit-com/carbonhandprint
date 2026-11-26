@@ -113,6 +113,8 @@ It reads the post's `link:`, looks up the page's Open Graph tags and adds `card_
 
 To keep sources varied, on any page with more than one outside link, each site listed in `_data/limited_sources.yml` may make up at most half of them, and the listed sites together at most two thirds (the numbers are in the file). To limit another site, add its domain under `sites:`. After a build, `python3 tools/source_check.py` lists any page over the limit (it needs PyYAML).
 
+To check outside links, open the repository's Actions tab, choose Link check, then Run workflow. It lists dead links, links that redirect elsewhere, links that may sit behind a paywall or sign-up wall, and sites that refuse automated checks. It changes nothing. To run it locally: `python3 tools/link_check.py` (or give a folder, such as `_news`). Card images that fail to load show a plain fallback graphic.
+
 Types are for us only: they change how an article is laid out, but readers just see articles. /articles/ lists every article by date, and /news/ shows news links.
 
 ## Events and milestones

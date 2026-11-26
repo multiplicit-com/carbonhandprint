@@ -1,5 +1,5 @@
 {% assign host = page.link | split: "/" %}<a class="linkcard{% if page.card_image %} has-img{% endif %}" href="{{ page.link }}" rel="nofollow noopener">
-  {% if page.card_image %}<img src="{{ page.card_image }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">{% endif %}
+  {% if page.card_image %}<img src="{{ page.card_image }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='{{ '/assets/images/card-fallback.svg' | relative_url }}'">{% endif %}
   <span class="lc-body">
     <span class="lc-site">{{ page.source | default: host[2] }} · {{ host[2] | remove_first: "www." }}</span>
     <span class="lc-title">{{ page.link_title | default: page.title }}</span>

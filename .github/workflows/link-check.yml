@@ -1,0 +1,25 @@
+name: Link check
+
+# Runs only when started by hand: Actions > Link check > Run workflow.
+# Reports dead, moved and paywalled outside links. It never changes the site.
+on:
+  workflow_dispatch:
+    inputs:
+      path:
+        description: "Folder or file to check (leave blank for the whole site)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        run: python3 tools/link_check.py $CHECK_PATH
+        env:
+          CHECK_PATH: ${{ inputs.path }}

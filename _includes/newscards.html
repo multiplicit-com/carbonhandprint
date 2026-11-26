@@ -11,7 +11,7 @@
     <p>{{ n.description }}</p>
     {% if onsite != "" %}<p class="onsite">{{ onsite }}</p>{% endif %}
   </li>{% else %}<li><a class="linkcard{% if n.card_image %} has-img{% endif %}" href="{{ n.link }}" rel="nofollow noopener">
-    {% if n.card_image %}<img src="{{ n.card_image }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove('has-img');this.remove()">{% endif %}
+    {% if n.card_image %}<img src="{{ n.card_image }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='{{ '/assets/images/card-fallback.svg' | relative_url }}'">{% endif %}
     <span class="lc-body">
       <span class="lc-site">{{ n.source | default: host[2] }} · <time datetime="{{ n.date | date_to_xmlschema }}">{{ d }}</time></span>
       <span class="lc-title">{{ n.link_title | default: n.title }}</span>
