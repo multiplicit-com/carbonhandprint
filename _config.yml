@@ -6,7 +6,7 @@ description: >-
 url: "https://carbonhandprint.org"
 baseurl: ""
 lang: en-GB
-logo: /assets/images/icon-512.png
+logo: /android-chrome-192x192.png
 social:
   name: Carbon Handprint
 timezone: Europe/London

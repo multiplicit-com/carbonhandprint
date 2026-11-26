@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
   {% feed_meta %}
-  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
-  <meta name="theme-color" content="#0d6e6e">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
+  <link rel="mask-icon" href="{{ '/safari-pinned-tab.svg' | relative_url }}" color="#1f3d1f">
+  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
