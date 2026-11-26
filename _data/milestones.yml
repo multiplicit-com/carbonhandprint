@@ -36,7 +36,7 @@
 - when: "2020s"
   date: "2022-02"
   kind: event
-  text: "Other businesses such as <a href=\"https://www.neste.com/news-and-insights/sustainability/carbon-handprint-and-footprint-explained\">Neste</a> report handprints next to footprints."
+  text: "Other businesses such as <a href=\"https://www.neste.com/sustainability/climate/carbon-handprint\">Neste</a> report handprints next to footprints."
 
 - when: "September 2022"
   date: "2022-09"

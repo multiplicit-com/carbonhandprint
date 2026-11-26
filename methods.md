@@ -37,7 +37,7 @@ Nokia was a partner in the original VTT and LUT work and now reports its handpri
 Gregory Norris, first at the Harvard T.H. Chan School of Public Health and later at MIT, developed handprinting as a way to count the footprint reductions a person or organisation brings about in others. The goal is to become "net positive", with a handprint bigger than your footprint, measured against business as usual.
 
 - [Handprint-Based NetPositive Assessment](https://bpb-us-e1.wpmucdn.com/sites.mit.edu/dist/0/1158/files/2025/01/Norris-2015-Handprint-Based-NetPositive-Assessment_2.pdf) (2015).
-- [SHINE handprint methodological framework](https://link.springer.com/article/10.1007/s11367-021-01874-5) (2021), *International Journal of Life Cycle Assessment*.
+- [SHINE handprint methodological framework](https://dspace.mit.edu/handle/1721.1/132073) (2021), *International Journal of Life Cycle Assessment*.
 
 ## ISO 14067: the footprint underneath
 
