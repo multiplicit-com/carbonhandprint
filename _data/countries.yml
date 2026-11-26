@@ -195,6 +195,7 @@ brazil:
     text: Hosts COP30 in Belém, which calls for tripling adaptation finance but makes no new commitment on fossil fuels.
     source: UN News
     url: https://news.un.org/en/story/2025/11/1166433
+    page: /events/cop30/
   - when: Late 2025
     date: 2025-12
     text: A new environmental licensing law passes and oil drilling in the Amazon basin is approved.
@@ -493,6 +494,7 @@ egypt:
     text: Hosts COP27 in Sharm el-Sheikh, which agrees to set up a fund for loss and damage.
     source: UN News
     url: https://news.un.org/en/story/2022/11/1130832
+    page: /events/cop27/
 
 ethiopia:
   name: Ethiopia
@@ -549,6 +551,7 @@ ethiopia:
     source: UNFCCC
     url: https://unfccc.int/sites/default/files/resource/COP31_2g_dates_venues_auv..pdf
     upcoming: true
+    page: /events/cop32/
 
 eu:
   name: European Union
@@ -1100,6 +1103,7 @@ morocco:
     text: Hosts COP22 in Marrakech, the first COP after the Paris Agreement came into force.
     source: UNFCCC
     url: https://unfccc.int/node/611275
+    page: /events/cop22/
 
 nepal:
   name: Nepal
@@ -1791,6 +1795,7 @@ turkiye:
     text: Hosts COP31 in Antalya.
     source: UNFCCC
     url: https://unfccc.int/news/cop31-delivers-important-progress-across-negotiations-and-action-agenda-advancing-implementation-but
+    page: /events/cop31/
   - when: '2035'
     date: 2035-12
     text: Add 120 GW of wind and solar.
@@ -1841,6 +1846,7 @@ uae:
     text: Hosts COP28 in Dubai, which concludes the first global stocktake.
     source: UNFCCC
     url: https://unfccc.int/node/636502
+    page: /events/cop28/
   - when: November 2024
     date: 2024-11
     text: Submits a stronger pledge with an absolute target.
@@ -1921,6 +1927,7 @@ uk:
     text: Hosts COP26 in Glasgow, which agrees the Glasgow Climate Pact.
     source: Carbon Brief
     url: https://www.carbonbrief.org/cop26-key-outcomes-agreed-at-the-un-climate-talks-in-glasgow/
+    page: /events/cop26/
 
 us:
   name: United States

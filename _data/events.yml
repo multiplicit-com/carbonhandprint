@@ -1,16 +1,28 @@
 # UN climate conferences and Paris Agreement deadlines, shown on /events/.
 # kind: cop, session or deadline. start/end: YYYY-MM-DD (end optional). For deadlines known only to the year, use year: and leave start as the last day of that year.
+# slug: COPs have their own page at /events/<slug>/ (stub in events/), with points: a list of key points.
 # place, country (key in countries.yml, optional), text, source, url. Pages work out past and upcoming from the build date.
 - kind: cop
   name: COP21
+  slug: cop21
   start: 2015-11-30
   end: 2015-12-12
   place: Paris, France
   text: The Paris Agreement is adopted by 195 Parties, aiming to keep warming well below 2 °C and to pursue efforts to limit it to 1.5 °C.
   source: UNFCCC
   url: https://unfccc.int/conference/paris-climate-change-conference-november-2015
+  points:
+    - "The Paris Agreement set a goal of holding warming well below 2 °C and pursuing efforts to limit it to 1.5 °C."
+    - "Every country must submit a national climate plan (NDC), and each new plan must be more ambitious than the last."
+    - "A global stocktake was set for 2023 and every five years after, to ratchet up ambition over time."
+    - "Countries aim for a balance between emissions and removals in the second half of the century, in effect net zero, though no date is set."
+    - "Loss and damage got its own article, but liability and compensation were excluded. The pledges then on the table were not enough to stay below 2 °C."
+  sources:
+    - name: Carbon Brief
+      url: https://www.carbonbrief.org/?p=18336
 - kind: cop
   name: COP22
+  slug: cop22
   start: 2016-11-07
   end: 2016-11-18
   place: Marrakech, Morocco
@@ -18,32 +30,72 @@
   text: The first COP after the agreement came into force, which issued the Marrakech Action Proclamation.
   source: UNFCCC
   url: https://unfccc.int/node/611275
+  points:
+    - "Countries set 2018 as the deadline for finishing the Paris rulebook."
+    - "Leaders adopted the Marrakech Action Proclamation, reaffirming the Paris Agreement days after Donald Trump's election."
+    - "47 countries in the Climate Vulnerable Forum pledged to reach 100% renewable energy as soon as possible."
+    - "The 2050 Pathways Platform launched, with countries, cities and businesses committing to long-term strategies."
+    - "Finance made little progress, and a decision on the Adaptation Fund's future was put off."
+  sources:
+    - name: Carbon Brief
+      url: https://www.carbonbrief.org/cop22-key-outcomes-agreed-at-un-climate-talks-in-marrakech
 - kind: cop
   name: COP23
+  slug: cop23
   start: 2017-11-06
   end: 2017-11-17
   place: Bonn, Germany, under Fiji's presidency
   text: Countries agree a Gender Action Plan, and more than 20 countries launch an alliance to phase out coal power.
   source: UN News
   url: https://news.un.org/en/story/2017/11/636542-bonn-un-conference-closes-renewed-urgency-greater-ambition-tackle-climate
+  points:
+    - "Fiji became the first small island state to preside over a COP, although the talks were held in Bonn."
+    - "The Talanoa Dialogue was launched to take stock in 2018 and inform the new plans due in 2020."
+    - "Countries adopted a Gender Action Plan, a platform for local communities and Indigenous peoples, and joint work on agriculture."
+    - "The UK and Canada launched the Powering Past Coal Alliance with more than 20 members."
+    - "The US was the only country saying it would not honour the Paris deal. Finance for loss and damage was pushed back to 2019."
+  sources:
+    - name: Carbon Brief
+      url: https://www.carbonbrief.org/cop23-key-outcomes-agreed-un-climate-talks-bonn
 - kind: cop
   name: COP24
+  slug: cop24
   start: 2018-12-02
   end: 2018-12-16
   place: Katowice, Poland
   text: Countries adopt the rulebook for putting the Paris Agreement into practice, but put off rules on carbon markets.
   source: UN News
   url: https://news.un.org/en/story/2018/12/1028681
+  points:
+    - "Countries adopted a 133-page Paris rulebook, including common rules for reporting emissions and progress."
+    - "Rules for carbon markets (Article 6) were not agreed and were pushed back to COP25."
+    - "The US, Saudi Arabia, Russia and Kuwait refused to welcome the IPCC's 1.5 °C report, so the final text noted only its timely completion."
+    - "Germany pledged €1.5bn to the Green Climate Fund, and the World Bank announced $200bn of climate finance for 2021 to 2025."
+    - "About 50 countries signed the Silesia declaration on a just transition."
+  sources:
+    - name: Carbon Brief
+      url: https://carbonbrief.org/cop24-key-outcomes-agreed-at-the-un-climate-talks-in-katowice/
 - kind: cop
   name: COP25
+  slug: cop25
   start: 2019-12-02
   end: 2019-12-15
   place: Madrid, Spain, under Chile's presidency
   text: Talks end in compromise, with no overall agreement on raising ambition and deadlock over loss and damage.
   source: UN News
   url: https://news.un.org/en/story/2019/12/1053561
+  points:
+    - "Chile withdrew as host, and Spain stepped in about a month before the talks."
+    - "The talks ran nearly 44 hours over schedule, the longest COP on record at the time."
+    - "Carbon market rules failed again and were deferred to COP26."
+    - "The Santiago network on loss and damage was created, but calls for new finance were not met."
+    - "UN Secretary-General António Guterres said he was disappointed. A new five-year gender action plan was adopted."
+  sources:
+    - name: Carbon Brief
+      url: https://carbonbrief.org/cop25-key-outcomes-agreed-at-the-un-climate-talks-in-madrid
 - kind: cop
   name: COP26
+  slug: cop26
   start: 2021-10-31
   end: 2021-11-13
   place: Glasgow, United Kingdom
@@ -51,8 +103,20 @@
   text: The Glasgow Climate Pact calls for a phasedown of unabated coal power, to keep 1.5 °C within reach.
   source: Carbon Brief
   url: https://www.carbonbrief.org/cop26-key-outcomes-agreed-at-the-un-climate-talks-in-glasgow/
+  points:
+    - "The Glasgow Climate Pact reaffirmed 1.5 °C and asked countries to strengthen their 2030 targets by the end of 2022."
+    - "It was the first COP decision to target fossil fuels, though a late intervention weakened coal phase-out to phasedown."
+    - "The Paris rulebook was finished with carbon market rules, and developed countries pledged to at least double adaptation finance by 2025."
+    - "More than 100 countries backed the Global Methane Pledge to cut methane at least 30% by 2030, and leaders covering 85% of the world's forests pledged to halt forest loss by 2030."
+    - "Rich countries had missed their $100bn-a-year finance goal for 2020, and a dedicated loss and damage facility was rejected."
+  sources:
+    - name: Carbon Brief
+      url: https://www.carbonbrief.org/cop26-key-outcomes-agreed-at-the-un-climate-talks-in-glasgow/
+    - name: UNFCCC
+      url: https://unfccc.int/news/world-leaders-kick-start-accelerated-climate-action-at-cop26
 - kind: cop
   name: COP27
+  slug: cop27
   start: 2022-11-06
   end: 2022-11-20
   place: Sharm el-Sheikh, Egypt
@@ -60,8 +124,18 @@
   text: Countries agree to set up a fund for loss and damage for vulnerable nations.
   source: UN News
   url: https://news.un.org/en/story/2022/11/1130832
+  points:
+    - "Countries agreed to create a fund for loss and damage, a decades-long demand from vulnerable nations."
+    - "A work programme on cutting emissions was agreed to run until 2026."
+    - "The deal kept the 1.5 °C goal but did not strengthen it, and calls for emissions to peak before 2025 were left out."
+    - "Language on phasing down all fossil fuels was dropped, despite support from around 80 countries."
+    - "The talks ran about 39 hours over schedule, and concerns were raised about human rights and protesters' access."
+  sources:
+    - name: Carbon Brief
+      url: https://carbonbrief.org/cop27-key-outcomes-agreed-at-the-un-climate-talks-in-sharm-el-sheikh/
 - kind: cop
   name: COP28
+  slug: cop28
   start: 2023-11-30
   end: 2023-12-13
   place: Dubai, United Arab Emirates
@@ -69,16 +143,36 @@
   text: The first global stocktake calls for a transition away from fossil fuels in energy systems and a tripling of renewable capacity by 2030.
   source: UNFCCC
   url: https://unfccc.int/cop28
+  points:
+    - "The first global stocktake called for transitioning away from fossil fuels, the first COP decision to name all fossil fuels."
+    - "Countries were called on to triple renewable capacity and double the rate of energy efficiency improvements by 2030."
+    - "The loss and damage fund was set up on day one, with about $770m pledged by the end of the summit."
+    - "A framework for the global goal on adaptation was agreed, but targets and finance language were weakened."
+    - "The COP28 president, who heads the UAE's state oil company, faced conflict-of-interest criticism."
+  sources:
+    - name: Carbon Brief
+      url: https://www.carbonbrief.org/cop28-key-outcomes-agreed-at-the-un-climate-talks-in-dubai/
 - kind: cop
   name: COP29
+  slug: cop29
   start: 2024-11-11
   end: 2024-11-22
   place: Baku, Azerbaijan
   text: A new climate finance goal of $300 billion a year for developing countries by 2035, within a wider call to reach $1.3 trillion a year.
   source: UNFCCC
   url: https://unfccc.int/cop29
+  points:
+    - "Developed countries committed to help channel at least $300bn a year to developing countries by 2035."
+    - "A wider aim of $1.3tn a year by 2035 from all sources was set, with a roadmap to COP30."
+    - "Carbon market rules were finalised, completing the Paris rulebook after nearly a decade."
+    - "The least developed countries and small island states walked out during the talks, and India and Nigeria objected to the finance deal."
+    - "Countries failed to agree how to take forward the COP28 fossil fuel pledge."
+  sources:
+    - name: Carbon Brief
+      url: https://www.carbonbrief.org/cop29-key-outcomes-agreed-at-the-un-climate-talks-in-baku
 - kind: cop
   name: COP30
+  slug: cop30
   start: 2025-11-10
   end: 2025-11-22
   place: Belém, Brazil
@@ -86,8 +180,20 @@
   text: The "Global Mutirão" package calls for tripling adaptation finance by 2035, with no clear commitment to move away from fossil fuels.
   source: UN News
   url: https://news.un.org/en/story/2025/11/1166433
+  points:
+    - "The Global Mutirão decision called for tripling adaptation finance by 2035, without a clear baseline year."
+    - "A just transition mechanism was agreed in principle, and 59 indicators were adopted for the global goal on adaptation."
+    - "The Tropical Forests Forever fund raised $5.5bn, with at least 20% going directly to Indigenous peoples and local communities."
+    - "A fossil fuel roadmap backed by more than 80 countries was dropped from the text. Brazil's presidency promised its own roadmaps on fossil fuels and deforestation instead."
+    - "Leaders of the US, China and India did not attend."
+  sources:
+    - name: Carbon Brief
+      url: https://www.carbonbrief.org/cop30-key-outcomes-agreed-at-the-un-climate-talks-in-belem/
+    - name: UN News
+      url: https://news.un.org/en/story/2025/11/1166433
 - kind: cop
   name: COP31
+  slug: cop31
   start: 2026-11-09
   end: 2026-11-22
   place: Antalya, Türkiye
@@ -95,6 +201,17 @@
   text: The longest COP on record launches the second global stocktake, but the presidency's "Antalya pact" is rejected, largely because it did not mention fossil fuels.
   source: UNFCCC
   url: https://unfccc.int/news/cop31-delivers-important-progress-across-negotiations-and-action-agenda-advancing-implementation-but
+  points:
+    - "The proposed Antalya Pact was rejected after its final draft left out any mention of fossil fuels. The EU, the UK and climate-vulnerable nations opposed it."
+    - "It became the longest COP on record, ending nearly 50 hours late. António Guterres called the outcome deeply disappointing."
+    - "Türkiye hosted, while Australia's Chris Bowen led the negotiations, under a deal agreed at COP30."
+    - "Technical decisions on adaptation survived, but agreement on the just transition mechanism was deferred to COP32."
+    - "Around 80 countries backed a voluntary target of 35% of final energy from electricity by 2035. The loss and damage fund faces $2.8bn of requests against $342m pledged."
+  sources:
+    - name: Carbon Brief
+      url: https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya
+    - name: UN News
+      url: https://news.un.org/en/story/2026/11/1168855
 - kind: session
   name: June climate talks (SB66)
   start: 2027-06-07
@@ -104,6 +221,7 @@
   url: https://unfccc.int/conference/first-sessional-period-2027
 - kind: cop
   name: COP32
+  slug: cop32
   start: 2027-11-08
   end: 2027-11-19
   place: Addis Ababa, Ethiopia
@@ -113,14 +231,30 @@
   text: Formal agreement on a just transition mechanism is expected.
   source: UNFCCC
   url: https://unfccc.int/sites/default/files/resource/COP31_2g_dates_venues_auv..pdf
+  points:
+    - "Countries aim to formally agree the just transition mechanism, and to take up the issues left unresolved at COP31."
+    - "Topping up the loss and damage fund begins in 2027, and the dispute over fossil fuels carries over."
+    - "The technical assessment for the second global stocktake starts in June 2027 and will be under way during COP32."
+  sources:
+    - name: Carbon Brief
+      url: https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya
+    - name: UNFCCC
+      url: https://unfccc.int/topics/global-stocktake/about-the-global-stocktake/the-second-global-stocktake
 - kind: cop
   name: COP33
+  slug: cop33
   start: 2028-11-06
   end: 2028-11-17
   place: Asia-Pacific region, host not yet chosen
   text: The second global stocktake is due to conclude here.
   source: UNFCCC
   url: https://unfccc.int/news/cop31-delivers-important-progress-across-negotiations-and-action-agenda-advancing-implementation-but
+  points:
+    - "COP33 is due to conclude the second global stocktake, which will shape the next round of national climate plans, due in 2030."
+    - "It will be held in the Asia-Pacific region from 6 to 17 November 2028. The host has not been chosen, and India withdrew its bid in April 2026."
+  sources:
+    - name: UNFCCC
+      url: https://unfccc.int/topics/global-stocktake/about-the-global-stocktake/the-second-global-stocktake
 - kind: deadline
   name: First transparency reports due
   start: 2024-12-31

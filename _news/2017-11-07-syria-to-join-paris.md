@@ -6,5 +6,6 @@ link: https://www.nationalgeographic.com/science/article/syria-to-join-paris-cli
 source: National Geographic
 description: "At COP23 in Bonn, Syria announced it would sign the Paris Agreement, leaving the United States as the only country set to be outside it."
 countries: [us]
+events: [cop23]
 tags: [paris-agreement]
 ---

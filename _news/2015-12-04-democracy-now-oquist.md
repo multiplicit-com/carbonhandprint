@@ -6,5 +6,6 @@ source: Democracy Now!
 description: "At COP21 in Paris, Nicaragua's chief climate negotiator Paul Oquist explains why his country would not submit a voluntary pledge: \"These voluntary commitments don't work.\""
 card_image: "https://www.democracynow.org/images/story/30/28730/full_hd/Paul.jpg"
 countries: [nicaragua]
+events: [cop21]
 tags: [paris-agreement]
 ---

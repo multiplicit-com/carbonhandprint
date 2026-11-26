@@ -17,7 +17,7 @@ The UN's yearly climate conference is the COP, the Conference of the Parties. Ea
 <ol class="events">
 {% for e in evs %}{% assign last = e.end | default: e.start | date: "%Y-%m-%d" %}{% if last >= now %}<li class="ev-{{ e.kind }}">
   <span class="ev-when">{% if e.year %}By {{ e.year }}{% elsif e.end %}{{ e.start | date: "%-d %b" }} to {{ e.end | date: "%-d %b %Y" }}{% else %}{{ e.start | date: "%-d %B %Y" }}{% endif %}</span>
-  <span class="ev-name">{{ e.name }}{% if e.kind == "deadline" %} <span class="ev-kind">· deadline</span>{% endif %}</span>
+  <span class="ev-name">{% if e.slug %}<a href="{{ '/events/' | append: e.slug | append: '/' | relative_url }}">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}{% if e.kind == "deadline" %} <span class="ev-kind">· deadline</span>{% endif %}</span>
   {% if e.place %}<span class="ev-place">{% if e.country %}<a href="{{ '/countries/' | append: e.country | append: '/' | relative_url }}">{{ e.place }}</a>{% else %}{{ e.place }}{% endif %}</span>{% endif %}
   <span class="ev-text">{{ e.text }}</span>
 </li>
@@ -28,7 +28,7 @@ The UN's yearly climate conference is the COP, the Conference of the Parties. Ea
 <ol class="events" reversed>
 {% assign past = evs | reverse %}{% for e in past %}{% assign last = e.end | default: e.start | date: "%Y-%m-%d" %}{% if last < now and e.kind != "deadline" %}<li class="ev-{{ e.kind }}">
   <span class="ev-when">{{ e.start | date: "%-d %b" }} to {{ e.end | date: "%-d %b %Y" }}</span>
-  <span class="ev-name">{{ e.name }}</span>
+  <span class="ev-name">{% if e.slug %}<a href="{{ '/events/' | append: e.slug | append: '/' | relative_url }}">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}</span>
   {% if e.place %}<span class="ev-place">{% if e.country %}<a href="{{ '/countries/' | append: e.country | append: '/' | relative_url }}">{{ e.place }}</a>{% else %}{{ e.place }}{% endif %}</span>{% endif %}
   <span class="ev-text">{{ e.text }}</span>
 </li>

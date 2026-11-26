@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign e = site.data.events | where: "slug", page.event | first %}{% assign now = site.time | date: "%Y-%m-%d" %}{% assign last = e.end | default: e.start | date: "%Y-%m-%d" %}
+<article class="wrap prose c-blue">
+  <p class="meta"><a href="{{ '/events/' | relative_url }}" class="typelabel">Climate talks and deadlines</a></p>
+  <h1>{{ page.title }}</h1>
+  <p class="lede">{{ e.start | date: "%-d %B" }} to {{ e.end | date: "%-d %B %Y" }}{% if e.place %} · {% if e.country %}<a href="{{ '/countries/' | append: e.country | append: '/' | relative_url }}">{{ e.place }}</a>{% else %}{{ e.place }}{% endif %}{% endif %}{% if last >= now %} · upcoming{% endif %}</p>
+  <p>{{ e.text }}</p>
+  {% if e.points %}
+  <h2>{% if last >= now %}What to expect{% else %}Key points{% endif %}</h2>
+  <ul class="points">
+  {% for pt in e.points %}<li>{{ pt }}</li>
+  {% endfor %}</ul>
+  {% if e.sources %}<p class="meta">Sources: {% for s in e.sources %}<a href="{{ s.url }}">{{ s.name }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>{% endif %}
+  {% endif %}
+  {% assign news = site.news | where_exp: "n", "n.events contains page.event" | sort: "date" | reverse %}
+  {% if news.size > 0 %}
+  <h2>In the news</h2>
+  <ul class="newscards">{% for n in news %}{% if n.snippet %}<li class="snippet"><span class="sn-label">In brief · {{ n.date | date: "%-d %b %Y" }}</span><strong class="sn-title">{{ n.title }}</strong><p>{{ n.description }}</p><a class="sn-src" href="{{ n.link }}" rel="nofollow noopener">Source: {{ n.source }}</a></li>{% else %}<li><a class="linkcard{% if n.card_image %} has-img{% endif %}" href="{{ n.link }}" rel="nofollow noopener">{% if n.card_image %}<img src="{{ n.card_image }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove('has-img');this.remove()">{% endif %}<span class="lc-body"><span class="lc-site">{{ n.source }} · {{ n.date | date: "%-d %b %Y" }}</span><span class="lc-title">{{ n.title }}</span>{% if n.description %}<span class="lc-desc">{{ n.description }}</span>{% endif %}</span></a></li>{% endif %}{% endfor %}</ul>
+  {% endif %}
+  {% assign cops = site.data.events | where: "kind", "cop" | sort: "start" %}
+  <p class="copnav">{% for c in cops %}{% if c.slug == page.event %}{% unless forloop.first %}{% assign pi = forloop.index0 | minus: 1 %}{% assign pc = cops[pi] %}<a href="{{ '/events/' | append: pc.slug | append: '/' | relative_url }}">Previous: {{ pc.name }}</a>{% endunless %}{% unless forloop.last %}{% assign nc = cops[forloop.index] %}{% unless forloop.first %} · {% endunless %}<a href="{{ '/events/' | append: nc.slug | append: '/' | relative_url }}">Next: {{ nc.name }}</a>{% endunless %}{% endif %}{% endfor %}</p>
+  <p><a href="{{ '/events/' | relative_url }}">All climate talks and deadlines</a> · <a href="{{ '/paris-agreement/' | relative_url }}">Where the Paris Agreement stands</a></p>
+</article>

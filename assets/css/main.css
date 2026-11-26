@@ -289,3 +289,5 @@ ul li::marker{color:var(--accent,var(--soft))}
 .xkcd-scroll{margin-top:.8rem;max-height:80vh;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;background:#fff;padding:.5rem}
 .xkcd-scroll img{display:block;width:100%;max-width:740px;height:auto;margin:0 auto}
 .prose .credit{font-family:var(--ui);font-size:.82rem;color:var(--soft);max-width:44rem}
+.points{max-width:44rem;padding-left:1.2rem}.points li{margin:.4rem 0}
+.copnav{font-family:var(--ui);font-size:.92rem;margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--rule)}
