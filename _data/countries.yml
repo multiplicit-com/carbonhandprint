@@ -103,8 +103,8 @@ australia:
   - when: July 2014
     date: 2014-07
     text: The Senate votes to repeal the carbon tax.
-    source: Al Jazeera
-    url: https://www.aljazeera.com/news/2014/7/17/australias-abbott-repeals-carbon-tax
+    source: Physics Today
+    url: https://physicstoday.aip.org/news/australia-eliminates-carbon-pollution-tax
   - when: September 2022
     date: 2022-09
     text: The Climate Change Act 2022 puts a 43% cut by 2030 and net zero by 2050 into law.
@@ -1998,8 +1998,8 @@ us:
   - when: November 2020
     date: 2020-11
     text: The first withdrawal takes effect on 4 November.
-    source: Al Jazeera
-    url: https://www.aljazeera.com/news/2020/11/4/us-formally-quits-paris-climate-deal-amid-election-uncertainty
+    source: AP
+    url: https://www.opb.org/article/2020/11/04/us-exit-paris-climate-pact
   - when: February 2021
     date: 2021-02
     text: Rejoins the Paris Agreement on 19 February, under President Biden.
