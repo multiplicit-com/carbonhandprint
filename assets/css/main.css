@@ -96,3 +96,4 @@ ul li::marker{color:var(--accent,var(--soft))}
 .docs .by{display:block;font-family:var(--ui);font-size:.82rem;color:var(--soft);margin-top:.15rem}
 .docs p{margin:.3rem 0 0;font-size:.95rem}
 .prose .postlist a{color:var(--ink)}.prose .postlist a:hover{color:var(--accent)}
+.oldlogo{float:right;margin:0 0 1rem 1.5rem;text-align:center}.oldlogo img{opacity:.85}.oldlogo figcaption{font-family:var(--ui);font-size:.75rem;color:var(--soft)}@media(prefers-color-scheme:dark){.oldlogo img{filter:invert(1)}}
