@@ -1,0 +1,15 @@
+{% assign author = site.data.authors[page.author] %}<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ page.schema_type | default: 'Article' }}",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: site.description | strip | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
+  "image": {{ page.image | default: '/assets/images/share.png' | absolute_url | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+  "author": { "@type": {{ author.type | default: 'Person' | jsonify }}, "name": {{ author.name | default: page.author | jsonify }}{% if author %}, "url": {{ '/authors/' | append: page.author | append: '/' | absolute_url | jsonify }}{% endif %} },
+  "publisher": { "@type": "Organization", "name": {{ site.title | jsonify }}, "url": {{ '/' | absolute_url | jsonify }}, "logo": { "@type": "ImageObject", "url": {{ site.logo | absolute_url | jsonify }} } }
+}
+</script>

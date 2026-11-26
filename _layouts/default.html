@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% seo %}
+  {% if page.collection == "posts" %}{% capture seohead %}{% seo %}{% endcapture %}{% assign seoparts = seohead | split: '<script type="application/ld+json">' %}{{ seoparts[0] }}{% assign seotail = seoparts[1] | split: '</script>' %}{{ seotail[1] }}
+  {% include article-jsonld.html %}{% else %}{% seo %}{% endif %}
   {% feed_meta %}
   <link rel="alternate" type="application/atom+xml" title="Carbon Handprint: News" href="{{ '/news/feed.xml' | absolute_url }}">
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
@@ -22,6 +23,11 @@
   </main>
   {% include footer.html %}
 <script>
+  for (const e of document.querySelectorAll('a.email')) {
+    const addr = e.dataset.u + '@' + e.dataset.d;
+    e.href = 'mailto:' + addr;
+    e.textContent = addr;
+  }
   for (const a of document.querySelectorAll('a[href^="http"]')) {
     if (a.hostname !== location.hostname) {
       a.target = '_blank';

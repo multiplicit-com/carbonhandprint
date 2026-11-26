@@ -8,6 +8,7 @@ description: How to contact carbonhandprint.org with stories, corrections or que
 
 We'd love to hear about inspiring handprint stories, research we've missed, and anything we've got wrong.
 
+- **Email:** {% include email.html %}
 - **Facebook:** [facebook.com/CarbonHandprint](https://www.facebook.com/CarbonHandprint/)
 
 For how we handle corrections, see our [editorial policy](/editorial-policy/).

@@ -32,4 +32,4 @@ We don't take payment for coverage, and we don't run sponsored content or affili
 
 If we get something wrong, we correct it as soon as we can. Corrections that change the meaning of an article are noted at the end of it, with the date. Small fixes such as typos and broken links are made without a note.
 
-To report a mistake, please [contact us](/contact/).
+To report a mistake, email {% include email.html %} or see our [contact page](/contact/).
