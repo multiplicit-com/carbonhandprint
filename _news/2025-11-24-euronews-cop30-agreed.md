@@ -7,4 +7,6 @@ description: "The Belém package tripled adaptation finance goals but left out a
 countries: [brazil]
 events: [cop30]
 tags: [paris-agreement]
+card_image: "https://images.euronews.com/articles/stories/09/55/90/97/1200x675_cmsv2_9d2258ba-9b5e-5ed5-a325-0a629d2f85ee-9559097.jpg"
+link_title: "‘Deep divisions’: What did COP30 actually achieve and what comes next?"
 ---

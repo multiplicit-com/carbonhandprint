@@ -7,4 +7,6 @@ description: "For the first time, a COP decision calls on countries to move away
 countries: [uae]
 events: [cop28]
 tags: [paris-agreement]
+card_image: "https://www.aljazeera.com/wp-content/uploads/2023/12/347P8F6-highres-1702443273.jpg?resize=1920%2C1440"
+link_title: "Historic COP28 deal agrees to ‘transition away’ from fossil fuels"
 ---

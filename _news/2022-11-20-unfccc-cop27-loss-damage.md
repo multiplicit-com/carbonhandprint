@@ -7,4 +7,6 @@ description: "Countries agreed to set up a fund to help vulnerable nations cope 
 countries: [egypt]
 events: [cop27]
 tags: [paris-agreement]
+card_image: "https://unfccc.int/sites/default/files/styles/hero_image/public/2022-11/52511819213_a22e1866af_k.jpg?h=31f70012&itok=jadJBnKA"
+link_title: "COP27 Reaches Breakthrough Agreement on New “Loss and Damage” Fund for Vulnerable Countries"
 ---
