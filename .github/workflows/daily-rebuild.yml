@@ -1,0 +1,22 @@
+name: Daily rebuild
+
+# Rebuilds the site once a day so date-based pages (upcoming events, news
+# sitemap) stay current. It only asks GitHub Pages to rebuild: no checkout,
+# no commit. Runs on the standard runner, which is free for public repos.
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  pages: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Request a Pages build
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"
+        env:
+          GH_TOKEN: ${{ github.token }}
