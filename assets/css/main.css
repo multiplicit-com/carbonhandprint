@@ -304,3 +304,10 @@ ul li::marker{color:var(--accent,var(--soft))}
 .points{padding-left:3rem;max-width:none}
 @media(max-width:760px){.facts,.points{border-radius:10px;padding:1.1rem}.points{padding-left:2.2rem}}
 .links{display:flex;flex-wrap:wrap;gap:.6rem 1.5rem}.links a{margin-right:0;white-space:nowrap}
+/* News cards and In brief items share one pattern: source and date on top, linked title, summary, then our own link */
+.newscards .sn-title,.newscards .lc-title{color:var(--accent,var(--link));text-decoration:none}
+.newscards .sn-title:hover{text-decoration:underline}
+.newscards .snippet p:not(.onsite){color:var(--soft);font-size:.95rem;line-height:1.5}
+.newscards li:not(.snippet) .onsite{padding:0}
+.newscards .onsite{margin:.3rem 0 0}
+.newscards .sn-title{font-weight:600;font-size:1.12rem;line-height:1.3}.newscards .sn-label{font-weight:400}.newscards li:not(.snippet) .onsite{margin-top:-.4rem}
