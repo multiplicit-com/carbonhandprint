@@ -7,9 +7,9 @@ description: "A Finnish consortium including Nokia has developed a framework for
 date: 2019-02-03
 related:
   - url: /methods/#vtt
-    title: on how the VTT and LUT method works
+    title: How the VTT and LUT method works
   - url: /articles/2026/11/nokia-and-the-handprint-of-connectivity/
-    title: about Nokia and the handprint of connectivity
+    title: Nokia and the handprint of connectivity
 ---
 
 <p>A Finnish consortium including Nokia has developed a framework for calculating Carbon Handprint contributions.</p>
