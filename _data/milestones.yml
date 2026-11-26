@@ -35,12 +35,7 @@
 - when: "2020s"
   date: "2022-02"
   kind: event
-  text: "Other businesses such as <a href=\"https://www.neste.com/news-and-insights/sustainability/carbon-handprint-and-footprint-explained\">Neste</a> report handprints next to footprints. Campaigners such as <a href=\"https://www.leave-it-in-the-ground.org/projects/carbon-footprints-to-handprints/\">LINGO</a> use \"footprints to handprints\" to argue for structural, collective action. Writers like <a href=\"https://earthbound.report/2026/01/09/what-is-a-carbon-handprint/\">The Earthbound Report</a> introduce the term to new audiences."
-
-- when: "2026"
-  date: "2026-11"
-  kind: milestone
-  text: "carbonhandprint.org is rebuilt, with an updated guide and a blog."
+  text: "Other businesses such as <a href=\"https://www.neste.com/news-and-insights/sustainability/carbon-handprint-and-footprint-explained\">Neste</a> report handprints next to footprints."
 
 - when: "September 2022"
   date: "2022-09"

@@ -7,12 +7,6 @@ permalink: /reading/
 description: A dated reading list of articles, research and reports on the carbon handprint concept since 2007.
 ---
 
-## From our own archive
-
-Articles from the original carbonhandprint.org are on the [blog](/blog/), with their original dates, starting with [Let's make 2019 count](/blog/2019/01/lets-make-2019-count/).
-
-## Over the years
-
 <ol class="timeline">
   <li><span class="yr">2007</span><span><a href="https://www.ceeindia.org/handprint.php">Handprint</a>, Centre for Environment Education (India). The education programme presented at the Fourth International Conference on Environmental Education.</span></li>
   <li><span class="yr">2013</span><span><a href="https://kkh.ltrr.arizona.edu/kkh/natsgc/pdfs-2014/Our-Environmental-Handprint.pdf">Our Environmental Handprint: The Good We Do</a>, Jon Biemer, Willow Dixon and Natalia Blackburn, IEEE Conference on Technologies for Sustainability. Case studies in wind power, solar cookers and green building.</span></li>
@@ -29,19 +23,5 @@ Articles from the original carbonhandprint.org are on the [blog](/blog/), with t
   <li><span class="yr">May 2024</span><span><a href="https://www.itu.int/en/ITU-T/climatechange/symposia/202405/Documents/Anthony%20Darcy.pdf">Nokia's ESG strategy: maximise the handprint, minimise the footprint</a>, Anthony D'Arcy, ITU climate change symposium.</span></li>
   <li><span class="yr">Nov 2025</span><span><a href="https://www.mediekultur.dk/article/view/152898">The dual climate impact of news media</a>, Meri Frig, Maarit Jaakkola and Laura Olkkonen, <em>MedieKultur</em>. How Nordic newsrooms think about their footprint and their handprint.</span></li>
 </ol>
-
-{% comment %}
-Held back: smaller blogs and outlets. The list leads with major institutions, research bodies and established media for credibility. Move an item back into the list above to publish it.
-<ol>
-  <li><span class="yr">May 2012</span><span><a href="https://danswin.wordpress.com/2012/05/20/carbon-handprints-not-footprints/">Carbon Handprints, not Footprints</a>, Dan Swinhoe. An early blog post on Handprinter, the handprint tool developed by Gregory Norris.</span></li>
-  <li><span class="yr">Mar 2020</span><span><a href="https://acre.com/blog/2020/03/how-the-carbon-handprint-is-shaping-a-positive-future">How the carbon handprint is shaping a positive future</a>, Jack Porter, Acre.</span></li>
-  <li><span class="yr">Sep 2020</span><span><a href="https://simon-jds.medium.com/from-footprint-to-handprint-1705821376bb">From Footprint to Handprint</a>, Simon JD Schillebeeckx.</span></li>
-  <li><span class="yr">Oct 2021</span><span><a href="https://fintechacrossthepond.substack.com/p/climatefintech">Climate Fintech: Handprints vs Footprints</a>, Fintech Across the Pond. Argues that green finance looks too hard at footprints.</span></li>
-  <li><span class="yr">Feb 2022</span><span><a href="https://www.unsustainablemagazine.com/carbon-handprints-an-overview/">Carbon Handprints: An Overview and Tips to Start Measuring</a>, Jane Marsh, Unsustainable Magazine.</span></li>
-  <li><span class="yr">2022</span><span><a href="https://www.leave-it-in-the-ground.org/projects/carbon-footprints-to-handprints/">Carbon Footprints to Carbon Handprints</a>, LINGO (Leave It In the Ground).</span></li>
-  <li><span class="yr">Jun 2023</span><span><a href="https://thewestendnews.com/bright-idea-get-to-know-your-climate-handprint/">Bright Idea: Get to Know Your Climate Handprint</a>, Caitlin Marshall, The West End News (Portland, Maine).</span></li>
-  <li><span class="yr">Jan 2026</span><span><a href="https://earthbound.report/2026/01/09/what-is-a-carbon-handprint/">What is a carbon handprint?</a>, Jeremy Williams, The Earthbound Report.</span></li>
-</ol>
-{% endcomment %}
 
 Know of something we've missed, especially from the early years? [Tell us](/about/#get-in-touch).
