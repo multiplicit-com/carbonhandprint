@@ -1,0 +1,43 @@
+---
+layout: null
+permalink: /social.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+  <title>{{ site.title }}</title>
+  <link>{{ '/' | absolute_url }}</link>
+  <description>New articles and news from {{ site.title }}.</description>
+  <language>en-gb</language>
+  <atom:link href="{{ '/social.xml' | absolute_url }}" rel="self" type="application/rss+xml"/>
+  <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+{%- assign all = site.posts | concat: site.news | sort: "date" | reverse %}
+{%- for n in all limit: 25 %}
+{%- if n.collection == "posts" %}
+  {%- assign url = n.url | absolute_url %}
+  {%- assign img = n.image | default: site.defaults.last.values.image | absolute_url %}
+  {%- assign summary = n.description | default: n.excerpt | strip_html | strip_newlines | truncate: 280 %}
+{%- else %}
+  {%- if n.snippet %}
+    {%- if n.related %}{% assign url = n.related.first.url | absolute_url %}
+    {%- elsif n.countries %}{% assign url = '/countries/' | append: n.countries.first | append: '/' | absolute_url %}
+    {%- elsif n.events %}{% assign url = '/events/' | append: n.events.first | append: '/' | absolute_url %}
+    {%- else %}{% assign url = '/news/' | absolute_url %}{% endif %}
+  {%- else %}{% assign url = n.link %}{% endif %}
+  {%- if n.card_image %}{% assign img = n.card_image %}{% else %}{% assign img = '/assets/images/share.png' | absolute_url %}{% endif %}
+  {%- assign summary = n.description | strip_html | strip_newlines %}
+  {%- if n.source %}{% assign summary = summary | append: ' (' | append: n.source | append: ')' %}{% endif %}
+{%- endif %}
+  <item>
+    <title>{{ n.title | xml_escape }}</title>
+    <link>{{ url | xml_escape }}</link>
+    <guid isPermaLink="false">{{ n.id | absolute_url | xml_escape }}</guid>
+    <pubDate>{{ n.date | date_to_rfc822 }}</pubDate>
+    <description>{{ summary | xml_escape }}</description>
+    <media:content url="{{ img | xml_escape }}" medium="image"/>
+    <enclosure url="{{ img | xml_escape }}" type="image/{% if img contains '.png' %}png{% else %}jpeg{% endif %}" length="0"/>
+  </item>
+{%- endfor %}
+</channel>
+</rss>
