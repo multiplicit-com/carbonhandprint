@@ -20,9 +20,9 @@ Adopted in December 2015, the Paris Agreement commits almost every country to ho
 
 **COP31 made progress but no headline deal.** The summit in Antalya, Türkiye (9 to 22 November 2026) became the longest COP on record. Countries agreed decisions on a just transition, adaptation, climate finance and carbon markets, and launched the second global stocktake, which concludes in 2028. But the presidency's overarching "Antalya pact" was rejected by the EU, the UK and climate-vulnerable nations, chiefly because it did not mention fossil fuels. Around 80 countries backed a separate pledge to get 35% of final energy from electricity by 2035. ([UNFCCC](https://unfccc.int/news/cop31-delivers-important-progress-across-negotiations-and-action-agenda-advancing-implementation-but), [Carbon Brief](https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya))
 
-## Why it matters for your handprint
+## What it means for the rest of us
 
-Global deals set the direction, but they are delivered by millions of decisions at every level: national energy policy, a council's transport plan, a company's product design, a household's choice of boiler. When the international process stalls, those decisions matter more, not less. Telling your representatives that you want their country's plan strengthened is one of the biggest handprint actions available to anyone.
+Global deals set the direction, but they are delivered by millions of decisions at every level: national energy policy, a council's transport plan, a company's product design, a household's choice of boiler. When the international talks stall, those decisions matter even more. Telling your MP or councillor that you want stronger climate plans is one of the most useful things anyone can do.
 
 ## Articles on the Paris Agreement
 

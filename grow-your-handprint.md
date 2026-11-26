@@ -6,7 +6,7 @@ permalink: /grow-your-handprint/
 description: Practical ways to grow your carbon handprint at home, at work and in your community.
 ---
 
-The best handprint actions do two things: they cut emissions, and they make it easier or more likely for *someone else* to cut theirs too.
+The best things you can do cut your own emissions and also make it easier for someone else to cut theirs.
 
 ## Start with your biggest impact
 
@@ -35,7 +35,7 @@ Governments at every level make the decisions that affect us all. Every environm
 
 ## Use your work
 
-For many people, work is where their handprint can be biggest. Ask what your organisation's products help customers avoid, push for science-based targets, and suggest the low-carbon option in the meetings you're already in.
+For a lot of people, work is where they can make the biggest difference. If there's a lower-carbon way of doing something, suggest it.
 
 ## Share it
 

@@ -12,8 +12,6 @@ A **carbon footprint** counts the greenhouse gases caused by your own activities
 
 A **carbon handprint** looks outward. It is the positive climate impact you create beyond yourself: the emissions you help other people avoid, the habits you pass on, the projects you start, the decisions you influence.
 
-You shrink a footprint. You grow a handprint.
-
 ## Why a second measure?
 
 For years the climate conversation has focused on footprints. That matters, but it has two weaknesses.
@@ -21,7 +19,7 @@ For years the climate conversation has focused on footprints. That matters, but 
 - **It can feel hopeless.** A footprint can only ever get smaller, and it never reaches zero just by living. For a lot of people that message turns into guilt, then inaction.
 - **It stops at your front door.** Some of the most useful things anyone does for the climate happen outside their own consumption: persuading an employer to switch energy supplier, starting a repair café, designing a more efficient product, voting, campaigning.
 
-The handprint gives those actions a name, and gives people a positive reason to keep going. It was never meant to replace the footprint, or to let anyone off the hook for theirs. It is a tool to engage people on a different level.
+The handprint gives those things a name, and gives people a reason to keep going. It was never meant to replace the footprint or let anyone off the hook. It's just a different way in.
 
 ## Two ways the idea is used
 
@@ -53,7 +51,6 @@ In 2021 the method was widened into an **environmental handprint**, which covers
 | What it counts | Emissions you cause | Emissions you help avoid, and positive change you enable |
 | Direction | Make it smaller | Make it bigger |
 | Scope | Your own activities | Your influence on others |
-| Feeling | Responsibility | Agency |
 
 ## What next?
 

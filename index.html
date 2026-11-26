@@ -1,56 +1,35 @@
 ---
 title: Carbon Handprint
-description: Your carbon footprint is the harm you do. Your carbon handprint is the good you help happen. An open idea, free for anyone to use.
+description: Carbon Handprint is an idea to help people realise that no contribution to the environment is too small. Your footprint is the damage. Your handprint is the good you do.
 ---
 <section class="hero">
   <div class="wrap">
-    <h1>Your footprint is the harm. Your handprint is the help.</h1>
-    <p>A carbon footprint measures the emissions we cause. A <strong>carbon handprint</strong> recognises the positive difference we make: the emissions we help avoid, the people we bring along, the changes we start. No contribution is too small.</p>
-    <a class="btn" href="{{ '/what-is-a-carbon-handprint/' | relative_url }}">What is a carbon handprint?</a>
-    <a class="btn ghost" href="{{ '/grow-your-handprint/' | relative_url }}">Grow yours</a>
+    <h1>Carbon Handprint</h1>
+    <p>Most of us have heard of a carbon footprint, the damage we do to the environment. Your carbon handprint is the other side of it: the good you do. Cycling to work, talking a neighbour into solar panels, getting your school to recycle properly. It all counts, and no contribution is too small.</p>
+    <a class="btn" href="{{ '/what-is-a-carbon-handprint/' | relative_url }}">More about the idea</a>
+    <a class="btn ghost" href="{{ '/grow-your-handprint/' | relative_url }}">What can I do?</a>
   </div>
 </section>
 
 <section>
-  <div class="wrap">
-    <h2>Two sides of the same hand</h2>
-    <div class="compare">
-      <div class="card">
-        <h3>👣 Carbon footprint</h3>
-        <p>The greenhouse gases released by what you, your household or your organisation does.</p>
-        <ul><li>Measures harm</li><li>Goal: make it smaller</li><li>Ends at your own front door</li></ul>
-      </div>
-      <div class="card hand">
-        <h3>✋ Carbon handprint</h3>
-        <p>The emissions you help others avoid, and the positive action you inspire or enable beyond your own life.</p>
-        <ul><li>Measures help</li><li>Goal: make it bigger</li><li>Reaches as far as your influence does</li></ul>
-      </div>
-    </div>
-    <p class="meta" style="margin-top:1rem">The handprint is not a replacement for the footprint, or a way to excuse it. It is a second lens that keeps the focus on what we can do, not only on what we should stop doing.</p>
-  </div>
-</section>
-
-<section style="background:var(--leaf)">
-  <div class="wrap">
-    <h2>Where the idea is today</h2>
-    <div class="grid">
-      <div class="card"><h3>For people</h3><p>Everyday action that spreads: cycling to work and getting colleagues to join, pushing for a school solar panel, voting and campaigning for climate policy.</p></div>
-      <div class="card"><h3>For organisations</h3><p>Finnish researchers at VTT and LUT University publish a method for companies to calculate the emissions their products help customers avoid. Nokia, one of its first partners, now frames its whole sustainability strategy around handprint and footprint.</p></div>
-      <div class="card"><h3>For communities</h3><p>Educators and campaigners use "handprint" to turn climate worry into collective, structural action.</p></div>
-    </div>
-    <p style="margin-top:1.25rem"><a href="{{ '/history/' | relative_url }}">Read how the idea has grown →</a></p>
+  <div class="wrap prose" style="padding-top:0;padding-bottom:0">
+    <h2>Why a handprint?</h2>
+    <p>I started this site in 2007. Back then nearly all the talk was about carbon footprints, which is important, but it is also a pretty gloomy message. However hard you try, all you can do is make the bad number smaller. I wanted something more positive that might bring new people into the environmental movement instead of putting them off.</p>
+    <p>The handprint isn't meant to replace the footprint or excuse it. It's a way of noticing the good things people do, and encouraging more of them.</p>
+    <p>Since then the idea has been picked up by schools, researchers and some very large companies, including Nokia. The <a href="{{ '/history/' | relative_url }}">history page</a> has more on that.</p>
+    <p>Nobody owns the term Carbon Handprint, so please feel free to use it.</p>
   </div>
 </section>
 
 <section>
-  <div class="wrap">
-    <h2>Latest from the blog</h2>
+  <div class="wrap prose" style="padding-top:0">
+    <h2>Latest posts</h2>
     <ul class="posts">
       {% for post in site.posts limit:4 %}
       <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>{% if post.description %} · {{ post.description }}{% endif %}</p></li>
       {% endfor %}
     </ul>
-    <p><a href="{{ '/blog/' | relative_url }}">All posts →</a></p>
+    <p><a href="{{ '/blog/' | relative_url }}">All posts</a></p>
   </div>
 </section>

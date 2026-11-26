@@ -3,7 +3,7 @@ title: Nokia and the handprint of connectivity
 description: One of the first companies to help build the carbon handprint method now puts it at the centre of its strategy.
 ---
 
-If you want to see how far the handprint idea has travelled, look at Nokia.
+Nokia is one of the biggest companies using the handprint idea, and it has been involved almost from the start of the corporate side of it.
 
 ## A founding partner of the method
 
@@ -19,8 +19,8 @@ The handprint examples Nokia gives include [private wireless networks](https://w
 
 Nokia is a useful example of why the two measures belong together. More than 95% of its emissions come from its products being used, which means the energy its customers' networks consume. So the same piece of kit sits on both sides of the ledger. A more efficient radio shrinks Nokia's footprint *and* grows its handprint, because the operator running it uses less electricity.
 
-Nokia has also set a science-based target to halve its emissions by 2030 against 2019 and to reach net zero by 2040. That's the right order of things: an honest footprint and a credible plan to shrink it, with the handprint alongside it rather than instead of it.
+Nokia has also set a science-based target to halve its emissions by 2030 against 2019 and to reach net zero by 2040. Which is how it should be: the footprint still gets measured and cut, and the handprint sits alongside it.
 
 ## What it means for the rest of us
 
-You don't need to be a multinational to think this way. The question Nokia asks of its products, "who else's emissions go down because of what we do?", works just as well for a household, a school or a small business. That's your handprint.
+You don't need to be a multinational to think like this. Asking "whose emissions go down because of what I do?" works just as well for a household, a school or a small business.
