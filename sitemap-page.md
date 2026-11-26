@@ -46,5 +46,4 @@ description: Every section and page on carbonhandprint.org.
 - [About](/about/)
 - [Editorial policy](/editorial-policy/)
 - [Contact](/contact/)
-- [Privacy](/privacy/)
-- [Terms of use](/terms/)
+- [Terms and privacy](/terms/)
