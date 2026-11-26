@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /f/
 Sitemap: https://carbonhandprint.org/sitemap.xml
+Sitemap: https://carbonhandprint.org/news-sitemap.xml
