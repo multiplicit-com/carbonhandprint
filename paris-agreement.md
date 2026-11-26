@@ -43,8 +43,8 @@ Global deals set the direction, but they are delivered by millions of decisions 
 
 {% assign paris = site.posts | where_exp: "p", "p.tags contains 'paris-agreement'" %}
 {% if paris.size > 0 %}
-<ul class="posts">
-{% for post in paris %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><p>{{ post.date | date: "%-d %B %Y" }}{% if post.description %} · {{ post.description }}{% endif %}</p></li>
+<ul class="postlist">
+{% for post in paris %}{% include postitem.html post=post %}
 {% endfor %}</ul>
 {% else %}
 <p class="meta">Articles coming soon.</p>

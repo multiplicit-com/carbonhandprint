@@ -267,3 +267,14 @@ ul li::marker{color:var(--accent,var(--soft))}
 .linkcard .lc-title{font-size:1.12rem;line-height:1.3}
 .linkcard .lc-desc{font-size:.95rem}
 }
+/* Article lists: the whole item is the link */
+.postlist>li,.prose .postlist>li{display:block;padding:0;border-bottom:1px solid var(--rule)}
+.postlist a.pl,.prose .postlist a.pl{display:grid;grid-template-columns:7rem 1fr;gap:1rem;padding:.9rem 0;text-decoration:none;color:var(--ink);font-family:var(--body);font-size:1rem;font-weight:400}
+.postlist a.pl time{font-family:var(--ui);font-size:.82rem;color:var(--soft);padding-top:.2rem;white-space:nowrap}
+.postlist .pl-title{display:block;font-family:var(--head);font-size:1.08rem;font-weight:600;color:var(--accent,var(--link));text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.postlist .pl-desc{display:block;margin-top:.2rem;color:var(--soft);font-size:.94rem;line-height:1.5}
+.postlist .pl-more{display:block;margin-top:.3rem;font-family:var(--ui);font-size:.85rem;font-weight:500;color:var(--accent,var(--link))}
+.postlist a.pl:hover{background:color-mix(in srgb,var(--accent,var(--link)) 4%,transparent)}
+.postlist a.pl:hover .pl-title{text-decoration-thickness:2px}
+.postlist a.pl:hover .pl-more{text-decoration:underline}
+@media(max-width:520px){.postlist a.pl,.prose .postlist a.pl{grid-template-columns:1fr;gap:.2rem}}

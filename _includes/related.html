@@ -1,7 +1,7 @@
 {% assign rel = site.posts | where_exp: "p", "p.tags contains include.tag" %}{% if rel.size > 0 %}
 <section class="related">
 <h2>{{ include.title | default: "Related articles" }}</h2>
-<ul class="posts">
-{% for post in rel %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><p>{{ post.date | date: "%-d %B %Y" }}{% if post.description %} · {{ post.description }}{% endif %}</p></li>
+<ul class="postlist">
+{% for post in rel %}{% include postitem.html post=post %}
 {% endfor %}</ul>
 </section>{% endif %}
