@@ -1,5 +1,5 @@
 {% assign lim = include.limit | default: 1000 %}
-{% if include.type %}{% assign list = site.posts | where_exp: "p", "p.type == include.type" %}{% if include.type == "editorial" %}{% assign untyped = site.posts | where_exp: "p", "p.type == nil" %}{% assign list = list | concat: untyped | sort: "date" | reverse %}{% endif %}{% else %}{% assign list = site.posts %}{% endif %}
+{% if include.type %}{% assign list = site.posts | where_exp: "p", "p.type == include.type" %}{% if include.type == "editorial" %}{% assign untyped = site.posts | where_exp: "p", "p.type == nil" %}{% assign list = list | concat: untyped | sort: "date" | reverse %}{% endif %}{% elsif include.exclude %}{% assign list = site.posts | where_exp: "p", "p.type != include.exclude" %}{% else %}{% assign list = site.posts %}{% endif %}
 <ol class="postlist">
   {% for post in list limit: lim %}{% assign t = post.type | default: "editorial" %}
   <li class="t-{{ t }}">

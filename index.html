@@ -23,9 +23,17 @@ description: Carbon Handprint is an idea to help people realise that no contribu
 </section>
 
 <section class="wrap twocol c-orange">
-  <h2>Latest posts</h2>
+  <h2>Latest from us</h2>
   <div>
-    {% include postlist.html limit=5 %}
+    {% include postlist.html exclude="news" limit=5 %}
     <p class="more"><a href="{{ '/blog/' | relative_url }}">All posts</a></p>
+  </div>
+</section>
+
+<section class="wrap twocol c-green">
+  <h2>In the news</h2>
+  <div>
+    {% include postlist.html type="news" limit=5 %}
+    <p class="more"><a href="{{ '/news/' | relative_url }}">All news</a></p>
   </div>
 </section>
