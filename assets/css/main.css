@@ -303,3 +303,4 @@ ul li::marker{color:var(--accent,var(--soft))}
 .facts,.points{background:color-mix(in srgb,var(--accent,var(--teal)) 7%,var(--bg));border-radius:14px;padding:1.6rem 1.8rem}
 .points{padding-left:3rem;max-width:none}
 @media(max-width:760px){.facts,.points{border-radius:10px;padding:1.1rem}.points{padding-left:2.2rem}}
+.links{display:flex;flex-wrap:wrap;gap:.6rem 1.5rem}.links a{margin-right:0;white-space:nowrap}
