@@ -6,4 +6,6 @@ source: IEEFA
 description: "Chevron's Gorgon gas project in Western Australia, one of the world's largest carbon storage schemes, was meant to bury 80% of the CO2 taken out of its gas. In 2023-24 it managed 30%, and about 44% over five years. Chevron has bought offsets to cover the shortfall."
 countries: [australia]
 tags: [carbon-capture]
+card_image: "https://ieefa.org/sites/default/files/styles/wide/public/2024-11/Untitled%20design%20%281%29.jpg?itok=YLVYLPFU"
+link_title: "Gorgon CCS underperformance hits new low in 2023-24"
 ---
