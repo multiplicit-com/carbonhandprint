@@ -1,5 +1,5 @@
 ---
-countries: [australia, canada, eu]
+countries: [canada, eu]
 tags: [methods]
 title: Is all carbon capture equal?
 description: Carbon capture, carbon removal and carbon offsets get talked about as if they were the same thing. They aren't. Here is how to tell a solid claim from a weak one.
@@ -21,8 +21,7 @@ We think it's worth knowing the difference, whether you're a customer looking at
 
 CCS may well be needed for industries like cement, where CO₂ is released by the chemistry itself and there's no simple alternative. But promised capture rates and real ones are often far apart.
 
-- Chevron's Gorgon gas project in Western Australia was required to bury 80% of the CO₂ it separates from its gas. It has never met that in a single year, and in 2023-24 it managed 30% ([IEEFA](https://ieefa.org/resources/gorgon-ccs-underperformance-hits-new-low-2023-24)).
-- Boundary Dam, a coal plant in Saskatchewan, was promoted as capturing up to 90% of its emissions. Counting the flue gas that bypasses the unit, it has averaged about 57% ([CBC](https://www.cbc.ca/1.7191867)).
+Boundary Dam, a coal plant in Saskatchewan, is one example. It was promoted as capturing up to 90% of its emissions. Counting the flue gas that bypasses the unit, it has averaged about 57% ([CBC](https://www.cbc.ca/1.7191867)).
 
 There is also the question of what happens to the CO₂ afterwards. For decades, much of the CO₂ captured around the world has been pumped into oil fields to push out more oil, known as enhanced oil recovery. The International Energy Agency has pointed out that this can only count as lower-carbon oil in narrow circumstances, such as when the CO₂ comes from the air or from plants, and that a stored tonne "can only be counted once" ([IEA](https://www.iea.org/commentaries/can-co2-eor-really-provide-carbon-negative-oil)).
 
