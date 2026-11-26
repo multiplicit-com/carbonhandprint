@@ -20,8 +20,10 @@ Good ideas tend to appear in several places at once, and the handprint is one of
   <li><span class="yr">2026</span><span>carbonhandprint.org is rebuilt, with an updated guide and a blog.</span></li>
 </ol>
 
-## Our view
+## Our position
 
-Nobody owns the term Carbon Handprint, and we don't think anyone should. This site's goal is the same as it always was: to reinforce the environmental message by reminding everyone that they can make a difference.
+Nobody owns the term Carbon Handprint, and nobody should. We put it out freely in 2007 and we release it freely now. Anyone may use it: individuals, schools, campaigners, researchers and businesses.
 
-We welcome every serious use of the idea, from a schoolchild's pledge to a company's verified product assessment. What matters is that handprints are honest: added to an honest footprint, never used to hide one.
+Our goal has not changed. It is to reinforce the environmental message by reminding everyone that they can make a difference.
+
+We ask one thing of anyone using the term: be honest. A handprint sits alongside a footprint. It must never be used to hide one.
