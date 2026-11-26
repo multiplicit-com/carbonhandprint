@@ -13,7 +13,7 @@ social:
   links:
     - https://www.facebook.com/CarbonHandprint/
 timezone: Europe/London
-author: editors
+author: steven-lownds
 
 permalink: /articles/:year/:month/:title/
 
@@ -31,7 +31,7 @@ collections:
 
 defaults:
   - scope: { path: "", type: posts }
-    values: { layout: post, author: editors, seo: { type: Article } }
+    values: { layout: post, author: steven-lownds, seo: { type: Article } }
   - scope: { path: "" }
     values: { layout: default, image: /assets/images/share.png }
 

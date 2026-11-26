@@ -11,7 +11,7 @@ sitemap: false
   <link href="{{ '/news/' | absolute_url }}" rel="alternate" type="text/html"/>
   <id>{{ '/news/' | absolute_url }}</id>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <author><name>{{ site.data.authors.editors.name }}</name></author>
+  <author><name>{{ site.title }}</name></author>
 {% assign items = site.news | sort: "date" | reverse %}{% for n in items limit: 30 %}  <entry>
     <title>{% if n.snippet %}In brief: {% endif %}{{ n.title | xml_escape }}</title>
     <link href="{{ n.link | xml_escape }}" rel="alternate"/>

@@ -1,6 +1,5 @@
-# Bylines. Set `author: key` in an article's front matter; `editors` is the default.
+# Bylines. Set `author: key` in an article's front matter; `steven-lownds` is the default.
 # Each author gets a page at /authors/<key>/ (copy a file in authors/).
-editors:
-  name: Carbon Handprint editors
-  url: https://carbonhandprint.org/authors/editors/
-  bio: The team behind carbonhandprint.org, publishing on the carbon handprint since 2007.
+steven-lownds:
+  name: Steven Lownds
+  bio: Started carbonhandprint.org in 2007.
