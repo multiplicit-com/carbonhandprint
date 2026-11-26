@@ -9,9 +9,9 @@ layout: default
   {% if c.facts %}
   <h2>Where it stands</h2>
   <dl class="facts">
-  {% for f in c.facts %}<dt>{{ f.label }}</dt><dd>{{ f.text }}{% if f.source %} <a class="src" href="{{ f.url }}">{{ f.source }}</a>{% endif %}</dd>
+  {% for f in c.facts %}<dt>{{ f.label }}</dt><dd>{{ f.text }}{% if f.source and f.source != "Climate Action Tracker" %} <a class="src" href="{{ f.url }}">{{ f.source }}</a>{% endif %}</dd>
   {% endfor %}</dl>
-  {% if c.checked %}<p class="meta">Checked {{ c.checked }}.{% if c.cat_date %} Climate Action Tracker's latest assessment is from {{ c.cat_date }}. <a href="{{ c.cat_url }}">Read the full assessment</a>.{% endif %}</p>{% endif %}
+  <p class="meta">{% if c.checked %}Checked {{ c.checked }}. {% endif %}Sources: {% if c.cat_url %}<a href="{{ c.cat_url }}">Climate Action Tracker</a>{% if c.cat_date %} (assessment of {{ c.cat_date }}){% endif %}, {% endif %}the UN's <a href="https://unfccc.int/NDCREG">NDC registry</a>{% if c.owid %} and <a href="https://ourworldindata.org/profile/co2/{{ c.owid }}">Our World in Data's emissions profile</a>{% endif %}.</p>
   {% endif %}
   {% if c.part_of %}{% assign bloc = site.data.countries[c.part_of] %}
   <p>{{ c.name }} is a member of the <a href="{{ '/countries/' | append: c.part_of | append: '/' | relative_url }}">{{ bloc.name }}</a>, which makes one joint pledge under the Paris Agreement for all its members.</p>

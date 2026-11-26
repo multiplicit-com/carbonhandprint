@@ -8,6 +8,7 @@
 
 argentina:
   name: Argentina
+  owid: argentina
   region: Americas
   accent: orange
   lede: A 2030 cap on emissions, but no 2035 pledge yet and its climate agencies were dissolved in 2026.
@@ -63,6 +64,7 @@ argentina:
 
 australia:
   name: Australia
+  owid: australia
   region: Oceania
   accent: green
   lede: Targets set in law since 2022, while coal and gas projects continue to be approved.
@@ -131,6 +133,7 @@ australia:
 
 bhutan:
   name: Bhutan
+  owid: bhutan
   region: Asia
   accent: plum
   lede: Already carbon neutral, with forests that absorb more carbon than the country emits.
@@ -165,6 +168,7 @@ bhutan:
 
 brazil:
   name: Brazil
+  owid: brazil
   region: Americas
   accent: orange
   lede: Host of COP30 in 2025, with a 2035 pledge but new oil drilling approved in the Amazon basin.
@@ -216,6 +220,7 @@ brazil:
 
 canada:
   name: Canada
+  owid: canada
   region: Americas
   accent: orange
   lede: Net zero by 2050 is in law, but several major climate policies have been reversed since 2025.
@@ -284,6 +289,7 @@ canada:
 
 chile:
   name: Chile
+  owid: chile
   region: Americas
   accent: orange
   lede: Net zero by 2050 is legally binding, and the coal phase-out may come forward to 2035.
@@ -318,6 +324,7 @@ chile:
 
 china:
   name: China
+  owid: china
   region: Asia
   accent: plum
   lede: The world's largest emitter, whose emissions may have peaked in 2025.
@@ -374,6 +381,7 @@ china:
 
 colombia:
   name: Colombia
+  owid: colombia
   region: Americas
   accent: orange
   lede: Has granted no new oil and gas exploration licences since 2022.
@@ -418,6 +426,7 @@ colombia:
 
 costa-rica:
   name: Costa Rica
+  owid: costa-rica
   region: Americas
   accent: orange
   lede: A national plan to decarbonise by 2050, but the government now wants to explore for oil and gas.
@@ -458,6 +467,7 @@ costa-rica:
 
 egypt:
   name: Egypt
+  owid: egypt
   region: Africa
   accent: mustard
   lede: Host of COP27 in 2022, with no net zero target and new investment in gas.
@@ -498,6 +508,7 @@ egypt:
 
 ethiopia:
   name: Ethiopia
+  owid: ethiopia
   region: Africa
   accent: mustard
   lede: The first country to ban imports of petrol and diesel cars.
@@ -622,6 +633,7 @@ eu:
 
 finland:
   name: Finland
+  owid: finland
   region: Europe
   accent: blue
   lede: Home of the VTT and LUT handprint method, with a legal target of carbon neutrality by 2035.
@@ -653,6 +665,7 @@ finland:
 
 gambia:
   name: The Gambia
+  owid: gambia
   region: Africa
   accent: mustard
   lede: A small emitter whose unconditional pledge CAT rates as a fair share for 1.5 °C.
@@ -687,6 +700,7 @@ gambia:
 
 germany:
   name: Germany
+  owid: germany
   region: Europe
   accent: blue
   lede: Europe's largest economy, with net zero by 2045 in law.
@@ -743,6 +757,7 @@ germany:
 
 india:
   name: India
+  owid: india
   region: Asia
   accent: plum
   lede: Fast-growing clean power alongside rising demand, with net zero set for 2070.
@@ -811,6 +826,7 @@ india:
 
 indonesia:
   name: Indonesia
+  owid: indonesia
   region: Asia
   accent: plum
   lede: Net zero by 2060, but plans to retire coal plants early are being scaled back.
@@ -851,6 +867,7 @@ indonesia:
 
 iran:
   name: Iran
+  owid: iran
   region: Middle East
   accent: teal
   lede: One of the few countries yet to ratify the Paris Agreement.
@@ -882,6 +899,7 @@ iran:
 
 japan:
   name: Japan
+  owid: japan
   region: Asia
   accent: plum
   lede: Net zero by 2050, with plans for a new generation of nuclear reactors.
@@ -922,6 +940,7 @@ japan:
 
 kazakhstan:
   name: Kazakhstan
+  owid: kazakhstan
   region: Asia
   accent: plum
   lede: Net zero by 2060 is in law, while new coal power is planned.
@@ -972,6 +991,7 @@ kazakhstan:
 
 kenya:
   name: Kenya
+  owid: kenya
   region: Africa
   accent: mustard
   lede: Aiming for 100% clean electricity by 2030.
@@ -1017,6 +1037,7 @@ kenya:
 
 mexico:
   name: Mexico
+  owid: mexico
   region: Americas
   accent: orange
   lede: A new 2035 pledge, alongside plans to raise oil and gas output.
@@ -1067,6 +1088,7 @@ mexico:
 
 morocco:
   name: Morocco
+  owid: morocco
   region: Africa
   accent: mustard
   lede: Plans for 52% renewable electricity by 2030 and no new coal plants.
@@ -1107,6 +1129,7 @@ morocco:
 
 nepal:
   name: Nepal
+  owid: nepal
   region: Asia
   accent: plum
   lede: Aiming for carbon neutrality by 2045 and to phase out petrol and diesel vehicles by 2031.
@@ -1147,6 +1170,7 @@ nepal:
 
 new-zealand:
   name: New Zealand
+  owid: new-zealand
   region: Oceania
   accent: green
   lede: Net zero by 2050 is in law, with a separate target for biogenic methane.
@@ -1197,6 +1221,7 @@ new-zealand:
 
 nicaragua:
   name: Nicaragua
+  owid: nicaragua
   region: Americas
   accent: orange
   lede: The country that refused to sign in 2015 because the deal was too weak, then joined in 2017.
@@ -1224,6 +1249,7 @@ nicaragua:
 
 nigeria:
   name: Nigeria
+  owid: nigeria
   region: Africa
   accent: mustard
   lede: Aiming for net zero by 2060 amid a cost-of-living crisis.
@@ -1274,6 +1300,7 @@ nigeria:
 
 norway:
   name: Norway
+  owid: norway
   region: Europe
   accent: blue
   lede: Electric cars make up almost all new car sales, while oil and gas licensing continues.
@@ -1335,6 +1362,7 @@ norway:
 
 peru:
   name: Peru
+  owid: peru
   region: Americas
   accent: orange
   lede: A 2050 net zero strategy, alongside plans for more oil and gas.
@@ -1369,6 +1397,7 @@ peru:
 
 philippines:
   name: Philippines
+  owid: philippines
   region: Asia
   accent: plum
   lede: A large renewables pipeline, and a climate pledge that is mostly conditional on finance.
@@ -1403,6 +1432,7 @@ philippines:
 
 russia:
   name: Russia
+  owid: russia
   region: Europe
   accent: blue
   lede: A 2035 pledge that CAT says current policies already meet.
@@ -1459,6 +1489,7 @@ russia:
 
 saudi-arabia:
   name: Saudi Arabia
+  owid: saudi-arabia
   region: Middle East
   accent: teal
   lede: Net zero by 2060 has been announced, but emissions are projected to keep rising.
@@ -1509,6 +1540,7 @@ saudi-arabia:
 
 singapore:
   name: Singapore
+  owid: singapore
   region: Asia
   accent: plum
   lede: Almost all its electricity comes from gas, with plans to import low-carbon power.
@@ -1549,6 +1581,7 @@ singapore:
 
 south-africa:
   name: South Africa
+  owid: south-africa
   region: Africa
   accent: mustard
   lede: A climate law since 2024, with new coal power still joining the grid.
@@ -1599,6 +1632,7 @@ south-africa:
 
 south-korea:
   name: South Korea
+  owid: south-korea
   region: Asia
   accent: plum
   lede: Plans to close 40 of its 61 coal plants by 2040.
@@ -1665,6 +1699,7 @@ south-korea:
 
 switzerland:
   name: Switzerland
+  owid: switzerland
   region: Europe
   accent: blue
   lede: Net zero by 2050 is legally binding, but the government dismissed a 2024 European court ruling on its climate policy.
@@ -1715,6 +1750,7 @@ switzerland:
 
 thailand:
   name: Thailand
+  owid: thailand
   region: Asia
   accent: plum
   lede: Carbon neutral by 2050 and net zero by 2065, with gas power still expanding.
@@ -1755,6 +1791,7 @@ thailand:
 
 turkiye:
   name: Türkiye
+  owid: turkey
   region: Europe
   accent: blue
   lede: Host of COP31, with net zero by 2053 set in law in 2025.
@@ -1811,6 +1848,7 @@ turkiye:
 
 uae:
   name: United Arab Emirates
+  owid: united-arab-emirates
   region: Middle East
   accent: teal
   lede: Host of COP28 in 2023, aiming for net zero by 2050 while expanding gas.
@@ -1867,6 +1905,7 @@ uae:
 
 uk:
   name: United Kingdom
+  owid: united-kingdom
   region: Europe
   accent: blue
   lede: The first major economy to put net zero by 2050 into law, now aiming for clean power by 2030.
@@ -1931,6 +1970,7 @@ uk:
 
 us:
   name: United States
+  owid: united-states
   region: Americas
   accent: orange
   lede: The world's second-largest emitter has left the Paris Agreement and rolled back much of its federal climate policy.
@@ -2013,6 +2053,7 @@ us:
 
 vietnam:
   name: Vietnam
+  owid: vietnam
   region: Asia
   accent: plum
   lede: Net zero by 2050, but its plan for a coal phase-out has been weakened.
