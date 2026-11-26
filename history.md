@@ -7,7 +7,7 @@ permalink: /history/
 description: A short history of the carbon handprint and environmental handprint concepts, from the 2000s to today.
 ---
 
-Good ideas tend to appear in several places at once, and the handprint is one of them. The image of a positive hand beside a negative foot is a natural one, and it is quite possible that several people arrived at the name independently, for slightly different purposes. This is our best understanding of how it unfolded. If you know of an earlier or missing use, [please tell us](/about/#get-in-touch).
+Good ideas tend to appear in several places at once, and the handprint is one of them. The image of a positive hand beside a negative foot is a natural one, and it is quite possible that several people arrived at the name independently, for slightly different purposes. This is our best understanding of how it unfolded. There is also a [reading list](/reading/) of articles and research. If you know of an earlier or missing use, [please tell us](/about/#get-in-touch).
 
 <ol class="timeline">
   <li><span class="yr">Summer 2007</span><span><strong>carbonhandprint.org</strong> launches as a website where anyone could record their pledges and achievements for the environment, with the aim of letting a personal pledge and a data centre's energy figures sit side by side in one open record. To our knowledge it was among the first places to publish the phrase "carbon handprint" online.</span></li>
