@@ -6,4 +6,6 @@ source: UNFCCC
 description: "The UN's announcement of the deal: well below 2 °C and pursuing 1.5 °C, with new national plans every five years, common reporting rules and a regular global stocktake."
 events: [cop21]
 tags: [paris-agreement]
+card_image: "https://unfccc.int/sites/default/files/styles/hero_image/public/large-logo-background-z-space2_00000.jpg?itok=mZZRWO-c"
+link_title: "Historic Paris Agreement on Climate Change: 195 Nations Set Path to Keep Temperature Rise Well Below 2 Degrees Celsius"
 ---

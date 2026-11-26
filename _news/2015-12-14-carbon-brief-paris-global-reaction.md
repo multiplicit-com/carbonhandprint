@@ -7,4 +7,6 @@ description: "How newspapers, governments, campaigners and scientists around the
 countries: [china, brazil]
 events: [cop21]
 tags: [paris-agreement]
+card_image: "https://cbtempdev.wpenginepowered.com/wp-content/uploads/2015/12/Corbis-RM-Laurent-Fabius-COP21-media.jpg"
+link_title: "Global reaction: the Paris Agreement on climate change"
 ---
