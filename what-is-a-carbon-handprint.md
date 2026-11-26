@@ -35,7 +35,7 @@ This is the broad, everyday meaning, and the one this site started with. Your ha
 
 ### 2. Product and organisation handprints
 
-Since 2018, researchers at [VTT Technical Research Centre of Finland](https://www.vttresearch.com/) and [LUT University](https://www.lut.fi/) have published a formal method for companies, collected at [handprint.fi](https://handprint.fi/). Here a carbon handprint is the reduction in a *customer's* footprint that happens because they use your product or service instead of a baseline alternative.
+Since 2018, researchers at [VTT Technical Research Centre of Finland](https://www.vttresearch.com/) and [LUT University](https://www.lut.fi/) have published a formal method for companies, collected at [handprint.fi](https://handprint.fi/). Our [frameworks and methods](/methods/) page compares it with the other main approaches. Here a carbon handprint is the reduction in a *customer's* footprint that happens because they use your product or service instead of a baseline alternative.
 
 A simple example: a washing-machine maker that runs its factory on renewables shrinks its own footprint. If it also makes a machine that washes well at 20 °C, it grows its handprint, because every household that uses it emits less.
 
