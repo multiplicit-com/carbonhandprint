@@ -111,6 +111,8 @@ python3 tools/og.py _news/2027-01-15-some-story.md
 
 It reads the post's `link:`, looks up the page's Open Graph tags and adds `card_image:` and `link_title:`. Without an image, the card still shows the source and headline.
 
+To keep sources varied, the sites listed in `_data/limited_sources.yml` may make up at most half of the outside links on any page with more than one. To limit another site, add its domain on a new line. After a build, `python3 tools/source_check.py` lists any page over the limit (it needs PyYAML).
+
 Types are for us only: they change how an article is laid out, but readers just see articles. /articles/ lists every article by date, and /news/ shows news links.
 
 ## Events and milestones
