@@ -190,7 +190,7 @@ brazil:
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/brazil/
   - label: Recent
-    text: Amazon deforestation fell 31% in 2024. At the end of 2025 a new environmental licensing law, dubbed the "Devastation Bill", passed and oil drilling in the Amazon basin was approved.
+    text: Deforestation in the Legal Amazon fell 31% in the year to July 2024. At the end of 2025 a new environmental licensing law, dubbed the "Devastation Bill", passed and oil drilling in the Amazon basin was approved.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/brazil/
   timeline:
@@ -334,9 +334,9 @@ china:
   checked: November 2026
   facts:
   - label: Pledge (NDC)
-    text: Cut net greenhouse gas emissions 7 to 10% from their peak by 2035.
-    source: Climate Action Tracker
-    url: https://climateactiontracker.org/countries/china/
+    text: Cut net greenhouse gas emissions 7 to 10% from their peak by 2035, announced by Xi Jinping at the UN in September 2025.
+    source: China Ministry of Foreign Affairs
+    url: https://www.mfa.gov.cn/mfa_eng/xw/zyxw/202509/t20250925_11716513.html
   - label: Net zero
     text: Carbon neutrality before 2060, announced in 2020.
     source: Climate Action Tracker
@@ -576,18 +576,18 @@ eu:
   facts:
   - label: Pledge (NDC)
     text: Cut net emissions at least 55% below 1990 levels by 2030, and 66.25 to 72.5% by 2035.
-    source: Climate Action Tracker
-    url: https://climateactiontracker.org/countries/eu/
+    source: EU NDC (UNFCCC)
+    url: https://unfccc.int/sites/default/files/2025-11/DK-2025-11-05%20EU%20NDC.pdf
   - label: Net zero
-    text: 2050, set in law by the European Climate Law, with a 2040 target of a 90% cut.
-    source: Climate Action Tracker
-    url: https://climateactiontracker.org/countries/eu/
+    text: 2050, set in law by the European Climate Law, with a 2040 target of a 90% cut, adopted in March 2026.
+    source: European Commission
+    url: https://climate.ec.europa.eu/eu-action/climate-strategies-targets/2040-climate-target_en
   - label: Independent rating
     text: Climate Action Tracker rates the EU's overall action "Insufficient" (August 2026).
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/eu/
   - label: Recent
-    text: The EU agreed a 2040 target of a 90% cut in late 2025. It has also weakened several policies, including the 2035 phase-out of new petrol and diesel cars, and will let international carbon credits count toward the 2040 target.
+    text: International carbon credits can cover up to 5 points of the 2040 target. The EU has also weakened several policies, including the 2035 phase-out of new petrol and diesel cars.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/eu/
   timeline:
@@ -769,21 +769,21 @@ india:
   - label: Paris Agreement
     text: A party since 2016.
   - label: Pledge (NDC)
-    text: Submitted April 2026. Cut the emissions intensity of GDP 47% below 2005 levels and reach 60% non-fossil power capacity by 2035.
-    source: Climate Action Tracker
-    url: https://climateactiontracker.org/countries/india/
+    text: Approved by the cabinet in March 2026. Cut the emissions intensity of GDP 47% below 2005 levels and reach 60% non-fossil power capacity by 2035.
+    source: Prime Minister of India
+    url: https://www.pmindia.gov.in/en/news_updates/cabinet-approves-indias-nationally-determined-contribution-2031-2035-to-be-communicated-to-the-united-nations-framework-convention-on-climate-change/
   - label: Net zero
     text: 2070, announced at COP26 in 2021.
-    source: Climate Action Tracker
-    url: https://climateactiontracker.org/countries/india/
+    source: Prime Minister of India
+    url: https://www.pmindia.gov.in/en/news_updates/cabinet-approves-indias-nationally-determined-contribution-2031-2035-to-be-communicated-to-the-united-nations-framework-convention-on-climate-change/
   - label: Independent rating
     text: Climate Action Tracker rates India's overall action "Highly insufficient" (September 2026).
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/india/
   - label: Recent
-    text: Non-fossil sources reached 50% of installed power capacity in July 2025, five years ahead of target. A carbon credit trading scheme is due to start in 2026.
-    source: Climate Action Tracker
-    url: https://climateactiontracker.org/countries/india/
+    text: Non-fossil sources passed 50% of installed power capacity in mid-2025, five years ahead of target.
+    source: Down To Earth
+    url: https://www.downtoearth.org.in/energy/india-reaches-50-non-fossil-fuel-power-capacity-five-years-ahead-of-target
   timeline:
   - when: July 2025
     date: 2025-07
@@ -909,19 +909,19 @@ japan:
   checked: November 2026
   facts:
   - label: Pledge (NDC)
-    text: Cut emissions 46% below 2013 levels by 2030, aiming for 50%.
-    source: Climate Action Tracker
-    url: https://climateactiontracker.org/countries/japan/
+    text: Cut emissions 60% below 2013 levels by 2035 and 73% by 2040, set in its 2025 pledge. The 2030 target is 46%, aiming for 50%.
+    source: Japan NDC (UNFCCC)
+    url: https://unfccc.int/sites/default/files/2025-02/Japans%202035-2040%20NDC.pdf
   - label: Net zero
-    text: '2050.'
-    source: Climate Action Tracker
-    url: https://climateactiontracker.org/countries/japan/
+    text: 2050, declared in 2020.
+    source: Japan NDC (UNFCCC)
+    url: https://unfccc.int/sites/default/files/2025-02/Japans%202035-2040%20NDC.pdf
   - label: Independent rating
     text: Climate Action Tracker rates Japan's overall action "Insufficient" (November 2024).
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/japan/
   - label: Recent
-    text: Its GX policy includes new-generation nuclear reactors, but CAT says it lacks concrete emissions targets. A 2035 pledge was being drafted at the time of CAT's assessment.
+    text: Its GX policy includes new-generation nuclear reactors, but CAT says it lacks concrete emissions targets.
     source: Climate Action Tracker
     url: https://climateactiontracker.org/countries/japan/
   timeline:
@@ -1442,13 +1442,13 @@ russia:
   checked: November 2026
   facts:
   - label: Pledge (NDC)
-    text: Cut emissions 30% below 1990 levels by 2030, and 33 to 35% by 2035, counting forests and land.
-    source: Climate Action Tracker
-    url: https://climateactiontracker.org/countries/russian-federation/
+    text: Limit 2035 emissions to 65 to 67% of 1990 levels, a cut of 33 to 35%, counting the maximum possible absorption by forests and land.
+    source: Russia NDC (UNFCCC)
+    url: https://unfccc.int/sites/default/files/2025-09/RF_second_NDC.pdf
   - label: Net zero
-    text: 2060, in a low-emissions strategy approved in 2021.
-    source: Climate Action Tracker
-    url: https://climateactiontracker.org/countries/russian-federation/
+    text: Carbon neutrality by 2060, set in its Climate Doctrine.
+    source: Russia NDC (UNFCCC)
+    url: https://unfccc.int/sites/default/files/2025-09/RF_second_NDC.pdf
   - label: Independent rating
     text: Climate Action Tracker rates Russia's overall action "Critically insufficient" (September 2025).
     source: Climate Action Tracker
