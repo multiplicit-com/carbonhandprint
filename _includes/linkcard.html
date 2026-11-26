@@ -3,6 +3,6 @@
   <span class="lc-body">
     <span class="lc-site">{{ page.source | default: host[2] }} · {{ host[2] | remove_first: "www." }}</span>
     <span class="lc-title">{{ page.link_title | default: page.title }}</span>
-    <span class="lc-go">Read the full story ↗</span>
+    <span class="lc-go">Read the full story at {{ page.source | default: host[2] }}</span>
   </span>
 </a>
