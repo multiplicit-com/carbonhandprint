@@ -35,6 +35,20 @@
       if (!a.relList.contains('noopener')) a.relList.add('noopener');
     }
   }
+  for (const w of document.querySelectorAll('.loadmore')) {
+    const step = +w.dataset.step || 4, items = [...w.querySelectorAll('.newscards > li')];
+    if (items.length <= step) continue;
+    let shown = step;
+    const show = () => items.forEach((li, i) => li.hidden = i >= shown);
+    const btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'loadmore-btn'; btn.textContent = 'Load more';
+    btn.addEventListener('click', () => {
+      shown += step; show();
+      items[shown - step].querySelector('a')?.focus({preventScroll: true});
+      if (shown >= items.length) btn.remove();
+    });
+    w.after(btn); show();
+  }
   for (const h of document.querySelectorAll('.htl')) {
     const track = h.querySelector('.htl-track'), nav = h.querySelector('.htl-nav');
     const [prev, next] = nav.querySelectorAll('button');

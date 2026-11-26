@@ -280,3 +280,6 @@ ul li::marker{color:var(--accent,var(--soft))}
 @media(max-width:520px){.postlist a.pl,.prose .postlist a.pl{grid-template-columns:1fr;gap:.2rem}}
 .newscards .snippet,.newscards .snippet p,.newscards .sn-title{overflow-wrap:anywhere;min-width:0}
 .newscards>li{min-width:0}
+.loadmore-btn{display:block;margin:1rem 0 0;font-family:var(--ui);font-size:.9rem;background:none;border:1px solid var(--rule);border-radius:4px;padding:.45rem 1rem;color:var(--ink);cursor:pointer}
+.loadmore-btn:hover{border-color:var(--accent,var(--link));color:var(--accent,var(--link))}
+.newscards>li[hidden]{display:none}
