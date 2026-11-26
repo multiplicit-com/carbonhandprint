@@ -6,4 +6,6 @@ link: https://interactive.carbonbrief.org/factcheck/electric-vehicles/
 source: Carbon Brief
 description: "A detailed look at common claims about EVs. A typical electric car pays back the extra emissions from making its battery in under two years, and over its life cuts emissions by about two-thirds compared with a petrol car in Europe."
 tags: [electric-cars]
+card_image: "https://interactive.carbonbrief.org/factcheck/images/social-images/ev-thumbnail.png"
+link_title: "Factcheck: 21 misleading myths about electric vehicles"
 ---
