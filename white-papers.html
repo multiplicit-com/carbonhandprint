@@ -14,4 +14,4 @@ description: A curated list of white papers, research reports and standards on t
 {% for d in docs %}<li><a href="{{ d.url }}">{{ d.title }}</a><span class="by">{{ d.publisher }}{% if d.date != "" %} · {{ d.date | append: "-01" | slice: 0, 7 | replace: "-01", "" | split: "-" | first }}{% endif %}</span><p>{{ d.note }}</p></li>
 {% endfor %}</ul>
 {% endfor %}
-<p class="meta">Know of a report we should add? <a href="{{ '/about/#get-in-touch' | relative_url }}">Tell us</a>.</p>
+<p class="meta">Know of a report we should add? <a href="{{ '/contact/' | relative_url }}">Tell us</a>.</p>

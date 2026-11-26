@@ -42,6 +42,6 @@ For a lot of people, work is where they can make the biggest difference. If ther
 
 Your carbon handprint can be measured by positive experiences just as much as by the greenhouse gases saved. Share what you're doing with friends. Helping the environment should be fun and inclusive.
 
-**Got a handprint story?** We're always looking for inspiring examples. [Get in touch](/about/#get-in-touch).
+**Got a handprint story?** We're always looking for inspiring examples. [Get in touch](/contact/).
 
 {% include related.html tag="grow" %}

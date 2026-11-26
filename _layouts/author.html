@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% assign a = site.data.authors[page.author_key] %}
+<article class="wrap prose c-plum">
+  <h1>{{ a.name }}</h1>
+  {% if a.bio %}<p class="lede">{{ a.bio }}</p>{% endif %}
+  {% assign mine = site.posts | where: "author", page.author_key %}
+  <ul class="posts">
+  {% for post in mine %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><p>{{ post.date | date: "%-d %B %Y" }}{% if post.description %} · {{ post.description }}{% endif %}</p></li>
+  {% endfor %}</ul>
+</article>

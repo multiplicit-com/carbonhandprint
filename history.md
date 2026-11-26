@@ -7,7 +7,7 @@ permalink: /history/
 description: A short history of the carbon handprint and environmental handprint concepts, from the 2000s to today.
 ---
 
-Good ideas tend to appear in several places at once, and the handprint is one of them. The image of a positive hand beside a negative foot is a natural one, and it is quite possible that several people arrived at the name independently, for slightly different purposes. This is our best understanding of how it unfolded. There is also a [reading list](/reading/) of articles and research. If you know of an earlier or missing use, [please tell us](/about/#get-in-touch).
+Good ideas tend to appear in several places at once, and the handprint is one of them. The image of a positive hand beside a negative foot is a natural one, and it is quite possible that several people arrived at the name independently, for slightly different purposes. This is our best understanding of how it unfolded. There is also a [reading list](/reading/) of articles and research. If you know of an earlier or missing use, [please tell us](/contact/).
 
 <p class="meta">● marks milestones for this site.</p>
 <ol class="timeline">

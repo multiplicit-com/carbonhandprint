@@ -26,6 +26,6 @@ description: A dated reading list of articles, research and reports on the carbo
 
 For methods, research reports and company reports, see our [white papers](/white-papers/).
 
-Know of something we've missed, especially from the early years? [Tell us](/about/#get-in-touch).
+Know of something we've missed, especially from the early years? [Tell us](/contact/).
 
 {% include related.html tag="reading" %}

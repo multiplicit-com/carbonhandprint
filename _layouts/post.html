@@ -3,7 +3,8 @@ layout: default
 ---
 {% assign type = page.type | default: "editorial" %}
 <article class="wrap prose type-{{ type }} c-{{ page.accent | default: site.data.types[type].accent }}">
-  <p class="meta"><a href="{{ '/archive/' | relative_url }}" class="typelabel">Article</a> · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
+  {% assign author = site.data.authors[page.author] %}
+  <p class="meta"><a href="{{ '/archive/' | relative_url }}" class="typelabel">Article</a> · By <a href="{{ '/authors/' | append: page.author | append: '/' | relative_url }}" rel="author">{{ author.name | default: page.author }}</a> · Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>{% if page.last_modified_at %} · Updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%-d %B %Y" }}</time>{% endif %}</p>
   <h1>{% if type == "news" and page.link %}<a href="{{ page.link }}" rel="nofollow">{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}</h1>
   {% if type == "response" and page.link %}
   <p class="meta">In response to:</p>
@@ -15,5 +16,5 @@ layout: default
   {% include linkcard.html %}
   {% endif %}
   <hr>
-  <p class="meta">Spotted something we should cover? <a href="{{ '/about/#get-in-touch' | relative_url }}">Get in touch</a>.</p>
+  <p class="meta">Spotted something we should cover? <a href="{{ '/contact/' | relative_url }}">Get in touch</a>.</p>
 </article>
