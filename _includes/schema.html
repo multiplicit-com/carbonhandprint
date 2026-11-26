@@ -8,7 +8,7 @@
 {"@type":"WebSite","@id":"{{ base }}#website","name":{{ site.title | jsonify }},"url":"{{ base }}","inLanguage":"{{ site.lang }}","publisher":{"@id":"{{ base }}#org"},"description":{{ site.description | strip | jsonify }}},
 {"@type":{{ ptype | jsonify }},"@id":"{{ pageurl }}#webpage","url":"{{ pageurl }}","name":{{ page.title | default: site.title | jsonify }},"isPartOf":{"@id":"{{ base }}#website"},"inLanguage":"{{ site.lang }}"{% if page.description %},"description":{{ page.description | strip | jsonify }}{% endif %}
 {%- if page.url != "/" %},"breadcrumb":{"@id":"{{ pageurl }}#breadcrumb"}{% endif %}
-{%- if page.layout == "country" %}{% assign c = site.data.countries[page.country] %},"about":{"@type":"Country","name":{{ c.name | jsonify }}}{% endif %}
+{%- if page.layout == "country" %}{% assign c = site.data.countries[page.country] %},"about":{"@type":"{% if page.country == "eu" %}Organization{% else %}Country{% endif %}","name":{{ c.name | jsonify }}}{% endif %}
 {%- if page.layout == "author" %}{% assign a = site.data.authors[page.author_key] %},"mainEntity":{"@type":"Person","@id":"{{ pageurl }}#person","name":{{ a.name | jsonify }},"url":"{{ pageurl }}"{% if a.bio %},"description":{{ a.bio | jsonify }}{% endif %},"worksFor":{"@id":"{{ base }}#org"}}{% endif %}
 {%- if page.defined_term %},"mainEntity":{"@type":"DefinedTerm","name":{{ page.defined_term | jsonify }},"description":{{ page.lede | strip | jsonify }},"url":"{{ pageurl }}","inDefinedTermSet":{"@type":"DefinedTermSet","name":"Carbon Handprint glossary","url":"{{ pageurl }}"}}{% endif %}
 {%- if page.item_list %},"mainEntity":{"@type":"ItemList","itemListElement":[

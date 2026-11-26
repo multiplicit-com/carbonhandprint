@@ -1,4 +1,6 @@
-{% assign cs = site.data.countries | sort %}
+{% assign cs = site.data.countries | sort %}{% assign regions = "Africa,Americas,Asia,Europe,Middle East,Oceania" | split: "," %}
+{% for r in regions %}<h3 class="region">{{ r }}</h3>
 <ul class="countrylist">
-{% for c in cs %}<li><a href="{{ '/countries/' | append: c[0] | append: '/' | relative_url }}"><span class="cl-name">{{ c[1].name }}</span>{% if c[1].lede %}<span class="cl-lede">{{ c[1].lede }}</span>{% endif %}<span class="cl-more">Where {{ c[1].name }} stands</span></a></li>
-{% endfor %}</ul>
+{% for c in cs %}{% if c[1].region == r %}<li class="c-{{ c[1].accent }}"><a href="{{ '/countries/' | append: c[0] | append: '/' | relative_url }}"><span class="cl-name">{{ c[1].name }}</span>{% if c[1].lede %}<span class="cl-lede">{{ c[1].lede }}</span>{% endif %}<span class="cl-more">{% if c[1].rating %}Rated {{ c[1].rating | downcase }}{% else %}Where {{ c[1].name }} stands{% endif %}</span></a></li>
+{% endif %}{% endfor %}</ul>
+{% endfor %}

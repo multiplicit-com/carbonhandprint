@@ -1,162 +1,1138 @@
 # Country pages. Each key needs a matching file in countries/ (copy one and change `country:`).
-# Tag content with `countries: [key]` in front matter (articles, news) or in _data/milestones.yml.
+# Tag content with `countries: [key]` in front matter (articles, news).
+# region groups the list on the Paris Agreement page. part_of links a member state to a bloc (eu).
+# cat_url, cat_date and rating come from the Climate Action Tracker country page; cat_date is the date of its latest assessment.
 # facts: label, text, source (short name), url. Use authoritative sources only, and update `checked`.
 
-uk:
-  name: United Kingdom
-  accent: blue
-  lede: The first major economy to put net zero by 2050 into law, now aiming for clean power by 2030.
-  checked: November 2026
-  facts:
-    - label: Paris Agreement
-      text: A party since 2016.
-    - label: Pledge (NDC)
-      text: Cut emissions 81% below 1990 levels by 2035, and at least 68% by 2030.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/uk/
-    - label: Net zero
-      text: 2050, set in law in 2019.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/uk/
-    - label: Independent rating
-      text: Climate Action Tracker rates the UK's overall action "Insufficient" (October 2025).
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/uk/
-    - label: Recent
-      text: The Clean Power 2030 plan targets 95% low-carbon electricity by 2030, and the UK is linking its emissions trading scheme with the EU's. Overseas aid, which funds climate finance, has been cut from 0.5% to 0.3% of national income.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/uk/
 
-us:
-  name: United States
+argentina:
+  name: Argentina
+  region: Americas
   accent: orange
-  lede: The world's second-largest emitter has left the Paris Agreement and rolled back much of its federal climate policy.
+  lede: A 2030 cap on emissions, but no 2035 pledge yet and its climate agencies were dissolved in 2026.
+  cat_url: https://climateactiontracker.org/countries/argentina/
+  cat_date: July 2026
+  rating: Highly insufficient
   checked: November 2026
   facts:
-    - label: Paris Agreement
-      text: Withdrawal ordered on 20 January 2025 and in effect from 27 January 2026. The administration has also announced it will leave the UN climate convention (UNFCCC).
-      source: Harvard EELP
-      url: https://eelp.law.harvard.edu/tracker/paris-climate-agreement
-    - label: Pledge (NDC)
-      text: None in force. The 2030 and 2035 pledges made in 2021 and 2024 have been withdrawn.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/usa/
-    - label: Net zero
-      text: No federal target. 19 states are pursuing net zero on their own.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/usa/
-    - label: Independent rating
-      text: Climate Action Tracker rates US action "Critically insufficient" (October 2026).
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/usa/
-    - label: Recent
-      text: The One Big Beautiful Bill Act (July 2025) removed much of the Inflation Reduction Act's clean energy support. In February 2026 the EPA overturned the 2009 finding that greenhouse gases endanger public health, the legal basis for federal emissions rules.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/usa/
+  - label: Pledge (NDC)
+    text: Keep net emissions below 349 million tonnes of CO2 equivalent (MtCO2e) in 2030 (updated 2021). No 2035 pledge has been submitted.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/argentina/
+  - label: Net zero
+    text: 2050, set out in a long-term strategy submitted to the UN in 2022.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/argentina/
+  - label: Independent rating
+    text: Climate Action Tracker rates Argentina's overall action "Highly insufficient" (July 2026). CAT says the move up from "Critically insufficient" reflects revised emissions data, not new action.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/argentina/
+  - label: Recent
+    text: In April 2026 the government dissolved its national climate change directorates. The 2035 pledge is overdue.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/argentina/
 
 australia:
   name: Australia
-  accent: mustard
-  lede: Targets set in law since 2022, while coal and gas projects continue to be approved.
-  checked: November 2026
-  facts:
-    - label: Paris Agreement
-      text: A party since 2016.
-    - label: Pledge (NDC)
-      text: Cut net emissions 62 to 70% below 2005 levels by 2035, and 43% by 2030.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/australia/
-    - label: Net zero
-      text: 2050, set in law by the Climate Change Act 2022.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/australia/
-    - label: Independent rating
-      text: Climate Action Tracker rates Australia's overall action "Insufficient" (November 2026).
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/australia/
-    - label: Recent
-      text: A 2025 Net Zero Plan added interim targets and sector plans, and a vehicle efficiency standard took effect in 2025. Nearly 40 new or expanded coal and gas projects have also been approved.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/australia/
-
-finland:
-  name: Finland
+  region: Oceania
   accent: green
-  lede: Home of the VTT and LUT handprint method, with a legal target of carbon neutrality by 2035.
+  lede: Targets set in law since 2022, while coal and gas projects continue to be approved.
+  cat_url: https://climateactiontracker.org/countries/australia/
+  cat_date: November 2026
+  rating: Insufficient
   checked: November 2026
   facts:
-    - label: Paris Agreement
-      text: A party, with its pledge made jointly through the European Union.
-    - label: Climate law
-      text: The Climate Change Act, in force since 1 July 2022, sets carbon neutrality by 2035, emissions targets for 2030 and 2040, and a target to strengthen carbon sinks.
-      source: Parliament of Finland
-      url: https://www.eduskunta.fi/EN/tiedotteet/Pages/Parliament-passed-a-New-Climate-Change-Act.aspx
-    - label: Handprint
-      text: VTT and LUT University developed the carbon handprint method with Finnish companies including Nokia, Neste and KONE.
-      source: handprint.fi
-      url: https://handprint.fi/
+  - label: Paris Agreement
+    text: A party since 2016.
+  - label: Pledge (NDC)
+    text: Cut net emissions 62 to 70% below 2005 levels by 2035, and 43% by 2030.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/australia/
+  - label: Net zero
+    text: 2050, set in law by the Climate Change Act 2022.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/australia/
+  - label: Independent rating
+    text: Climate Action Tracker rates Australia's overall action "Insufficient" (November 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/australia/
+  - label: Recent
+    text: A 2025 Net Zero Plan added interim targets and sector plans, and a vehicle efficiency standard took effect in 2025. At least 37 new or expanded coal and gas projects have been approved, with 40 or more awaiting a decision.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/australia/
 
-india:
-  name: India
+bhutan:
+  name: Bhutan
+  region: Asia
   accent: plum
-  lede: Fast-growing clean power alongside rising demand, with net zero set for 2070.
+  lede: Already carbon neutral, with forests that absorb more carbon than the country emits.
+  cat_url: https://climateactiontracker.org/countries/bhutan/
+  cat_date: July 2023
+  rating: Almost sufficient
   checked: November 2026
   facts:
-    - label: Paris Agreement
-      text: A party since 2016.
-    - label: Pledge (NDC)
-      text: Submitted April 2026. Cut the emissions intensity of GDP 47% below 2005 levels and reach 60% non-fossil power capacity by 2035.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/india/
-    - label: Net zero
-      text: 2070, announced at COP26 in 2021.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/india/
-    - label: Independent rating
-      text: Climate Action Tracker rates India's overall action "Highly insufficient" (September 2026).
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/india/
-    - label: Recent
-      text: Non-fossil sources reached 50% of installed power capacity in July 2025, five years ahead of target. A carbon credit trading scheme is due to start in 2026.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/india/
+  - label: Pledge (NDC)
+    text: Stay carbon neutral. In 2020 the country was a net carbon sink of 8.9 MtCO2e.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/bhutan/
+  - label: Net zero
+    text: Its second pledge extends carbon neutrality to all greenhouse gases by 2050.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/bhutan/
+  - label: Independent rating
+    text: Climate Action Tracker rates Bhutan's overall action "Almost sufficient" (July 2023). CAT uses an adapted method because Bhutan is already carbon neutral.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/bhutan/
+  - label: Recent
+    text: Delays to hydropower projects are adding to national debt, and its first large solar plant (17 MW) was due to start construction in 2023.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/bhutan/
+
+brazil:
+  name: Brazil
+  region: Americas
+  accent: orange
+  lede: Host of COP30 in 2025, with a 2035 pledge but new oil drilling approved in the Amazon basin.
+  cat_url: https://climateactiontracker.org/countries/brazil/
+  cat_date: June 2026
+  rating: Highly insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut net emissions 59 to 67% below 2005 levels by 2035.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/brazil/
+  - label: Net zero
+    text: Climate neutrality by 2050, stated in its pledge.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/brazil/
+  - label: Independent rating
+    text: Climate Action Tracker rates Brazil's overall action "Highly insufficient" (June 2026). Down from "Insufficient".
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/brazil/
+  - label: Recent
+    text: Amazon deforestation fell 31% in 2024. At the end of 2025 a new environmental licensing law, dubbed the "Devastation Bill", passed and oil drilling in the Amazon basin was approved.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/brazil/
 
 canada:
   name: Canada
-  accent: teal
+  region: Americas
+  accent: orange
   lede: Net zero by 2050 is in law, but several major climate policies have been reversed since 2025.
+  cat_url: https://climateactiontracker.org/countries/canada/
+  cat_date: October 2026
+  rating: Highly insufficient
   checked: November 2026
   facts:
-    - label: Paris Agreement
-      text: A party since 2016.
-    - label: Pledge (NDC)
-      text: Cut emissions 45 to 50% below 2005 levels by 2035 (submitted February 2025), and 40 to 45% by 2030.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/canada/
-    - label: Net zero
-      text: 2050, set in law by the Net-Zero Emissions Accountability Act 2021.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/canada/
-    - label: Independent rating
-      text: Climate Action Tracker rates Canada's overall action "Highly insufficient" (October 2026).
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/canada/
-    - label: Recent
-      text: The federal government has scrapped the consumer carbon price, the planned oil and gas emissions cap and the electric vehicle sales mandate.
-      source: Climate Action Tracker
-      url: https://climateactiontracker.org/countries/canada/
+  - label: Paris Agreement
+    text: A party since 2016.
+  - label: Pledge (NDC)
+    text: Cut emissions 45 to 50% below 2005 levels by 2035 (submitted February 2025), and 40 to 45% by 2030.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/canada/
+  - label: Net zero
+    text: 2050, set in law by the Net-Zero Emissions Accountability Act 2021.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/canada/
+  - label: Independent rating
+    text: Climate Action Tracker rates Canada's overall action "Highly insufficient" (October 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/canada/
+  - label: Recent
+    text: The federal government has scrapped the consumer carbon price, the planned oil and gas emissions cap and the electric vehicle sales mandate.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/canada/
+
+chile:
+  name: Chile
+  region: Americas
+  accent: orange
+  lede: Net zero by 2050 is legally binding, and the coal phase-out may come forward to 2035.
+  cat_url: https://climateactiontracker.org/countries/chile/
+  cat_date: November 2025
+  rating: Almost sufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Limit emissions to 95 MtCO2e in 2030.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/chile/
+  - label: Net zero
+    text: 2050, legally binding under its Framework Law on Climate Change.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/chile/
+  - label: Independent rating
+    text: Climate Action Tracker rates Chile's overall action "Almost sufficient" (November 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/chile/
+  - label: Recent
+    text: President Boric announced plans to bring the coal phase-out forward to 2035 or earlier, depending on the grid. New energy projects must now be checked against the climate law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/chile/
+
+china:
+  name: China
+  region: Asia
+  accent: plum
+  lede: The world's largest emitter, whose emissions may have peaked in 2025.
+  cat_url: https://climateactiontracker.org/countries/china/
+  cat_date: November 2026
+  rating: Highly insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut net greenhouse gas emissions 7 to 10% from their peak by 2035.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/china/
+  - label: Net zero
+    text: Carbon neutrality before 2060, announced in 2020.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/china/
+  - label: Independent rating
+    text: Climate Action Tracker rates China's overall action "Highly insufficient" (November 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/china/
+  - label: Recent
+    text: CAT estimates emissions may have peaked in 2025 at 15.6 billion tonnes CO2e. The 15th Five-Year Plan (March 2026) targets a 17% cut in carbon intensity by 2030, which CAT calls conservative.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/china/
+
+colombia:
+  name: Colombia
+  region: Americas
+  accent: orange
+  lede: Has granted no new oil and gas exploration licences since 2022.
+  cat_url: https://climateactiontracker.org/countries/colombia/
+  cat_date: November 2025
+  rating: Insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: A pledge updated in September 2025 confirms the 2030 target and sets a slightly stronger goal for 2035.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/colombia/
+  - label: Net zero
+    text: 2050, in a long-term strategy submitted in 2021, backed by a 2021 climate law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/colombia/
+  - label: Independent rating
+    text: Climate Action Tracker rates Colombia's overall action "Insufficient" (November 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/colombia/
+  - label: Recent
+    text: No new oil and gas exploration licences have been granted since 2022, and a ban on fracking is going through. CAT says the pledge to phase out fossil fuels led to a credit rating downgrade.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/colombia/
+
+costa-rica:
+  name: Costa Rica
+  region: Americas
+  accent: orange
+  lede: A national plan to decarbonise by 2050, but the government now wants to explore for oil and gas.
+  cat_url: https://climateactiontracker.org/countries/costa-rica/
+  cat_date: November 2024
+  rating: Almost sufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Net emissions of no more than 9.11 MtCO2e in 2030, including land use.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/costa-rica/
+  - label: Net zero
+    text: 2050, under its National Decarbonisation Plan.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/costa-rica/
+  - label: Independent rating
+    text: Climate Action Tracker rates Costa Rica's overall action "Almost sufficient" (November 2024). Ratings are from CAT's 2023 evaluation.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/costa-rica/
+  - label: Recent
+    text: President Chaves opposes a proposed oil moratorium and wants to explore fossil fuel reserves. Electric public transport projects have been paused or scaled back.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/costa-rica/
+
+egypt:
+  name: Egypt
+  region: Africa
+  accent: mustard
+  lede: Host of COP27 in 2022, with no net zero target and new investment in gas.
+  cat_url: https://climateactiontracker.org/countries/egypt/
+  cat_date: October 2025
+  rating: Highly insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Conditional cuts against business as usual in electricity, transport, and oil and gas only, plus 42% renewable electricity by 2030. No economy-wide target.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/egypt/
+  - label: Net zero
+    text: None.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/egypt/
+  - label: Independent rating
+    text: Climate Action Tracker rates Egypt's overall action "Highly insufficient" (October 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/egypt/
+  - label: Recent
+    text: The government has committed US$7.2 billion to new gas exploration. Renewables supplied 11% of electricity in 2024.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/egypt/
+
+ethiopia:
+  name: Ethiopia
+  region: Africa
+  accent: mustard
+  lede: The first country to ban imports of petrol and diesel cars.
+  cat_url: https://climateactiontracker.org/countries/ethiopia/
+  cat_date: May 2025
+  rating: Almost sufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut emissions 68.8% below business as usual by 2030, mostly conditional on international support.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/ethiopia/
+  - label: Net zero
+    text: 2050, in its long-term strategy (2023). Not yet in law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/ethiopia/
+  - label: Independent rating
+    text: Climate Action Tracker rates Ethiopia's overall action "Almost sufficient" (May 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/ethiopia/
+  - label: Recent
+    text: In 2024 Ethiopia banned imports of combustion engine vehicles and removed import taxes on electric vehicles.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/ethiopia/
+
+eu:
+  name: European Union
+  region: Europe
+  accent: blue
+  lede: Negotiates as one bloc and makes a joint pledge for all its member states.
+  cat_url: https://climateactiontracker.org/countries/eu/
+  cat_date: August 2026
+  rating: Insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut net emissions at least 55% below 1990 levels by 2030, and 66.25 to 72.5% by 2035.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/eu/
+  - label: Net zero
+    text: 2050, set in law by the European Climate Law, with a 2040 target of a 90% cut.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/eu/
+  - label: Independent rating
+    text: Climate Action Tracker rates the EU's overall action "Insufficient" (August 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/eu/
+  - label: Recent
+    text: The EU adopted its 2040 target in 2025. It has also weakened several policies, including the 2035 phase-out of new petrol and diesel cars, and will let international carbon credits count toward the 2040 target.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/eu/
+
+finland:
+  name: Finland
+  region: Europe
+  accent: blue
+  lede: Home of the VTT and LUT handprint method, with a legal target of carbon neutrality by 2035.
+  part_of: eu
+  checked: November 2026
+  facts:
+  - label: Paris Agreement
+    text: A party, with its pledge made jointly through the European Union.
+  - label: Climate law
+    text: The Climate Change Act, in force since 1 July 2022, sets carbon neutrality by 2035, emissions targets for 2030 and 2040, and a target to strengthen carbon sinks.
+    source: Parliament of Finland
+    url: https://www.eduskunta.fi/EN/tiedotteet/Pages/Parliament-passed-a-New-Climate-Change-Act.aspx
+  - label: Handprint
+    text: VTT and LUT University developed the carbon handprint method with Finnish companies including Nokia, Neste and KONE.
+    source: handprint.fi
+    url: https://handprint.fi/
+
+gambia:
+  name: The Gambia
+  region: Africa
+  accent: mustard
+  lede: A small emitter whose unconditional pledge CAT rates as a fair share for 1.5 °C.
+  cat_url: https://climateactiontracker.org/countries/gambia/
+  cat_date: February 2023
+  rating: Almost sufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: CAT rates its unconditional target "1.5 °C compatible" against its fair share.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/gambia/
+  - label: Net zero
+    text: Climate neutral by 2050, in a long-term strategy (2022) that covers 81% of its emissions.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/gambia/
+  - label: Independent rating
+    text: Climate Action Tracker rates The Gambia's overall action "Almost sufficient" (February 2023).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/gambia/
+  - label: Recent
+    text: It continues to promote oil and gas extraction to cut its fuel imports.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/gambia/
+
+germany:
+  name: Germany
+  region: Europe
+  accent: blue
+  lede: Europe's largest economy, with net zero by 2045 in law.
+  part_of: eu
+  cat_url: https://climateactiontracker.org/countries/germany/
+  cat_date: August 2026
+  rating: Insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Germany's pledge is made jointly through the EU. Its own law targets a cut of at least 65% below 1990 levels by 2030.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/germany/
+  - label: Net zero
+    text: 2045, set in law in 2021.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/germany/
+  - label: Independent rating
+    text: Climate Action Tracker rates Germany's overall action "Insufficient" (August 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/germany/
+  - label: Recent
+    text: Parliament approved 9 GW of new gas power by 2031, and the government is dropping its electric car sales target and the 2035 phase-out of combustion engine cars. A new income-linked subsidy for electric cars began in January 2026.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/germany/
+
+india:
+  name: India
+  region: Asia
+  accent: plum
+  lede: Fast-growing clean power alongside rising demand, with net zero set for 2070.
+  cat_url: https://climateactiontracker.org/countries/india/
+  cat_date: September 2026
+  rating: Highly insufficient
+  checked: November 2026
+  facts:
+  - label: Paris Agreement
+    text: A party since 2016.
+  - label: Pledge (NDC)
+    text: Submitted April 2026. Cut the emissions intensity of GDP 47% below 2005 levels and reach 60% non-fossil power capacity by 2035.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/india/
+  - label: Net zero
+    text: 2070, announced at COP26 in 2021.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/india/
+  - label: Independent rating
+    text: Climate Action Tracker rates India's overall action "Highly insufficient" (September 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/india/
+  - label: Recent
+    text: Non-fossil sources reached 50% of installed power capacity in July 2025, five years ahead of target. A carbon credit trading scheme is due to start in 2026.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/india/
+
+indonesia:
+  name: Indonesia
+  region: Asia
+  accent: plum
+  lede: Net zero by 2060, but plans to retire coal plants early are being scaled back.
+  cat_url: https://climateactiontracker.org/countries/indonesia/
+  cat_date: September 2026
+  rating: Critically insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Its 2035 pledge switches to a cut from a historical reference year, and its forestry and land sector aims to absorb a net 140 MtCO2e by 2030.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/indonesia/
+  - label: Net zero
+    text: '2060.'
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/indonesia/
+  - label: Independent rating
+    text: Climate Action Tracker rates Indonesia's overall action "Critically insufficient" (September 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/indonesia/
+  - label: Recent
+    text: Its emissions trading scheme now covers coal and gas plants that supply industry directly. In late 2025 it dropped plans to retire the Cirebon-1 coal plant early.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/indonesia/
+
+iran:
+  name: Iran
+  region: Middle East
+  accent: teal
+  lede: One of the few countries yet to ratify the Paris Agreement.
+  cat_url: https://climateactiontracker.org/countries/iran/
+  cat_date: October 2023
+  rating: Critically insufficient
+  checked: November 2026
+  facts:
+  - label: Paris Agreement
+    text: Not yet ratified.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/iran/
+  - label: Pledge (NDC)
+    text: A 2015 pledge to cut emissions 4% below business as usual by 2030, or 12% with support. CAT says both are inflated and will be met anyway.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/iran/
+  - label: Net zero
+    text: None.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/iran/
+  - label: Independent rating
+    text: Climate Action Tracker rates Iran's overall action "Critically insufficient" (October 2023).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/iran/
+  - label: Recent
+    text: Its development plan for 2023 to 2027 contains no measures to cut emissions and no renewable energy targets.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/iran/
+
+japan:
+  name: Japan
+  region: Asia
+  accent: plum
+  lede: Net zero by 2050, with plans for a new generation of nuclear reactors.
+  cat_url: https://climateactiontracker.org/countries/japan/
+  cat_date: November 2024
+  rating: Insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut emissions 46% below 2013 levels by 2030, aiming for 50%.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/japan/
+  - label: Net zero
+    text: '2050.'
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/japan/
+  - label: Independent rating
+    text: Climate Action Tracker rates Japan's overall action "Insufficient" (November 2024).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/japan/
+  - label: Recent
+    text: Its GX policy includes new-generation nuclear reactors, but CAT says it lacks concrete emissions targets. A 2035 pledge was being drafted at the time of CAT's assessment.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/japan/
+
+kazakhstan:
+  name: Kazakhstan
+  region: Asia
+  accent: plum
+  lede: Net zero by 2060 is in law, while new coal power is planned.
+  cat_url: https://climateactiontracker.org/countries/kazakhstan/
+  cat_date: January 2024
+  rating: Insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut emissions 15% below 1990 levels by 2030, or 25% with international support.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/kazakhstan/
+  - label: Net zero
+    text: 2060, set in law in 2023.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/kazakhstan/
+  - label: Independent rating
+    text: Climate Action Tracker rates Kazakhstan's overall action "Insufficient" (January 2024).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/kazakhstan/
+  - label: Recent
+    text: Its 2023 pledge update did not raise ambition, and new coal power was announced at the end of 2022. CAT projects emissions to keep growing until 2035 under current policies.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/kazakhstan/
+
+kenya:
+  name: Kenya
+  region: Africa
+  accent: mustard
+  lede: Aiming for 100% clean electricity by 2030.
+  cat_url: https://climateactiontracker.org/countries/kenya/
+  cat_date: March 2026
+  rating: Almost sufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut emissions 35% below business as usual by 2035 (submitted April 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/kenya/
+  - label: Net zero
+    text: No target.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/kenya/
+  - label: Independent rating
+    text: Climate Action Tracker rates Kenya's overall action "Almost sufficient" (March 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/kenya/
+  - label: Recent
+    text: Its National Energy Compact for 2025 to 2030 aims for 100% clean power generation by 2030. Wind and solar provided around 18% of electricity in 2024.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/kenya/
+
+mexico:
+  name: Mexico
+  region: Americas
+  accent: orange
+  lede: A new 2035 pledge, alongside plans to raise oil and gas output.
+  cat_url: https://climateactiontracker.org/countries/mexico/
+  cat_date: February 2026
+  rating: Highly insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut emissions 30% below business as usual by 2030, or up to 40% with support. A 2035 pledge with absolute targets was submitted at COP30.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/mexico/
+  - label: Net zero
+    text: 2050, announced at COP29. Not in law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/mexico/
+  - label: Independent rating
+    text: Climate Action Tracker rates Mexico's overall action "Highly insufficient" (February 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/mexico/
+  - label: Recent
+    text: Government plans, including the strategy for the state oil company Pemex, prioritise more oil and gas production.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/mexico/
+
+morocco:
+  name: Morocco
+  region: Africa
+  accent: mustard
+  lede: Plans for 52% renewable electricity by 2030 and no new coal plants.
+  cat_url: https://climateactiontracker.org/countries/morocco/
+  cat_date: April 2023
+  rating: Almost sufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Limit emissions to 118 MtCO2e in 2030, or 84 MtCO2e with support, excluding land use (2021 update). Renewables to provide 52% of electricity by 2030.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/morocco/
+  - label: Net zero
+    text: Not specified.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/morocco/
+  - label: Independent rating
+    text: Climate Action Tracker rates Morocco's overall action "Almost sufficient" (April 2023).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/morocco/
+  - label: Recent
+    text: It pledged at COP26 to build no new coal power plants, but plans to expand gas infrastructure, including LNG terminals.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/morocco/
+
+nepal:
+  name: Nepal
+  region: Asia
+  accent: plum
+  lede: Aiming for carbon neutrality by 2045 and to phase out petrol and diesel vehicles by 2031.
+  cat_url: https://climateactiontracker.org/countries/nepal/
+  cat_date: August 2023
+  rating: Almost sufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Sector targets rather than a single emissions cut, including phasing out petrol and diesel vehicles by 2031.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/nepal/
+  - label: Net zero
+    text: Carbon neutral by 2045, in its long-term strategy (2021).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/nepal/
+  - label: Independent rating
+    text: Climate Action Tracker rates Nepal's overall action "Almost sufficient" (August 2023).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/nepal/
+  - label: Recent
+    text: It has brought in incentives for electric vehicles. CAT has suspended further updates for Nepal.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/nepal/
+
+new-zealand:
+  name: New Zealand
+  region: Oceania
+  accent: green
+  lede: Net zero by 2050 is in law, with a separate target for biogenic methane.
+  cat_url: https://climateactiontracker.org/countries/new-zealand/
+  cat_date: March 2023
+  rating: Highly insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut net emissions 50% below 2005 levels by 2030.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/new-zealand/
+  - label: Net zero
+    text: 2050, set in law in 2019. Biogenic methane has a separate target of 24 to 47% below 2017 levels by 2050.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/new-zealand/
+  - label: Independent rating
+    text: Climate Action Tracker rates New Zealand's overall action "Highly insufficient" (March 2023).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/new-zealand/
+  - label: Recent
+    text: Its first emissions reduction plan (2022) set multi-year emissions budgets. A court ruled that the 1.5 °C goal in its Zero Carbon Act is only aspirational.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/new-zealand/
 
 nicaragua:
   name: Nicaragua
+  region: Americas
   accent: orange
   lede: The country that refused to sign in 2015 because the deal was too weak, then joined in 2017.
   checked: November 2026
   facts:
-    - label: Paris Agreement
-      text: A party since October 2017, after refusing to sign in 2015.
-      source: Yale Environment 360
-      url: https://e360.yale.edu/digest/as-nicaragua-signs-paris-agreement-only-u-s-and-syria-left-outside-global-pact
-    - label: Why it held out
-      text: Its negotiators argued that voluntary, non-binding pledges would not keep warming in check, and that rich countries should take more responsibility.
-      source: TIME
-      url: https://time.com/4799844/nicaragua-paris-climate-agreement-countries
+  - label: Paris Agreement
+    text: A party since October 2017, after refusing to sign in 2015.
+    source: Yale Environment 360
+    url: https://e360.yale.edu/digest/as-nicaragua-signs-paris-agreement-only-u-s-and-syria-left-outside-global-pact
+  - label: Why it held out
+    text: Its negotiators argued that voluntary, non-binding pledges would not keep warming in check, and that rich countries should take more responsibility.
+    source: TIME
+    url: https://time.com/4799844/nicaragua-paris-climate-agreement-countries
+
+nigeria:
+  name: Nigeria
+  region: Africa
+  accent: mustard
+  lede: Aiming for net zero by 2060 amid a cost-of-living crisis.
+  cat_url: https://climateactiontracker.org/countries/nigeria/
+  cat_date: March 2025
+  rating: Almost sufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut emissions 20% below business as usual by 2030, or 47% with international support.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/nigeria/
+  - label: Net zero
+    text: 2060, announced at COP26 and confirmed in a 2024 long-term strategy. Its 2021 Climate Change Act allows a target between 2050 and 2070.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/nigeria/
+  - label: Independent rating
+    text: Climate Action Tracker rates Nigeria's overall action "Almost sufficient" (March 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/nigeria/
+  - label: Recent
+    text: Partial removal of fuel subsidies and the fall in the naira have caused a severe cost-of-living crisis.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/nigeria/
+
+norway:
+  name: Norway
+  region: Europe
+  accent: blue
+  lede: Electric cars make up almost all new car sales, while oil and gas licensing continues.
+  cat_url: https://climateactiontracker.org/countries/norway/
+  cat_date: December 2025
+  rating: Almost sufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut emissions at least 55% below 1990 levels by 2030, and 70 to 75% by 2035.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/norway/
+  - label: Net zero
+    text: No official target. Its long-term strategy aims for a 90 to 95% cut by 2050.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/norway/
+  - label: Independent rating
+    text: Climate Action Tracker rates Norway's overall action "Almost sufficient" (December 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/norway/
+  - label: Recent
+    text: Fully electric cars were 98% of new car sales in November 2025. In October 2025 the European Court of Human Rights rejected a challenge to its oil and gas licensing, but said Norway must assess the global emissions impact before awarding new licences.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/norway/
+
+peru:
+  name: Peru
+  region: Americas
+  accent: orange
+  lede: A 2050 net zero strategy, alongside plans for more oil and gas.
+  cat_url: https://climateactiontracker.org/countries/peru/
+  cat_date: October 2025
+  rating: Insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Targets for 2030, part of them conditional on international support.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/peru/
+  - label: Net zero
+    text: 2050, set out in its National Climate Change Strategy to 2050 (updated late 2024).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/peru/
+  - label: Independent rating
+    text: Climate Action Tracker rates Peru's overall action "Insufficient" (October 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/peru/
+  - label: Recent
+    text: The government has approved new oil extraction projects and planned a 24% rise in oil and gas production in 2025, which CAT says doesn't fit its climate targets.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/peru/
+
+philippines:
+  name: Philippines
+  region: Asia
+  accent: plum
+  lede: A large renewables pipeline, and a climate pledge that is mostly conditional on finance.
+  cat_url: https://climateactiontracker.org/countries/philippines/
+  cat_date: December 2025
+  rating: Almost sufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut emissions 75% below business as usual over 2020 to 2030, with only about 3% unconditional.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/philippines/
+  - label: Net zero
+    text: None.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/philippines/
+  - label: Independent rating
+    text: Climate Action Tracker rates Philippines's overall action "Almost sufficient" (December 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/philippines/
+  - label: Recent
+    text: The pipeline of renewable projects reached 120 GW by December 2025 after limits on foreign ownership were lifted. Coal and gas generation are still expected to rise.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/philippines/
+
+russia:
+  name: Russia
+  region: Europe
+  accent: blue
+  lede: A 2035 pledge that CAT says current policies already meet.
+  cat_url: https://climateactiontracker.org/countries/russian-federation/
+  cat_date: September 2025
+  rating: Critically insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut emissions 30% below 1990 levels by 2030, and 33 to 35% by 2035, counting forests and land.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/russian-federation/
+  - label: Net zero
+    text: 2060, in a low-emissions strategy approved in 2021.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/russian-federation/
+  - label: Independent rating
+    text: Climate Action Tracker rates Russia's overall action "Critically insufficient" (September 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/russian-federation/
+  - label: Recent
+    text: Russia revised its Climate Doctrine to remove mentions of fossil fuels' role in climate change. It also nearly doubled its estimate of the carbon its forests and land absorb.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/russian-federation/
+
+saudi-arabia:
+  name: Saudi Arabia
+  region: Middle East
+  accent: teal
+  lede: Net zero by 2060 has been announced, but emissions are projected to keep rising.
+  cat_url: https://climateactiontracker.org/countries/saudi-arabia/
+  cat_date: May 2026
+  rating: Critically insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut emissions by 335 MtCO2e below projected levels by 2040 (December 2025). The baseline isn't published.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/saudi-arabia/
+  - label: Net zero
+    text: 2060, announced in 2021 but not yet in law or a policy document.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/saudi-arabia/
+  - label: Independent rating
+    text: Climate Action Tracker rates Saudi Arabia's overall action "Critically insufficient" (May 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/saudi-arabia/
+  - label: Recent
+    text: CAT projects emissions of 819 to 845 MtCO2e in 2030, 13 to 17% above 2019 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/saudi-arabia/
+
+singapore:
+  name: Singapore
+  region: Asia
+  accent: plum
+  lede: Almost all its electricity comes from gas, with plans to import low-carbon power.
+  cat_url: https://climateactiontracker.org/countries/singapore/
+  cat_date: August 2024
+  rating: Highly insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Limit emissions to 60 MtCO2e in 2030, about 30% above 2010 levels.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/singapore/
+  - label: Net zero
+    text: 2050, in its long-term strategy.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/singapore/
+  - label: Independent rating
+    text: Climate Action Tracker rates Singapore's overall action "Highly insufficient" (August 2024).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/singapore/
+  - label: Recent
+    text: Gas generates around 94% of its electricity, and LNG imports are set to grow. It is on track for 4 GW of low-carbon electricity imports by 2035.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/singapore/
+
+south-africa:
+  name: South Africa
+  region: Africa
+  accent: mustard
+  lede: A climate law since 2024, with new coal power still joining the grid.
+  cat_url: https://climateactiontracker.org/countries/south-africa/
+  cat_date: May 2025
+  rating: Insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Emissions of 350 to 420 MtCO2e in 2030, including land use.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-africa/
+  - label: Net zero
+    text: 2050, which CAT treats as preliminary.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-africa/
+  - label: Independent rating
+    text: Climate Action Tracker rates South Africa's overall action "Insufficient" (May 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-africa/
+  - label: Recent
+    text: The Climate Change Act, signed in July 2024, requires sector targets and carbon budgets. In 2024, 800 MW of new coal capacity joined the grid.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-africa/
+
+south-korea:
+  name: South Korea
+  region: Asia
+  accent: plum
+  lede: Plans to close 40 of its 61 coal plants by 2040.
+  cat_url: https://climateactiontracker.org/countries/south-korea/
+  cat_date: December 2025
+  rating: Insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut domestic emissions 32% below 2018 levels by 2030. Its 2035 pledge (December 2025) includes 30% renewable electricity.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-korea/
+  - label: Net zero
+    text: 2050, in law since 2021. In 2024 the Constitutional Court ruled parts of the law unconstitutional and ordered changes by March 2026.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-korea/
+  - label: Independent rating
+    text: Climate Action Tracker rates South Korea's overall action "Insufficient" (December 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-korea/
+  - label: Recent
+    text: At COP30 it announced a coal phase-out, retiring 40 of its 61 coal plants by 2040.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/south-korea/
+
+switzerland:
+  name: Switzerland
+  region: Europe
+  accent: blue
+  lede: Net zero by 2050 is legally binding, but the government dismissed a 2024 European court ruling on its climate policy.
+  cat_url: https://climateactiontracker.org/countries/switzerland/
+  cat_date: December 2024
+  rating: Insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cut emissions at least 50% below 1990 levels by 2030, with part of the cut made abroad.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/switzerland/
+  - label: Net zero
+    text: 2050, legally binding under its Climate Protection Act.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/switzerland/
+  - label: Independent rating
+    text: Climate Action Tracker rates Switzerland's overall action "Insufficient" (December 2024).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/switzerland/
+  - label: Recent
+    text: A 2024 law on renewable electricity is expected to cut emissions substantially by 2030. The government dismissed the April 2024 European Court of Human Rights ruling on its climate policy.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/switzerland/
+
+thailand:
+  name: Thailand
+  region: Asia
+  accent: plum
+  lede: Carbon neutral by 2050 and net zero by 2065, with gas power still expanding.
+  cat_url: https://climateactiontracker.org/countries/thailand/
+  cat_date: December 2022
+  rating: Critically insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cuts against business as usual, larger with international support.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/thailand/
+  - label: Net zero
+    text: Carbon neutrality by 2050 and net zero greenhouse gases by 2065.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/thailand/
+  - label: Independent rating
+    text: Climate Action Tracker rates Thailand's overall action "Critically insufficient" (December 2022).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/thailand/
+  - label: Recent
+    text: It raised ambition in its second pledge and long-term strategy in November 2022, but also approved a 1,400 MW gas power plant and new LNG import capacity.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/thailand/
+
+turkiye:
+  name: Türkiye
+  region: Europe
+  accent: blue
+  lede: Host of COP31, with net zero by 2053 set in law in 2025.
+  cat_url: https://climateactiontracker.org/countries/turkey/
+  cat_date: September 2026
+  rating: Critically insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Cuts against business as usual for 2030 and 2035, plus 120 GW of new wind and solar by 2035.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/turkey/
+  - label: Net zero
+    text: 2053, set in law by its 2025 Climate Law.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/turkey/
+  - label: Independent rating
+    text: Climate Action Tracker rates Türkiye's overall action "Critically insufficient" (September 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/turkey/
+  - label: Recent
+    text: The 2025 Climate Law created an emissions trading scheme, with a pilot phase from the third quarter of 2026.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/turkey/
+
+uae:
+  name: United Arab Emirates
+  region: Middle East
+  accent: teal
+  lede: Host of COP28 in 2023, aiming for net zero by 2050 while expanding gas.
+  cat_url: https://climateactiontracker.org/countries/uae/
+  cat_date: November 2024
+  rating: Insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Limit emissions to 185 MtCO2e in 2030, excluding land use (2023). A stronger pledge followed in November 2024.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uae/
+  - label: Net zero
+    text: 2050, announced in 2021.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uae/
+  - label: Independent rating
+    text: Climate Action Tracker rates United Arab Emirates's overall action "Insufficient" (November 2024).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uae/
+  - label: Recent
+    text: At the end of 2023 the state oil company ADNOC awarded US$17 billion in contracts to develop the Hail and Ghasha offshore gas fields.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uae/
+
+uk:
+  name: United Kingdom
+  region: Europe
+  accent: blue
+  lede: The first major economy to put net zero by 2050 into law, now aiming for clean power by 2030.
+  cat_url: https://climateactiontracker.org/countries/uk/
+  cat_date: October 2025
+  rating: Insufficient
+  checked: November 2026
+  facts:
+  - label: Paris Agreement
+    text: A party since 2016.
+  - label: Pledge (NDC)
+    text: Cut emissions 81% below 1990 levels by 2035, and at least 68% by 2030.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uk/
+  - label: Net zero
+    text: 2050, set in law in 2019.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uk/
+  - label: Independent rating
+    text: Climate Action Tracker rates the UK's overall action "Insufficient" (October 2025).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uk/
+  - label: Recent
+    text: The Clean Power 2030 plan targets 95% low-carbon electricity by 2030, and the UK is linking its emissions trading scheme with the EU's. Overseas aid, which funds climate finance, has been cut from 0.5% to 0.3% of national income.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/uk/
+
+us:
+  name: United States
+  region: Americas
+  accent: orange
+  lede: The world's second-largest emitter has left the Paris Agreement and rolled back much of its federal climate policy.
+  cat_url: https://climateactiontracker.org/countries/usa/
+  cat_date: October 2026
+  rating: Critically insufficient
+  checked: November 2026
+  facts:
+  - label: Paris Agreement
+    text: Withdrawal ordered on 20 January 2025 and in effect from 27 January 2026. The administration has also announced it will leave the UN climate convention (UNFCCC).
+    source: Harvard EELP
+    url: https://eelp.law.harvard.edu/tracker/paris-climate-agreement
+  - label: Pledge (NDC)
+    text: None in force. The 2030 and 2035 pledges made in 2021 and 2024 have been withdrawn.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/usa/
+  - label: Net zero
+    text: No federal target. 19 states are pursuing net zero on their own.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/usa/
+  - label: Independent rating
+    text: Climate Action Tracker rates US action "Critically insufficient" (October 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/usa/
+  - label: Recent
+    text: The One Big Beautiful Bill Act (July 2025) removed much of the Inflation Reduction Act's clean energy support. In February 2026 the EPA overturned the 2009 finding that greenhouse gases endanger public health, the legal basis for federal emissions rules.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/usa/
+
+vietnam:
+  name: Vietnam
+  region: Asia
+  accent: plum
+  lede: Net zero by 2050, but its plan for a coal phase-out has been weakened.
+  cat_url: https://climateactiontracker.org/countries/vietnam/
+  cat_date: October 2026
+  rating: Critically insufficient
+  checked: November 2026
+  facts:
+  - label: Pledge (NDC)
+    text: Limit emissions to about 878 MtCO2e in 2030, or 629 MtCO2e with support, excluding land use. No 2035 pledge yet.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/vietnam/
+  - label: Net zero
+    text: 2050, announced at COP26 and conditional on international finance.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/vietnam/
+  - label: Independent rating
+    text: Climate Action Tracker rates Vietnam's overall action "Critically insufficient" (October 2026).
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/vietnam/
+  - label: Recent
+    text: A March 2026 decision weakened its Just Energy Transition Partnership plan, dropping wording on a 2050 coal phase-out. Its first pilot emissions trading scheme launched in June 2025.
+    source: Climate Action Tracker
+    url: https://climateactiontracker.org/countries/vietnam/

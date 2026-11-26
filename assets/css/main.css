@@ -220,3 +220,8 @@ ul li::marker{color:var(--accent,var(--soft))}
 .countrylist li>a:hover .cl-more{text-decoration:underline}
 .countrylist li>a:hover{background:color-mix(in srgb,var(--accent,var(--link)) 4%,transparent)}
 .countrylist li>a{font-weight:400;font-family:var(--body)}.countrylist .cl-lede{font-weight:400}.countrylist .cl-more{font-weight:500}
+.prose h3.region{font-family:var(--ui);font-size:1rem;font-weight:600;color:var(--ink);margin:2rem 0 .2rem}
+/* Link card images: a small thumbnail beside the text, inside its own card */
+.linkcard.has-img,.newscards .linkcard.has-img,.wide .newscards .linkcard.has-img,.twocol .newscards .linkcard.has-img{grid-template-columns:minmax(0,1fr) 140px;grid-template-rows:auto;align-items:start;gap:1rem}
+.linkcard.has-img img,.wide .newscards .linkcard img,.twocol .newscards .linkcard img{order:2;width:140px;height:auto;aspect-ratio:4/3;object-fit:cover;margin-top:.9rem;border-radius:3px}
+@media(max-width:520px){.linkcard.has-img,.newscards .linkcard.has-img,.wide .newscards .linkcard.has-img,.twocol .newscards .linkcard.has-img{grid-template-columns:minmax(0,1fr) 88px;gap:.8rem}.linkcard.has-img img,.wide .newscards .linkcard img,.twocol .newscards .linkcard img{width:88px;aspect-ratio:1}}

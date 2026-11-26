@@ -27,7 +27,7 @@ Adopted in December 2015, the Paris Agreement commits almost every country to ho
 
 ## Country by country {#countries}
 
-Climate news only makes sense with some local context. Each country page sets out where that country stands, alongside our articles, news and history for it.
+Climate news only makes sense with some local context. Each country page sets out where that country stands, using the independent assessments of [Climate Action Tracker](https://climateactiontracker.org/countries/), a research project that rates whether each government's targets and policies fit the Paris goals. Each page also gathers our articles and news for that country. The European Union has its own page, because it makes one joint pledge for its members.
 
 {% include countrygrid.html %}
 

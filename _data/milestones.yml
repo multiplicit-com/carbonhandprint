@@ -1,41 +1,35 @@
 # Events and milestones shown on the History page.
 # when: label shown. date: YYYY-MM, used for ordering. kind: event (the wider world) or milestone (this site).
 # text: one or two sentences. HTML links are fine.
-# countries: optional list of country keys from _data/countries.yml, e.g. [uk, finland].
+# Timeline entries are about the handprint idea, so they are not tagged by country.
 
 - when: "Summer 2007"
   date: "2007-07"
-  countries: [uk]
   kind: milestone
   text: "<strong>carbonhandprint.org</strong> launches as a website where anyone could record their pledges and achievements for the environment, with the aim of letting a personal pledge and a larger corporate or national contribution sit side by side in one open record. To our knowledge it was among the first places to publish the phrase \"carbon handprint\" online, and describe it as a positive counterpoint to carbon footprints."
 
 - when: "November 2007"
   date: "2007-11"
-  countries: [india]
   kind: event
   text: "The <a href=\"https://www.ceeindia.org/handprint.php\">Centre for Environment Education</a> (CEE) in India highlights <strong>\"Handprint\"</strong> as a symbol of positive action for sustainability at the Conference on Environmental Education in Ahmedabad."
 
 - when: "Early 2010s"
   date: "2012-01"
-  countries: [us]
   kind: event
   text: "Gregory Norris at the Harvard T.H. Chan School of Public Health and its <a href=\"https://hwpi.harvard.edu/files/chge/files/SHINE-Handprints_0_0.pdf\">SHINE initiative</a> develop <strong>\"handprinting\"</strong>, a method for measuring the footprint reductions a person or organisation causes in others, later continued at MIT."
 
 - when: "2018"
   date: "2018-12"
-  countries: [finland]
   kind: event
   text: "<a href=\"https://www.vttresearch.com/\">VTT</a> and <a href=\"https://www.lut.fi/\">LUT University</a> in Finland publish the <a href=\"https://sarjaweb.vtt.fi/julkaisut/muut/2018/Carbon_Handprint_Guide.pdf\">Carbon Handprint Guide</a>, a method for companies to quantify the emissions their products help customers avoid. It was developed from 2016 to 2018 with Finnish companies including <strong>Nokia</strong>, Neste and KONE (<a href=\"https://phys.org/news/2018-12-environmental-indicator-positive-climate-impacts.html\">announcement</a>)."
 
 - when: "2021"
   date: "2021-05"
-  countries: [finland]
   kind: event
   text: "After a two-year project with 16 companies, VTT and LUT release <a href=\"https://sarjaweb.vtt.fi/julkaisut/muut/2021/Carbon_handprint_guide_2021.pdf\">guide version 2.0</a> and widen the carbon handprint into an <a href=\"https://www.vttresearch.com/en/news-and-ideas/carbon-handprint-evolved-environmental-handprint-vtt-and-lut-developed-positive\">environmental handprint</a> covering air, water, nutrients and resources."
 
 - when: "2020s"
   date: "2022-01"
-  countries: [finland]
   kind: event
   text: "<strong>Nokia</strong> builds the idea into its company strategy, describing its ESG goals as working to <a href=\"https://www.itu.int/en/ITU-T/climatechange/symposia/202405/Documents/Anthony%20Darcy.pdf\">\"maximize our handprint and minimize our footprint\"</a>, and calling the benefits of connectivity <a href=\"https://www.nokia.com/about-us/sustainability/all-about-zero/\">\"the handprint of digitalization\"</a>."
 
@@ -46,6 +40,5 @@
 
 - when: "September 2022"
   date: "2022-09"
-  countries: [finland, canada]
   kind: event
   text: "The first <a href=\"https://carbonhandprintaward.com/\">International Carbon Handprint Award</a>, run by Finland's Climate Leadership Coalition and the Vancouver Economic Commission, is presented at Climate Week NYC. Schneider Electric and SSAB win, judged using the VTT/LUT handprint method."
