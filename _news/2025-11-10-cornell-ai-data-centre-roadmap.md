@@ -7,5 +7,5 @@ description: "A study in Nature Sustainability finds that at current growth, US 
 countries: [us]
 tags: [ai]
 card_image: "https://news.cornell.edu/sites/default/files/styles/story_thumbnail_lg/public/2024-09/istock-1530973530-ai-data-1280x720.jpg?itok=z3Xz1St4"
-link_title: "‘Roadmap’ shows the environmental impact of AI data center boom | Cornell Chronicle"
+link_title: "‘Roadmap’ shows the environmental impact of AI data center boom"
 ---

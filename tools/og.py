@@ -63,7 +63,12 @@ def update(path, force):
     if image:
         new = setfield(new, "card_image", image)
     if title:
-        new = setfield(new, "link_title", title)
+        site = p.tags.get("og:site_name", "")
+        src = re.search(r'^source:\s*"?([^"\n]+)"?', fm, re.M)
+        for name in filter(None, [site, src.group(1) if src else ""]):
+            title = re.sub(rf"\s+[-|–]\s+{re.escape(name)}.*$", "", title, flags=re.I)
+        title = re.sub(r"\s+[|]\s+[^|]+$", "", title)
+        new = setfield(new, "link_title", title.strip())
     if new == fm:
         return print(f"{path}: no Open Graph tags found")
     open(path, "w", encoding="utf-8").write(text.replace(fm, new, 1))

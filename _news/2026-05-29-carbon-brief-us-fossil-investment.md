@@ -7,5 +7,5 @@ description: "Citing the IEA, US investment in gas power roughly tripled in 2025
 countries: [us, china]
 tags: [ai]
 card_image: "https://www.carbonbrief.org/wp-content/uploads/2026/05/3E9H3WJ-1.jpg"
-link_title: "AI boom means US is now ‘investing more’ in fossil-fuel power than China - Carbon Brief"
+link_title: "AI boom means US is now ‘investing more’ in fossil-fuel power than China"
 ---

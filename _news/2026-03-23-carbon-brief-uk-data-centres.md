@@ -7,5 +7,5 @@ description: "The UK government put AI data centre emissions in 2035 at no more 
 countries: [uk]
 tags: [ai]
 card_image: "https://cbtempdev.wpenginepowered.com/wp-content/uploads/2026/03/3DJE64C-1.jpg"
-link_title: "Analysis: CO2 from UK data centres could be ‘hundreds of times’ higher than thought - Carbon Brief"
+link_title: "Analysis: CO2 from UK data centres could be ‘hundreds of times’ higher than thought"
 ---
