@@ -8,6 +8,6 @@ description: "The UN's latest synthesis covers new climate plans from 154 countr
 events: [cop31, ndcs-2035]
 tags: [paris-agreement]
 related:
-  - url: /events/cop31/
-    title: "COP31, Antalya (2026)"
+  - url: /events/ndcs-2035/
+    title: "2035 climate plans (NDCs) due"
 ---
