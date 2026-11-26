@@ -20,7 +20,7 @@ Articles show the author, the date first published and, if changed significantly
 
 We link to the original source wherever we can, and every fact in an in-brief item or country summary links to where it came from.
 
-We favour authoritative sources: governments and parliaments, UN bodies, standards organisations, universities and peer-reviewed journals, recognised research institutes, large companies reporting on their own work, and established news organisations. We check a source before linking to it. We don't add smaller blogs or sites whose authority we can't establish, even when what they say is interesting.
+We favour authoritative sources: governments and parliaments, UN bodies, standards organisations, universities and peer-reviewed journals, recognised research institutes, large companies reporting on their own work, and established news organisations. We check a source before linking to it. We have a responsibility to disseminate verifiable information, so we may not be able to feature smaller blogs or new sites whose authority we can't establish, even when it is an interesting topic.
 
 When a claim rests on one organisation's own account, we say so. For example, "the company says" rather than stating it as fact.
 
