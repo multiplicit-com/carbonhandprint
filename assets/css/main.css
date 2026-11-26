@@ -316,4 +316,4 @@ ul li::marker{color:var(--accent,var(--soft))}
 
 .colophon .footnav{list-style:none;padding:0;margin:1.1rem 0;display:flex;flex-wrap:wrap;gap:.5rem 1.6rem;font-size:.92rem}.colophon .footnav li{margin:0}.colophon .footnav a{display:inline-block;padding:.2rem 0}
 .colophon .footmeta{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1.4rem;margin-top:1.2rem}
-@media (max-width:600px){.colophon .footnav{display:grid;grid-template-columns:1fr 1fr;gap:.35rem 1.2rem}.colophon .footnav a{padding:.45rem 0}.colophon .footmeta{margin-top:1.4rem}}
+@media (max-width:600px){main>.wrap:last-child,main>section:last-child{padding-bottom:1rem}.colophon{margin-top:.5rem}.colophon .wrap{padding-top:1.1rem}.colophon .footnav{display:grid;grid-template-columns:1fr 1fr;gap:0 1.2rem;font-size:.88rem;margin:.8rem 0}.colophon .footnav a{padding:.3rem 0}.colophon .footmeta{margin-top:.8rem}}
