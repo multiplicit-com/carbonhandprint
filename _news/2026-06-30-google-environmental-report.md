@@ -7,5 +7,4 @@ description: "Google's 2026 environmental report shows its electricity demand gr
 countries: [us]
 tags: [ai]
 card_image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Sustainability_Environmental_Review.width-1300.png"
-link_title: "Read our 11th annual Environmental Report"
 ---

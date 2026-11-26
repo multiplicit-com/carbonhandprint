@@ -7,5 +7,4 @@ description: "Microsoft's 2026 sustainability report shows its total emissions r
 countries: [us]
 tags: [ai]
 card_image: "https://blogs.microsoft.com/wp-content/uploads/sites/5/2026/07/FY26_OML-Q4–PA-ECS-Sustainability-Report-header-01-1024x576.png"
-link_title: "Responsibly building the AI future"
 ---
