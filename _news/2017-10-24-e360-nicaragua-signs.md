@@ -6,4 +6,5 @@ source: Yale Environment 360
 description: "Nicaragua files its papers with the UN, two years after refusing to sign."
 countries: [nicaragua]
 tags: [paris-agreement]
+link_title: "As Nicaragua Signs Paris Agreement, Only U.S. and Syria Left Outside Global Pact"
 ---
