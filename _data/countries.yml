@@ -552,6 +552,7 @@ ethiopia:
 
 eu:
   name: European Union
+  the: true
   region: Europe
   accent: blue
   lede: Negotiates as one bloc and makes a joint pledge for all its member states.
@@ -1365,6 +1366,7 @@ peru:
 
 philippines:
   name: Philippines
+  the: true
   region: Asia
   accent: plum
   lede: A large renewables pipeline, and a climate pledge that is mostly conditional on finance.
@@ -1806,6 +1808,7 @@ turkiye:
 
 uae:
   name: United Arab Emirates
+  the: true
   region: Middle East
   accent: teal
   lede: Host of COP28 in 2023, aiming for net zero by 2050 while expanding gas.
@@ -1861,6 +1864,7 @@ uae:
 
 uk:
   name: United Kingdom
+  the: true
   region: Europe
   accent: blue
   lede: The first major economy to put net zero by 2050 into law, now aiming for clean power by 2030.
@@ -1924,6 +1928,7 @@ uk:
 
 us:
   name: United States
+  the: true
   region: Americas
   accent: orange
   lede: The world's second-largest emitter has left the Paris Agreement and rolled back much of its federal climate policy.

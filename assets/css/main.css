@@ -278,3 +278,5 @@ ul li::marker{color:var(--accent,var(--soft))}
 .postlist a.pl:hover .pl-title{text-decoration-thickness:2px}
 .postlist a.pl:hover .pl-more{text-decoration:underline}
 @media(max-width:520px){.postlist a.pl,.prose .postlist a.pl{grid-template-columns:1fr;gap:.2rem}}
+.newscards .snippet,.newscards .snippet p,.newscards .sn-title{overflow-wrap:anywhere;min-width:0}
+.newscards>li{min-width:0}
