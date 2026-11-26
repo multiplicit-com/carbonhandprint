@@ -17,7 +17,7 @@ Good ideas tend to appear in several places at once, and the handprint is one of
 {% for m in ms %}  <li class="{{ m.kind }}"><span class="yr">{{ m.when }}</span><span>{{ m.text }}</span></li>
 {% endfor %}</ol>
 
-## Our position
+## Who owns the name?
 
 Nobody owns the term Carbon Handprint, and nobody should. It was put out freely in 2007 and it is still free to use. Anyone may use it: individuals, schools, campaigners, researchers and businesses.
 
