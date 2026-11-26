@@ -1,0 +1,9 @@
+---
+title: "COP24 climate change package brings Paris Agreement to life"
+date: 2018-12-15
+link: https://www.wri.org/insights/cop24-climate-change-package-brings-paris-agreement-life
+source: World Resources Institute
+description: "In Katowice, countries agreed most of the rulebook for how the Paris Agreement works in practice, including how countries report their emissions."
+events: [cop24]
+tags: [paris-agreement]
+---
