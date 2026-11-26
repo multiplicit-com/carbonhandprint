@@ -6,7 +6,8 @@
     <span class="sn-label">In brief · <time datetime="{{ n.date | date_to_xmlschema }}">{{ d }}</time></span>
     <strong class="sn-title">{{ n.title }}</strong>
     <p>{{ n.description }}</p>
-    <a class="sn-src" href="{{ n.link }}" rel="nofollow noopener">Source: {{ n.source }}</a>
+    {% assign cited = false %}{% if onsite != "" %}{% if n.related %}{% assign tu = n.related.first.url %}{% elsif n.countries %}{% assign tu = '/countries/' | append: n.countries.first | append: '/' %}{% else %}{% assign tu = '/paris-agreement/' %}{% endif %}{% assign tp = site.pages | where: "url", tu | first %}{% if tp.content contains n.link %}{% assign cited = true %}{% endif %}{% if tp.country %}{% assign tc = site.data.countries[tp.country] %}{% for f in tc.facts %}{% if f.url == n.link %}{% assign cited = true %}{% endif %}{% endfor %}{% for f in tc.timeline %}{% if f.url == n.link %}{% assign cited = true %}{% endif %}{% endfor %}{% endif %}{% if tu == '/paris-agreement/' %}{% for f in site.data.paris_timeline %}{% if f.url == n.link %}{% assign cited = true %}{% endif %}{% endfor %}{% endif %}{% endif %}
+    {% unless cited %}<a class="sn-src" href="{{ n.link }}" rel="nofollow noopener">Source: {{ n.source }}</a>{% endunless %}
     {% if onsite != "" %}<p class="onsite">On this site: {{ onsite }}</p>{% endif %}
   </li>{% else %}<li><a class="linkcard{% if n.card_image %} has-img{% endif %}" href="{{ n.link }}" rel="nofollow noopener">
     {% if n.card_image %}<img src="{{ n.card_image }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove('has-img');this.remove()">{% endif %}

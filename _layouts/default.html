@@ -35,6 +35,20 @@
       if (!a.relList.contains('noopener')) a.relList.add('noopener');
     }
   }
+  for (const h of document.querySelectorAll('.htl')) {
+    const track = h.querySelector('.htl-track'), nav = h.querySelector('.htl-nav');
+    const [prev, next] = nav.querySelectorAll('button');
+    const update = () => {
+      const max = track.scrollWidth - track.clientWidth;
+      nav.hidden = max < 4;
+      prev.disabled = track.scrollLeft < 4;
+      next.disabled = track.scrollLeft > max - 4;
+    };
+    for (const b of [prev, next]) b.addEventListener('click', () => track.scrollBy({left: b.dataset.dir * track.clientWidth * 0.8, behavior: 'smooth'}));
+    track.addEventListener('scroll', update, {passive: true});
+    addEventListener('resize', update);
+    update();
+  }
 </script>
 </body>
 </html>

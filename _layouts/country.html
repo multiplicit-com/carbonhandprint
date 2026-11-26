@@ -35,4 +35,8 @@ layout: default
   {% include newscards.html country=page.country %}
   {% endif %}
 
+  {% if c.timeline.size > 1 %}
+  <h2>Timeline</h2>
+  {% assign tlabel = "Timeline for " | append: c.name %}{% include htimeline.html items=c.timeline label=tlabel %}
+  {% endif %}
 </article>

@@ -15,6 +15,8 @@ description: Where the Paris Agreement stands, country by country, including nat
 
 Adopted in December 2015, the Paris Agreement commits almost every country to holding warming "well below" 2 °C above pre-industrial levels, and to pursuing efforts to limit it to 1.5 °C. Each country sets its own targets, called nationally determined contributions (NDCs), and is expected to strengthen them every five years. Progress is checked by a "global stocktake".
 
+{% include htimeline.html items=site.data.paris_timeline label="Paris Agreement timeline" %}
+
 ## The state of play, late 2026
 
 **The plans don't add up yet.** The UN's latest synthesis covers new plans from 154 countries, about 71% of global emissions. Together with current policies elsewhere, they point to global emissions about **6% below 2019 levels by 2035**. Staying near 1.5 °C needs roughly a **60%** cut over the same period. Projected warming by 2100 is 2.1 to 3.2 °C. ([Climate Home News](https://climatechangenews.com/2026/10/27/national-climate-plans-now-promise-half-the-emission-cuts-expected-by-un))

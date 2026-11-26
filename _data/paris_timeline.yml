@@ -1,0 +1,47 @@
+# Key moments for the Paris Agreement, shown as a horizontal timeline on the Paris Agreement page.
+# when: label. date: YYYY-MM for ordering. text, source, url.
+- when: December 2015
+  date: "2015-12"
+  text: Adopted by 195 Parties at COP21 in Paris on 12 December.
+  source: UNFCCC
+  url: https://unfccc.int/process-and-meetings/the-paris-agreement
+- when: April 2016
+  date: "2016-04"
+  text: 175 Parties, including the European Union, sign the agreement at a ceremony in New York.
+  source: United Nations
+  url: https://www.un.org/sustainabledevelopment/blog/2016/04/parisagreementsingatures/
+- when: November 2016
+  date: "2016-11"
+  text: The agreement enters into force on 4 November.
+  source: UNFCCC
+  url: https://unfccc.int/process-and-meetings/the-paris-agreement
+- when: December 2018
+  date: "2018-12"
+  text: At COP24 in Katowice, nearly 200 Parties adopt the rulebook for putting the agreement into practice.
+  source: UN News
+  url: https://news.un.org/en/story/2018/12/1028681
+- when: November 2021
+  date: "2021-11"
+  text: The Glasgow Climate Pact at COP26 calls for a "phasedown" of unabated coal power, the first COP decision to target a fossil fuel.
+  source: Carbon Brief
+  url: https://www.carbonbrief.org/cop26-key-outcomes-agreed-at-the-un-climate-talks-in-glasgow/
+- when: December 2023
+  date: "2023-12"
+  text: COP28 in Dubai concludes the first global stocktake, calling for a transition away from fossil fuels in energy systems.
+  source: UNFCCC
+  url: https://unfccc.int/node/636502
+- when: November 2024
+  date: "2024-11"
+  text: COP29 in Baku agrees a new finance goal of US$300 billion a year for developing countries by 2035.
+  source: UNFCCC
+  url: https://unfccc.int/node/644517
+- when: November 2025
+  date: "2025-11"
+  text: COP30 in Belém calls for tripling adaptation finance by 2035, but makes no new commitment to move away from fossil fuels.
+  source: UN News
+  url: https://news.un.org/en/story/2025/11/1166433
+- when: November 2026
+  date: "2026-11"
+  text: COP31 in Antalya launches the second global stocktake, due to end in 2028, but countries fail to agree the presidency's overall deal.
+  source: UNFCCC
+  url: https://unfccc.int/news/cop31-delivers-important-progress-across-negotiations-and-action-agenda-advancing-implementation-but
