@@ -67,6 +67,25 @@ tags: [paris-agreement]
 
 News links show as cards on /news/ and the home page and go straight to the source. Tag one `paris-agreement` to list it on the Paris Agreement page too.
 
+### In brief snippets
+
+A snippet is a short, sourced fact shown as its own card in the news. Add a file to `_news/` with `snippet: true`:
+
+```markdown
+---
+title: "The plans don't add up yet"
+snippet: true
+date: 2026-10-27
+link: https://source-of-the-fact.example
+source: Climate Home News
+description: "Two to four sentences with the fact and the numbers."
+countries: [us]
+tags: [paris-agreement]
+---
+```
+
+Add `date_precision: month` if you only know the month.
+
 ### Link cards
 
 News links and responses show a card for the linked page. Add the publisher's sharing image and headline to the front matter:

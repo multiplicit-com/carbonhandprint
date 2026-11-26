@@ -1,13 +1,18 @@
 {% assign items = site.news | sort: "date" | reverse %}{% if include.tag %}{% assign items = items | where_exp: "n", "n.tags contains include.tag" %}{% endif %}{% if include.country %}{% assign items = items | where_exp: "n", "n.countries contains include.country" %}{% endif %}
 <ul class="newscards">
-{% for n in items limit: include.limit | default: 1000 %}{% assign host = n.link | split: "/" %}
-  <li><a class="linkcard{% if n.card_image %} has-img{% endif %}" href="{{ n.link }}" rel="nofollow noopener">
+{% for n in items limit: include.limit | default: 1000 %}{% assign host = n.link | split: "/" %}{% if n.date_precision == "month" %}{% assign d = n.date | date: "%b %Y" %}{% else %}{% assign d = n.date | date: "%-d %b %Y" %}{% endif %}
+  {% if n.snippet %}<li class="snippet">
+    <span class="sn-label">In brief · <time datetime="{{ n.date | date_to_xmlschema }}">{{ d }}</time></span>
+    <strong class="sn-title">{{ n.title }}</strong>
+    <p>{{ n.description }}</p>
+    <a class="sn-src" href="{{ n.link }}" rel="nofollow noopener">Source: {{ n.source }} ↗</a>
+  </li>{% else %}<li><a class="linkcard{% if n.card_image %} has-img{% endif %}" href="{{ n.link }}" rel="nofollow noopener">
     {% if n.card_image %}<img src="{{ n.card_image }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove('has-img');this.remove()">{% endif %}
     <span class="lc-body">
-      <span class="lc-site">{{ n.source | default: host[2] }} · <time datetime="{{ n.date | date_to_xmlschema }}">{{ n.date | date: "%-d %b %Y" }}</time></span>
+      <span class="lc-site">{{ n.source | default: host[2] }} · <time datetime="{{ n.date | date_to_xmlschema }}">{{ d }}</time></span>
       <span class="lc-title">{{ n.link_title | default: n.title }}</span>
       {% if n.description %}<span class="lc-desc">{{ n.description }}</span>{% endif %}
     </span>
-  </a></li>
+  </a></li>{% endif %}
 {% endfor %}
 </ul>

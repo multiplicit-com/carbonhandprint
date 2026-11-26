@@ -41,6 +41,8 @@ def update(path, force):
     link = re.search(r"^link:\s*(\S+)", fm, re.M)
     if not link:
         return print(f"{path}: no link")
+    if re.search(r"^snippet:\s*true", fm, re.M):
+        return print(f"{path}: snippet, no card needed")
     if re.search(r"^card_image:", fm, re.M) and not force:
         return print(f"{path}: already has card_image")
     p = OG()
