@@ -3,5 +3,5 @@ layout: country
 country: new-zealand
 title: "New Zealand"
 permalink: /countries/new-zealand/
-description: "Climate policy, Paris Agreement progress and carbon handprint news for New Zealand."
+description: "Net zero by 2050 is in law, with a separate target for biogenic methane. Climate targets, Paris Agreement progress and news for New Zealand."
 ---

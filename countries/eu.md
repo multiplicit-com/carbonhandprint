@@ -3,5 +3,5 @@ layout: country
 country: eu
 title: "European Union"
 permalink: /countries/eu/
-description: "Climate policy, Paris Agreement progress and carbon handprint news for European Union."
+description: "Negotiates as one bloc and makes a joint pledge for all its member states. Climate targets, Paris Agreement progress and news for European Union."
 ---

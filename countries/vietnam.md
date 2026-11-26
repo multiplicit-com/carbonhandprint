@@ -3,5 +3,5 @@ layout: country
 country: vietnam
 title: "Vietnam"
 permalink: /countries/vietnam/
-description: "Climate policy, Paris Agreement progress and carbon handprint news for Vietnam."
+description: "Net zero by 2050, but its plan for a coal phase-out has been weakened. Climate targets, Paris Agreement progress and news for Vietnam."
 ---

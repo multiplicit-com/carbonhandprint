@@ -3,5 +3,5 @@ layout: country
 country: philippines
 title: "Philippines"
 permalink: /countries/philippines/
-description: "Climate policy, Paris Agreement progress and carbon handprint news for Philippines."
+description: "A large renewables pipeline, and a climate pledge that is mostly conditional on finance. Climate targets, Paris Agreement progress and news for Philippines."
 ---

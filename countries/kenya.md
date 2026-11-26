@@ -3,5 +3,5 @@ layout: country
 country: kenya
 title: "Kenya"
 permalink: /countries/kenya/
-description: "Climate policy, Paris Agreement progress and carbon handprint news for Kenya."
+description: "Aiming for 100% clean electricity by 2030. Climate targets, Paris Agreement progress and news for Kenya."
 ---

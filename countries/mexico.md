@@ -3,5 +3,5 @@ layout: country
 country: mexico
 title: "Mexico"
 permalink: /countries/mexico/
-description: "Climate policy, Paris Agreement progress and carbon handprint news for Mexico."
+description: "A new 2035 pledge, alongside plans to raise oil and gas output. Climate targets, Paris Agreement progress and news for Mexico."
 ---

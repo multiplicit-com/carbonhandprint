@@ -3,7 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% capture seohead %}{% seo %}{% endcapture %}{% assign seoparts = seohead | split: '<script type="application/ld+json">' %}{{ seoparts[0] }}{% assign seotail = seoparts[1] | split: '</script>' %}{{ seotail[1] }}
+  {% capture seohead %}{% seo %}{% endcapture %}
+  {%- if page.layout == "country" %}{% assign stitle = page.title | append: ": climate targets and Paris Agreement progress" %}
+  {%- elsif page.layout == "cop" %}{% assign ev = site.data.events | where: "slug", page.event | first %}{% assign evd = ev.start | date: '%Y%m%d' %}{% assign nowd = site.time | date: '%Y%m%d' %}{% if evd > nowd %}{% assign stitle = page.title | append: ": what to expect" %}{% else %}{% assign stitle = page.title | append: ": key outcomes" %}{% endif %}
+  {%- else %}{% assign stitle = nil %}{% endif %}
+  {%- if stitle %}{% assign esc = page.title | escape %}{% assign sesc = stitle | escape %}{% assign f1 = '<title>' | append: esc %}{% assign r1 = '<title>' | append: sesc %}{% assign f2 = 'content="' | append: esc | append: '"' %}{% assign r2 = 'content="' | append: sesc | append: '"' %}{% assign seohead = seohead | replace: f1, r1 | replace: f2, r2 %}{% endif %}
+  {%- assign seoparts = seohead | split: '<script type="application/ld+json">' %}{{ seoparts[0] }}{% assign seotail = seoparts[1] | split: '</script>' %}{{ seotail[1] }}
   {% if page.collection == "posts" %}{% include article-jsonld.html %}{% endif %}
   {% include schema.html %}
   {% feed_meta %}

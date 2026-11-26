@@ -3,5 +3,5 @@ layout: cop
 event: cop32
 title: "COP32, Addis Ababa (2027)"
 permalink: /events/cop32/
-description: "Key points and news from COP32, the UN climate change conference in Addis Ababa, 2027."
+description: "What to expect at COP32 in Addis Ababa, 2027. Formal agreement on a just transition mechanism is expected."
 ---

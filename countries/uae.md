@@ -3,5 +3,5 @@ layout: country
 country: uae
 title: "United Arab Emirates"
 permalink: /countries/uae/
-description: "Climate policy, Paris Agreement progress and carbon handprint news for United Arab Emirates."
+description: "Host of COP28 in 2023, aiming for net zero by 2050 while expanding gas. Climate targets, Paris Agreement progress and news for United Arab Emirates."
 ---
