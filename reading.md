@@ -24,6 +24,8 @@ description: A dated reading list of articles, research and reports on the carbo
   <li><span class="yr">Nov 2025</span><span><a href="https://www.mediekultur.dk/article/view/152898">The dual climate impact of news media</a>, Meri Frig, Maarit Jaakkola and Laura Olkkonen, <em>MedieKultur</em>. How Nordic newsrooms think about their footprint and their handprint.</span></li>
 </ol>
 
+For methods, research reports and company reports, see our [white papers](/white-papers/).
+
 Know of something we've missed, especially from the early years? [Tell us](/about/#get-in-touch).
 
 {% include related.html tag="reading" %}

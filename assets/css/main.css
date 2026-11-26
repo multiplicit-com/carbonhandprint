@@ -119,3 +119,4 @@ ul li::marker{color:var(--accent,var(--soft))}
 .countrylist li{border:1px solid var(--rule);border-top:4px solid var(--accent,var(--link));border-radius:6px;padding:1rem 1.1rem}
 .countrylist a{font-family:var(--head);font-size:1.15rem;font-weight:600;text-decoration:none;color:var(--ink)}
 .countrylist p{margin:.3rem 0 0;color:var(--soft);font-size:.92rem}
+.colophon .footnav{font-size:.9rem}.colophon .footnav a{color:var(--ink)}

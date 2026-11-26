@@ -53,9 +53,15 @@ In 2021 the method was widened into an **environmental handprint**, which covers
 | Direction | Make it smaller | Make it bigger |
 | Scope | Your own activities | Your influence on others |
 
+## Go deeper
+
+- [Frameworks and methods](/methods/): how a handprint is measured.
+- [History](/history/): how the idea has grown since 2007.
+- [Reading list](/reading/): the key articles and research.
+- [White papers](/white-papers/): methods, research and company reports.
+
 ## What next?
 
 - [Grow your own handprint](/grow-your-handprint/) with practical ideas.
-- [Read how the idea has developed](/history/) over the last two decades.
 
 {% include related.html tag="idea" %}
