@@ -19,7 +19,7 @@ The UN's yearly climate conference is the COP, the Conference of the Parties. Ea
   <span class="ev-when">{% if e.year %}By {{ e.year }}{% elsif e.end %}{{ e.start | date: "%-d %b" }} to {{ e.end | date: "%-d %b %Y" }}{% else %}{{ e.start | date: "%-d %B %Y" }}{% endif %}</span>
   <span class="ev-name">{{ e.name }}{% if e.kind == "deadline" %} <span class="ev-kind">· deadline</span>{% endif %}</span>
   {% if e.place %}<span class="ev-place">{% if e.country %}<a href="{{ '/countries/' | append: e.country | append: '/' | relative_url }}">{{ e.place }}</a>{% else %}{{ e.place }}{% endif %}</span>{% endif %}
-  <span class="ev-text">{{ e.text }} <a class="src" href="{{ e.url }}">{{ e.source }}</a></span>
+  <span class="ev-text">{{ e.text }}</span>
 </li>
 {% endif %}{% endfor %}</ol>
 
@@ -30,7 +30,7 @@ The UN's yearly climate conference is the COP, the Conference of the Parties. Ea
   <span class="ev-when">{{ e.start | date: "%-d %b" }} to {{ e.end | date: "%-d %b %Y" }}</span>
   <span class="ev-name">{{ e.name }}</span>
   {% if e.place %}<span class="ev-place">{% if e.country %}<a href="{{ '/countries/' | append: e.country | append: '/' | relative_url }}">{{ e.place }}</a>{% else %}{{ e.place }}{% endif %}</span>{% endif %}
-  <span class="ev-text">{{ e.text }} <a class="src" href="{{ e.url }}">{{ e.source }}</a></span>
+  <span class="ev-text">{{ e.text }}</span>
 </li>
 {% endif %}{% endfor %}</ol>
 
@@ -42,7 +42,7 @@ There was no COP in 2020 because of the pandemic. End dates are when talks actua
 {% for e in past %}{% assign last = e.end | default: e.start | date: "%Y-%m-%d" %}{% if last < now and e.kind == "deadline" %}<li class="ev-deadline">
   <span class="ev-when">{{ e.start | date: "%-d %B %Y" }}</span>
   <span class="ev-name">{{ e.name }}</span>
-  <span class="ev-text">{{ e.text }} <a class="src" href="{{ e.url }}">{{ e.source }}</a></span>
+  <span class="ev-text">{{ e.text }}</span>
 </li>
 {% endif %}{% endfor %}</ol>
 
