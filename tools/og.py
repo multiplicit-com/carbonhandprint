@@ -8,7 +8,7 @@ Reads the post's `link:`, fetches that page, and adds `card_image:` (and
 `link_title:` if missing) to the front matter, using the page's Open Graph
 tags. Run it again with --force to overwrite existing values.
 """
-import re, sys, urllib.request
+import re, sys, urllib.request, urllib.parse
 from html.parser import HTMLParser
 
 
@@ -51,6 +51,8 @@ def update(path, force):
     except Exception as e:
         return print(f"{path}: could not fetch {link.group(1)} ({e})")
     image = p.tags.get("og:image") or p.tags.get("twitter:image")
+    if image and not image.startswith("http"):
+        image = urllib.parse.urljoin(link.group(1), image)
     title = p.tags.get("og:title") or p.tags.get("twitter:title")
 
     def setfield(fm, key, value):
