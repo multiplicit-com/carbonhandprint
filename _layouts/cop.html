@@ -14,6 +14,7 @@ layout: default
   {% endfor %}</ul>
   {% if e.sources %}<p class="meta">Sources: {% for s in e.sources %}<a href="{{ s.url }}">{{ s.name }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>{% endif %}
   {% endif %}
+  {% if e.wikipedia %}<p class="meta">Background: <a href="{{ e.wikipedia }}">{{ e.wikipedia_title | default: e.name }} on Wikipedia</a>.</p>{% endif %}
   {% assign news = site.news | where_exp: "n", "n.events contains page.event" | sort: "date" | reverse %}
   {% if news.size > 0 %}
   <h2>In the news</h2>

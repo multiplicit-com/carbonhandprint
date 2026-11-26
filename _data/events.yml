@@ -1,10 +1,11 @@
 # UN climate conferences and Paris Agreement deadlines, shown on /events/.
 # kind: cop, session, deadline, or earlier (pre-Paris milestones, shown in Past talks; a slug gives it a page). start/end: YYYY-MM-DD (end optional). For deadlines known only to the year, use year: and leave start as the last day of that year.
-# slug: COPs have their own page at /events/<slug>/ (stub in events/), with points: a list of key points.
+# slug: COPs have their own page at /events/<slug>/ (stub in events/), with points: a list of key points. wikipedia: optional link shown on the page.
 # place, country (key in countries.yml, optional), text, source, url. Pages work out past and upcoming from the build date.
 - kind: cop
   name: COP21
   slug: cop21
+  wikipedia: https://en.wikipedia.org/wiki/2015_United_Nations_Climate_Change_Conference
   start: 2015-11-30
   end: 2015-12-12
   place: Paris, France
@@ -23,6 +24,7 @@
 - kind: cop
   name: COP22
   slug: cop22
+  wikipedia: https://en.wikipedia.org/wiki/2016_United_Nations_Climate_Change_Conference
   start: 2016-11-07
   end: 2016-11-18
   place: Marrakech, Morocco
@@ -42,6 +44,7 @@
 - kind: cop
   name: COP23
   slug: cop23
+  wikipedia: https://en.wikipedia.org/wiki/2017_United_Nations_Climate_Change_Conference
   start: 2017-11-06
   end: 2017-11-17
   place: Bonn, Germany, under Fiji's presidency
@@ -60,6 +63,7 @@
 - kind: cop
   name: COP24
   slug: cop24
+  wikipedia: https://en.wikipedia.org/wiki/2018_United_Nations_Climate_Change_Conference
   start: 2018-12-02
   end: 2018-12-16
   place: Katowice, Poland
@@ -78,6 +82,7 @@
 - kind: cop
   name: COP25
   slug: cop25
+  wikipedia: https://en.wikipedia.org/wiki/2019_United_Nations_Climate_Change_Conference
   start: 2019-12-02
   end: 2019-12-15
   place: Madrid, Spain, under Chile's presidency
@@ -96,6 +101,7 @@
 - kind: cop
   name: COP26
   slug: cop26
+  wikipedia: https://en.wikipedia.org/wiki/2021_United_Nations_Climate_Change_Conference
   start: 2021-10-31
   end: 2021-11-13
   place: Glasgow, United Kingdom
@@ -117,6 +123,7 @@
 - kind: cop
   name: COP27
   slug: cop27
+  wikipedia: https://en.wikipedia.org/wiki/2022_United_Nations_Climate_Change_Conference
   start: 2022-11-06
   end: 2022-11-20
   place: Sharm el-Sheikh, Egypt
@@ -136,6 +143,7 @@
 - kind: cop
   name: COP28
   slug: cop28
+  wikipedia: https://en.wikipedia.org/wiki/2023_United_Nations_Climate_Change_Conference
   start: 2023-11-30
   end: 2023-12-13
   place: Dubai, United Arab Emirates
@@ -155,6 +163,7 @@
 - kind: cop
   name: COP29
   slug: cop29
+  wikipedia: https://en.wikipedia.org/wiki/2024_United_Nations_Climate_Change_Conference
   start: 2024-11-11
   end: 2024-11-22
   place: Baku, Azerbaijan
@@ -173,6 +182,7 @@
 - kind: cop
   name: COP30
   slug: cop30
+  wikipedia: https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference
   start: 2025-11-10
   end: 2025-11-22
   place: Belém, Brazil
@@ -194,6 +204,7 @@
 - kind: cop
   name: COP31
   slug: cop31
+  wikipedia: https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference
   start: 2026-11-09
   end: 2026-11-22
   place: Antalya, Türkiye
@@ -222,6 +233,7 @@
 - kind: cop
   name: COP32
   slug: cop32
+  wikipedia: https://en.wikipedia.org/wiki/2027_United_Nations_Climate_Change_Conference
   start: 2027-11-08
   end: 2027-11-19
   place: Addis Ababa, Ethiopia
@@ -264,6 +276,8 @@
 - kind: deadline
   name: 2035 climate plans (NDCs) due
   slug: ndcs-2035
+  wikipedia: https://en.wikipedia.org/wiki/Nationally_determined_contribution
+  wikipedia_title: Nationally determined contributions
   outcome: missed by most
   start: 2025-02-10
   text: Only 13 of 195 Parties met the deadline. The UN later asked for plans by September 2025 so they could be counted before COP30.
@@ -310,6 +324,8 @@
 - kind: earlier
   name: Earth Summit
   slug: earth-summit-1992
+  wikipedia: https://en.wikipedia.org/wiki/Earth_Summit
+  wikipedia_title: The Earth Summit
   fullname: UN Conference on Environment and Development (Earth Summit)
   start: 1992-06-03
   end: 1992-06-14
@@ -329,6 +345,8 @@
 - kind: earlier
   name: COP3
   slug: cop3
+  wikipedia: https://en.wikipedia.org/wiki/Kyoto_Protocol
+  wikipedia_title: The Kyoto Protocol
   start: 1997-12-01
   end: 1997-12-11
   place: Kyoto, Japan
@@ -348,6 +366,7 @@
 - kind: earlier
   name: COP15
   slug: cop15
+  wikipedia: https://en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference
   start: 2009-12-07
   end: 2009-12-19
   place: Copenhagen, Denmark
